@@ -1,0 +1,79 @@
+name: Deploy font website
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build Pages artifact
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Set up Conda environment
+        uses: conda-incubator/setup-miniconda@v4
+        with:
+          miniforge-version: latest
+          activate-environment: font-builder
+          environment-file: environment.yml
+          conda-remove-defaults: true
+
+      - name: Assemble website
+        shell: bash -el {0}
+        run: |
+          mkdir -p _site
+          rsync -a \
+            --exclude='assets/fonts/KibernetykMono-*.ttf' \
+            --exclude='assets/downloads/' \
+            docs/ _site/
+          python scripts/build_site.py \
+            --font-source fonts/ttf \
+            --output _site
+
+      - name: Verify website artifact
+        shell: bash
+        run: |
+          test -f _site/index.html
+          test -f _site/assets/fonts/Geist-Variable.woff2
+          font_count="$(find _site/assets/fonts -maxdepth 1 -name 'KibernetykMono-*.ttf' | wc -l | tr -d ' ')"
+          test "$font_count" = "7"
+          unzip -t _site/assets/downloads/KibernetykMono.zip
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+          include-hidden-files: true
+
+  deploy:
+    name: Deploy GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v6
+
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v5
+

@@ -1,0 +1,32 @@
+# Temporary
+docs/assets/downloads/
+docs/assets/fonts/KibernetykMono-*.ttf
+_site/
+font-preview.html
+
+# Generated fonts and previews
+build/
+build-rounded/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Local environments
+.venv/
+venv/
+.conda/
+
+# Operating systems and editors
+.DS_Store
+.idea/
+

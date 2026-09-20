@@ -1,0 +1,3 @@
+fonttools
+skia-pathops
+pytest

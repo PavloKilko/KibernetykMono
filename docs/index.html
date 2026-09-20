@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fcf7eb">
+  <meta name="description" content="Kibernetyk Mono by Pavlo Kilko. A geometric monospace inspired by the Ukrainian Cybernetics School. Explore the glyphs and download the font.">
+  <meta property="og:title" content="Kibernetyk Mono">
+  <meta property="og:description" content="A geometric monospace inspired by the Ukrainian Cybernetics School. Free under the SIL Open Font License.">
+  <meta property="og:type" content="website">
+  <title>Kibernetyk Mono</title>
+  <link rel="icon" href="./assets/icon.svg" type="image/svg+xml">
+  <link rel="preload" href="./assets/fonts/Geist-Variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./assets/fonts.css">
+  <link rel="stylesheet" href="./assets/site.css">
+  <link rel="stylesheet" href="./assets/site-fixes.css">
+  <script src="./assets/font-data.js" defer></script>
+  <script src="./assets/site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#glyphs">Skip to glyphs</a>
+  <main>
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-top">
+        <span class="hero-icon" aria-hidden="true">[K]</span>
+        <a class="get-font" href="#download">Get font <span aria-hidden="true">↓</span></a>
+      </div>
+      <h1 id="hero-title"><span>Kibernetyk</span><span class="hero-second">Mono<span class="color-tape" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span></span></h1>
+      <p class="hero-description">
+        Kibernetyk [kʲibɛrˈnɛtɪk] Mono is a geometric monospace inspired by the pioneering spirit of the
+        <a href="https://www.icfcst.kiev.ua/MUSEUM/museum-map.html">Ukrainian Cybernetics School</a>.
+        Its rigid, pared-back letterforms recall early mainframe interfaces and the ink-stamped texture of fax transmissions.
+        Drawn from points and lines for clean code, dense data, and the infrastructure that holds them together.
+      </p>    
+    </section>
+    
+
+    <section class="section glyph-section" id="glyphs" aria-labelledby="glyph-title">
+      <h2 id="glyph-title" class="sr-only">Glyphs</h2>
+      <dl class="font-facts">
+        <div><dt>Weights</dt><dd id="weight-count">7</dd></div>
+        <div><dt>Glyphs</dt><dd id="glyph-total">440</dd></div>
+        <div><dt>Scripts</dt><dd id="script-count" title="Latin and Cyrillic">2</dd></div>
+      </dl>
+      <div class="glyph-toolbar">
+        <div class="filter-buttons" role="group" aria-label="Character category">
+          <button type="button" data-category="latin" aria-pressed="true">Latin</button>
+          <button type="button" data-category="cyrillic" aria-pressed="false">Cyrillic</button>
+          <button type="button" data-category="numbers" aria-pressed="false">Numbers</button>
+          <button type="button" data-category="symbols" aria-pressed="false">Symbols</button>
+          <button type="button" data-category="marks" aria-pressed="false">Marks</button>
+          <button type="button" data-category="all" aria-pressed="false">All</button>
+        </div>
+        <div class="glyph-tools">
+          <label class="weight-control"><span class="sr-only">Font weight for specimens</span>
+            <select id="weight" aria-label="Font weight"><option value="400">Regular</option></select>
+          </label>
+          <label class="glyph-search"><span class="sr-only">Find a character by letter, Unicode, or name</span><input id="glyph-search" type="search" placeholder="Find a glyph" autocomplete="off"></label>
+        </div>
+      </div>
+      <div class="glyph-browser">
+        <div>
+          <div id="glyph-grid" class="glyph-grid" aria-label="Select a character"></div>
+          <p class="sr-only" id="glyph-count" role="status"></p>
+        </div>
+        <aside class="glyph-detail" aria-label="Selected character">
+          <div class="glyph-canvas">
+            <svg id="glyph-preview" viewBox="0 0 420 480" role="img" aria-label="CYRILLIC CAPITAL LETTER ZHE">
+              <text id="selected-glyph" class="font-sample" x="150" y="300" font-size="100">Ж</text>
+            </svg>
+          </div>
+          <div class="glyph-info">
+            <span id="glyph-unicode">U+0416</span>
+            <button type="button" class="text-link" id="copy-glyph">Copy character</button>
+          </div>
+        </aside>
+      </div>
+      <p id="font-error" class="notice" role="status" hidden></p>
+      <noscript><p class="notice">Enable JavaScript to browse the glyphs and switch code examples. The font download works without it.</p></noscript>
+    </section>
+
+    <section class="section code-section" id="code" aria-labelledby="code-title">
+      <h2 id="code-title" class="section-title">Code examples</h2>
+      <div class="code-window">
+        <div class="code-toolbar">
+          <div class="code-languages" role="group" aria-label="Code language">
+            <button type="button" data-language="rust" aria-pressed="true">Rust</button>
+            <button type="button" data-language="cpp" aria-pressed="false">C++</button>
+            <button type="button" data-language="python" aria-pressed="false">Python</button>
+            <button type="button" data-language="typescript" aria-pressed="false">TypeScript</button>
+            <button type="button" data-language="go" aria-pressed="false">Go</button>
+            <button type="button" data-language="kotlin" aria-pressed="false">Kotlin</button>
+            <button type="button" data-language="swift" aria-pressed="false">Swift</button>
+            <button type="button" data-language="haskell" aria-pressed="false">Haskell</button>
+          </div>
+          <button type="button" id="copy-code" class="text-link">Copy</button>
+        </div>
+        <div class="code-editor-shell">
+          <pre id="code-lines" class="code-lines font-sample" aria-hidden="true">01</pre>
+          <div class="code-layer">
+            <pre id="code-highlight" class="code-highlight font-sample" aria-hidden="true"><code></code></pre>
+            <textarea id="code-example" class="code-editor font-sample" aria-label="Editable Rust code example" spellcheck="false" autocapitalize="off" autocomplete="off" wrap="off"></textarea>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section document-section" aria-label="Promin technical document type specimen">
+      <article class="technical-sheet font-sample">
+        <header class="document-header">
+          <p><strong class="document-accent">GLUSHKOV SYSTEMS™</strong><br>SYSTEM PROGRAMMING DIVISION</p>
+          <p><strong class="document-accent">SECTION 07.2<br>REV 1963</strong></p>
+        </header>
+        <div class="document-title">
+          <pre class="document-separator" aria-hidden="true">============================================================</pre>
+          <strong>PROMIN REFERENCE MANUAL</strong>
+          <span>MACHINE PM-63</span>
+          <pre class="document-separator" aria-hidden="true">============================================================</pre>
+        </div>
+        <div class="document-body">
+          <h3 class="document-accent">EXECUTE PROGRAM</h3>
+          <pre class="document-separator" aria-hidden="true">----------------------------------------------------------------------------------------------------</pre>
+          <p class="document-rule"><strong>[RUN]</strong><span>/promin/program/07</span></p>
+          <pre class="document-separator" aria-hidden="true">====================================================================================================</pre>
+          <div class="document-response">
+            <p><strong class="document-accent">SYSTEM</strong><br>STATUS<br>DATA</p>
+            <pre>PROMIN
+READY
+{
+    "register":  "A-07",
+    "memory":    "4096 WORDS",
+    "input":     "01001101",
+    "output":    "IDEAS BECOME SYSTEMS"
+}</pre>
+          </div>
+          <pre class="document-separator" aria-hidden="true">----------------------------------------------------------------------------------------------------</pre>
+          <p>Mount the program tape, set the instruction register to A-07, and transfer control to the operating sequence. A READY status confirms that the machine can accept the next instruction.</p>
+          <p>For arithmetic routines and storage maps, see section 07.3.</p>
+          <p>If the machine reports BUSY, reset the control register and repeat the last instruction.</p>
+        </div>
+        <footer class="document-footer">
+          <pre class="document-separator" aria-hidden="true">====================================================================================================</pre>
+          <div>
+            <span>KYIV</span>
+            <strong class="document-accent">GLUSHKOV SYSTEMS™</strong>
+            <span>PAGE 063</span>
+          </div>
+        </footer>
+      </article>
+    </section>
+
+    <section class="download-section" id="download" aria-labelledby="download-title">
+      <h2 id="download-title">Download</h2>
+      <div class="download-content">
+          <div class="license-copy">
+            <p>
+              Kibernetyk Mono is available under the
+              <a href="./assets/downloads/OFL.txt">SIL Open Font License 1.1</a>
+              and is free to use in commercial and non-commercial projects.
+              You do not need to credit the authors, although it is greatly appreciated if you do.
+            </p>
+          
+            <a class="text-link" href="https://github.com/PavloKilko/KibernetykMono">
+              Source on GitHub ↗
+            </a>
+          </div>
+        <div class="download-action">
+          <a class="download-button" id="download-family" href="./assets/downloads/KibernetykMono.zip" download>Download Kibernetyk Mono <span aria-hidden="true">↙</span></a>
+          <p id="download-description">7 weights · TTF · v0.9.0</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Kibernetyk Mono designed by <a href="https://www.linkedin.com/in/pavlo-kilko">Pavlo Kilko</a></p>
+    <p>© 2026 <a href="./assets/downloads/AUTHORS.txt">Kibernetyk Mono Project Authors</a></p>
+    <a class="back-to-top" href="#top">Back to top ↑</a>
+  </footer>
+  <div id="announcement" class="sr-only" role="status" aria-live="polite"></div>
+</body>
+</html>
+
