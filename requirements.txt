@@ -1,3 +1,6 @@
 fonttools
 skia-pathops
 pytest
+fontmake
+glyphsLib
+ufoLib2
