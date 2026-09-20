@@ -11,7 +11,6 @@ weights with Latin and Cyrillic support.
 
 ![Kibernetyk Mono glyphs and seven font weights](./documentation/readme-preview.png)
 
-
 ## Build
 
 ### Option №1: use Shell build script.
@@ -43,7 +42,21 @@ The font is written to `build/regular/KibernetykMono-Regular.ttf`. To build a
 different weight, pass `--weight` with one of `thin`, `extralight`, `light`,
 `regular`, `medium`, `semibold`, or `bold`.
 
+## AI tool disclosure
+
+Kibernetyk Mono’s letterforms, glyph designs, and visual design decisions 
+were created by The Kibernetyk Mono Project Authors (see [`AUTHORS.txt`](./AUTHORS.txt)).
+
+OpenAI Codex was used as a software-development assistant to implement specifications
+provided by The Kibernetyk Mono Project Authors (see [`AUTHORS.txt`](./AUTHORS.txt)), including 
+geometric calculations and optical compensation, build tooling, OpenType configuration, 
+metadata validation, testing, and repository maintenance.
+
+AI was not used to originate glyph designs, letterforms, or visual concepts. 
+All design decisions and resulting changes were directed, reviewed, 
+and approved by The Kibernetyk Mono Project Authors (see [`AUTHORS.txt`](./AUTHORS.txt)), 
+the project’s sole human author and copyright holder.
+
 ## License
 
-Kibernetyk Mono is licensed under the SIL Open Font License, Version 1.1. See
-[`OFL.txt`](./OFL.txt).
+Kibernetyk Mono is licensed under the SIL Open Font License, Version 1.1. See [`OFL.txt`](./OFL.txt).
