@@ -25,9 +25,10 @@ htmlcov/
 # Local environments
 .venv/
 venv/
+env/
 .conda/
 
 # Operating systems and editors
 .DS_Store
 .idea/
-
+*(Autosave)*
