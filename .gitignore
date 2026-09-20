@@ -8,6 +8,7 @@ font-preview.html
 build/
 build-rounded/
 dist/
+fonts/*/*.zip
 
 # Python
 __pycache__/

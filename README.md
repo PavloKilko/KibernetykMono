@@ -1,10 +1,15 @@
 # Kibernetyk Mono
 
+[Download Kibernetyk Mono](https://github.com/PavloKilko/KibernetykMono/releases/latest) • [Typeface microsite](https://pavlokilko.github.io/KibernetykMono) ↗️
+
 Kibernetyk Mono is a geometric monospace typeface inspired by the pioneering
 spirit of the Ukrainian Cybernetics School. Its rigid, pared-back letterforms
 recall early mainframe interfaces and the ink-stamped texture of fax
 transmissions. It is drawn from points and lines for clean code, dense data,
 and the infrastructure that holds them together.
+
+![Kibernetyk Mono glyphs and seven font weights](./assets/readme-preview.png)
+
 
 ## Build
 
