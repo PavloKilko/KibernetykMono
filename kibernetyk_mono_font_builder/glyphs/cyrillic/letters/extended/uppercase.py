@@ -12,7 +12,7 @@ def build_Dje_cy(width: float) -> GlyphDefinition:
     diagonal_offset = (math.sqrt(2) - 1) * radius
     middle_offset = radius - diagonal_offset
 
-    glyph = init_glyph("Dje-cy", 0x0402)
+    glyph = init_glyph("Djecyrillic", 0x0402)
 
     glyph.add(
         line(
@@ -59,7 +59,7 @@ def build_Dje_cy(width: float) -> GlyphDefinition:
 
 
 def build_Je_cy(width: float) -> GlyphDefinition:
-    glyph = init_glyph("Je-cy", 0x0408)
+    glyph = init_glyph("Jecyrillic", 0x0408)
     radius = width / 2
     diagonal_offset = (math.sqrt(2) - 1) * radius
 
@@ -89,7 +89,7 @@ def build_Lje_cy(width: float) -> GlyphDefinition:
 
     long_slope_offset = radius / 14
 
-    glyph = init_glyph("Lje-cy", 0x0409)
+    glyph = init_glyph("Ljecyrillic", 0x0409)
 
     glyph.add(
         polyline(
@@ -121,7 +121,7 @@ def build_Nje_cy(width: float) -> GlyphDefinition:
     diagonal_offset = (math.sqrt(2) - 1) * radius
     middle_offset = radius - diagonal_offset
 
-    glyph = init_glyph("Nje-cy", 0x040A)
+    glyph = init_glyph("Njecyrillic", 0x040A)
 
     # Left stem
     glyph.add(
@@ -167,8 +167,8 @@ def build_Tshe_cy(width: float) -> GlyphDefinition:
     radius = width / 2
     diagonal_offset = (math.sqrt(2) - 1) * radius
     middle_offset = radius - diagonal_offset
-    glyph = init_glyph("Tshe-cy", 0x040B)
-    # glyph = init_glyph("Dje-cy", 0x0402)
+    glyph = init_glyph("Tshecyrillic", 0x040B)
+    # glyph = init_glyph("Djecyrillic", 0x0402)
 
     glyph.add(
         line(
@@ -211,7 +211,7 @@ def build_Tshe_cy(width: float) -> GlyphDefinition:
 def build_Dzhe_cy(width: float) -> GlyphDefinition:
     radius = width / 2
 
-    glyph = init_glyph("Dzhe-cy", 0x040F)
+    glyph = init_glyph("Dzhecyrillic", 0x040F)
 
     glyph.add(
         polyline(
@@ -239,7 +239,7 @@ def build_Dzhe_cy(width: float) -> GlyphDefinition:
 def build_Gestroke_cy(width: float) -> GlyphDefinition:
     radius = width / 2
 
-    glyph = init_glyph("Gestroke-cy", 0x0492)
+    glyph = init_glyph("Gestrokecyrillic", 0x0492)
 
     glyph.add(
         polyline(
@@ -264,7 +264,7 @@ def build_Gestroke_cy(width: float) -> GlyphDefinition:
 
 
 def build_Zhedescender_cy(width: float) -> GlyphDefinition:
-    glyph = init_glyph("Zhedescender-cy", 0x0496)
+    glyph = init_glyph("Zhedescendercyrillic", 0x0496)
 
     radius = width / 2
     middle_offset = (5 / 8) * radius
@@ -313,7 +313,7 @@ def build_Zhedescender_cy(width: float) -> GlyphDefinition:
 
 
 def build_Kadescender_cy(width: float) -> GlyphDefinition:
-    glyph = init_glyph("Kadescender-cy", 0x049A)
+    glyph = init_glyph("Kadescendercyrillic", 0x049A)
     radius = width / 2
     diagonal_offset = (math.sqrt(2) - 1) * radius
     notch_offset = math.sqrt(2) * radius
@@ -350,7 +350,7 @@ def build_Kadescender_cy(width: float) -> GlyphDefinition:
 
 
 def build_Endescender_cy(width: float) -> GlyphDefinition:
-    glyph = init_glyph("Endescender-cy", 0x04A2)
+    glyph = init_glyph("Endescendercyrillic", 0x04A2)
     radius = width / 2
 
     glyph.add(
@@ -389,7 +389,7 @@ def build_Ustraight_cy(width: float) -> GlyphDefinition:
     diagonal_x_offset = (300 / diagonal_length) * radius
     diagonal_y_offset = (400 / diagonal_length) * radius
 
-    glyph = init_glyph("Ustraight-cy", 0x04AE)
+    glyph = init_glyph("Ustraightcyrillic", 0x04AE)
 
     glyph.add(
         polyline(
@@ -420,7 +420,7 @@ def build_Ustraight_cy(width: float) -> GlyphDefinition:
 
 
 def build_Ustraightstroke_cy(width: float) -> GlyphDefinition:
-    glyph = init_glyph("Ustraightstroke-cy", 0x04B0)
+    glyph = init_glyph("Ustraightstrokecyrillic", 0x04B0)
     radius = width / 2
 
     # Diagonal ratio 300:400 = 3:4
@@ -428,7 +428,7 @@ def build_Ustraightstroke_cy(width: float) -> GlyphDefinition:
     diagonal_x_offset = (300 / diagonal_length) * radius
     diagonal_y_offset = (400 / diagonal_length) * radius
 
-    # glyph = init_glyph("Ustraight-cy", 0x04AE)
+    # glyph = init_glyph("Ustraightcyrillic", 0x04AE)
 
     glyph.add(
         polyline(
@@ -467,7 +467,7 @@ def build_Ustraightstroke_cy(width: float) -> GlyphDefinition:
 
 
 def build_Hadescender_cy(width: float) -> GlyphDefinition:
-    glyph = init_glyph("Hadescender-cy", 0x04B2)
+    glyph = init_glyph("Hadescendercyrillic", 0x04B2)
     radius = width / 2
     diagonal_y_offset = (5 / 6) * radius
 
@@ -500,7 +500,7 @@ def build_Hadescender_cy(width: float) -> GlyphDefinition:
 
 
 def build_Chedescender_cy(width: float) -> GlyphDefinition:
-    glyph = init_glyph("Chedescender-cy", 0x04B6)
+    glyph = init_glyph("Chedescendercyrillic", 0x04B6)
     radius = width / 2
     diagonal_offset = (math.sqrt(2) - 1) * radius
     middle_offset = radius - diagonal_offset
@@ -545,7 +545,7 @@ def build_Shha_cy(width: float) -> GlyphDefinition:
     vertical_offset = ((slope_length - 150) / 100) * radius
     horizontal_offset = ((slope_length - 100) / 150) * radius
 
-    glyph = init_glyph("Shha-cy", 0x04BA)
+    glyph = init_glyph("Shhacyrillic", 0x04BA)
 
     glyph.add(
         line(
@@ -575,7 +575,7 @@ def build_Schwa_cy(width: float) -> GlyphDefinition:
     radius = width / 2
     diagonal_offset = (math.sqrt(2) - 1) * radius
 
-    glyph = init_glyph("Schwa-cy", 0x04D8)
+    glyph = init_glyph("Schwacyrillic", 0x04D8)
 
     glyph.add(
         polyline(
@@ -601,12 +601,12 @@ def build_Schwa_cy(width: float) -> GlyphDefinition:
 
 
 def build_Imacron_cy(width: float) -> GlyphDefinition:
-    glyph = init_glyph("Imacron-cy", 0x04E2)
+    glyph = init_glyph("Imacroncyrillic", 0x04E2)
     return glyph
 
 
 def build_Obarred_cy(width: float) -> GlyphDefinition:
-    glyph = init_glyph("Obarred-cy", 0x04E8)
+    glyph = init_glyph("Obarredcyrillic", 0x04E8)
     radius = width / 2
     diagonal_offset = (math.sqrt(2) - 1) * radius
 
@@ -639,7 +639,7 @@ def build_Obarred_cy(width: float) -> GlyphDefinition:
 
 
 def build_Umacron_cy(width: float) -> GlyphDefinition:
-    glyph = init_glyph("Umacron-cy", 0x04EE)
+    glyph = init_glyph("Umacroncyrillic", 0x04EE)
     return glyph
 
 

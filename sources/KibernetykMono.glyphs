@@ -30,11 +30,11 @@ value = 1;
 },
 {
 name = versionString;
-value = "Version 0.900";
+value = "Version 0.901";
 },
 {
 name = uniqueID;
-value = "0.900;NONE;KibernetykMono-Thin";
+value = "0.901;NONE;KibernetykMono-Thin";
 },
 {
 name = license;
@@ -121,16 +121,16 @@ w,
 x,
 y,
 z,
-"0",
-"1",
-"2",
-"3",
-"4",
-"5",
-"6",
-"7",
-"8",
-"9",
+zero,
+one,
+two,
+three,
+four,
+five,
+six,
+seven,
+eight,
+nine,
 exclamation,
 quotedbl,
 numbersign,
@@ -469,44 +469,44 @@ icyrillic,
 yicyrillic,
 iucyrillic,
 iacyrillic,
-"Dje-cy",
-"Je-cy",
-"Lje-cy",
-"Nje-cy",
-"Tshe-cy",
-"Dzhe-cy",
-"Gestroke-cy",
-"Zhedescender-cy",
-"Kadescender-cy",
-"Endescender-cy",
-"Ustraight-cy",
-"Ustraightstroke-cy",
-"Hadescender-cy",
-"Chedescender-cy",
-"Shha-cy",
-"Schwa-cy",
-"Imacron-cy",
-"Obarred-cy",
-"Umacron-cy",
-"dje-cy",
-"je-cy",
-"lje-cy",
-"nje-cy",
-"tshe-cy",
-"dzhe-cy",
-"gestroke-cy",
-"zhedescender-cy",
-"kadescender-cy",
-"endescender-cy",
-"ustraight-cy",
-"ustraightstroke-cy",
-"hadescender-cy",
-"chedescender-cy",
-"shha-cy",
-"schwa-cy",
-"imacron-cy",
-"obarred-cy",
-"umacron-cy"
+Djecyrillic,
+Jecyrillic,
+Ljecyrillic,
+Njecyrillic,
+Tshecyrillic,
+Dzhecyrillic,
+Gestrokecyrillic,
+Zhedescendercyrillic,
+Kadescendercyrillic,
+Endescendercyrillic,
+Ustraightcyrillic,
+Ustraightstrokecyrillic,
+Hadescendercyrillic,
+Chedescendercyrillic,
+Shhacyrillic,
+Schwacyrillic,
+Imacroncyrillic,
+Obarredcyrillic,
+Umacroncyrillic,
+djecyrillic,
+jecyrillic,
+ljecyrillic,
+njecyrillic,
+tshecyrillic,
+dzhecyrillic,
+gestrokecyrillic,
+zhedescendercyrillic,
+kadescendercyrillic,
+endescendercyrillic,
+ustraightcyrillic,
+ustraightstrokecyrillic,
+hadescendercyrillic,
+chedescendercyrillic,
+shhacyrillic,
+schwacyrillic,
+imacroncyrillic,
+obarredcyrillic,
+umacroncyrillic
 );
 },
 {
@@ -534,11 +534,11 @@ code = "script latn;\012  language CAT;\012  sub l periodcentered' l by periodce
 name = locl;
 },
 {
-code = "sub Agrave by A gravecomb;\012  sub Aacute by A acutecomb;\012  sub Acircumflex by A circumflexcomb;\012  sub Atilde by A tildecomb;\012  sub Adieresis by A dieresiscomb;\012  sub Aring by A ringcomb;\012  sub Ccedilla by C cedillacomb;\012  sub Egrave by E gravecomb;\012  sub Eacute by E acutecomb;\012  sub Ecircumflex by E circumflexcomb;\012  sub Edieresis by E dieresiscomb;\012  sub Igrave by I gravecomb;\012  sub Iacute by I acutecomb;\012  sub Icircumflex by I circumflexcomb;\012  sub Idieresis by I dieresiscomb;\012  sub Ntilde by N tildecomb;\012  sub Ograve by O gravecomb;\012  sub Oacute by O acutecomb;\012  sub Ocircumflex by O circumflexcomb;\012  sub Otilde by O tildecomb;\012  sub Odieresis by O dieresiscomb;\012  sub Ugrave by U gravecomb;\012  sub Uacute by U acutecomb;\012  sub Ucircumflex by U circumflexcomb;\012  sub Udieresis by U dieresiscomb;\012  sub Yacute by Y acutecomb;\012  sub Amacron by A macroncomb;\012  sub Abreve by A brevecomb;\012  sub Aogonek by A ogonekcomb;\012  sub Cacute by C acutecomb;\012  sub Cdotaccent by C dotaccentcomb;\012  sub Ccaron by C caroncomb;\012  sub Dcaron by D caroncomb;\012  sub Emacron by E macroncomb;\012  sub Edotaccent by E dotaccentcomb;\012  sub Eogonek by E ogonekcomb;\012  sub Ecaron by E caroncomb;\012  sub Gbreve by G brevecomb;\012  sub Gdotaccent by G dotaccentcomb;\012  sub Imacron by I macroncomb;\012  sub Iogonek by I ogonekcomb;\012  sub Idotaccent by I dotaccentcomb;\012  sub Nacute by N acutecomb;\012  sub Ncaron by N caroncomb;\012  sub Ohungarumlaut by O hungarumlautcomb;\012  sub Racute by R acutecomb;\012  sub Rcaron by R caroncomb;\012  sub Sacute by S acutecomb;\012  sub Scedilla by S cedillacomb;\012  sub Scaron by S caroncomb;\012  sub Tcaron by T caroncomb;\012  sub Umacron by U macroncomb;\012  sub Uring by U ringcomb;\012  sub Uhungarumlaut by U hungarumlautcomb;\012  sub Wcircumflex by W circumflexcomb;\012  sub Ycircumflex by Y circumflexcomb;\012  sub Ydieresis by Y dieresiscomb;\012  sub Zacute by Z acutecomb;\012  sub Zdotaccent by Z dotaccentcomb;\012  sub Zcaron by Z caroncomb;\012  sub Scommaaccent by S commaaccentcomb;\012  sub Tcommaaccent by T commaaccentcomb;\012  sub Wgrave by W gravecomb;\012  sub Wacute by W acutecomb;\012  sub Wdieresis by W dieresiscomb;\012  sub Ygrave by Y gravecomb;\012  sub agrave by a gravecomb;\012  sub aacute by a acutecomb;\012  sub acircumflex by a circumflexcomb;\012  sub atilde by a tildecomb;\012  sub adieresis by a dieresiscomb;\012  sub aring by a ringcomb;\012  sub ccedilla by c cedillacomb;\012  sub egrave by e gravecomb;\012  sub eacute by e acutecomb;\012  sub ecircumflex by e circumflexcomb;\012  sub edieresis by e dieresiscomb;\012  sub igrave by idotless gravecomb;\012  sub iacute by idotless acutecomb;\012  sub icircumflex by idotless circumflexcomb;\012  sub idieresis by idotless dieresiscomb;\012  sub ntilde by n tildecomb;\012  sub ograve by o gravecomb;\012  sub oacute by o acutecomb;\012  sub ocircumflex by o circumflexcomb;\012  sub otilde by o tildecomb;\012  sub odieresis by o dieresiscomb;\012  sub ugrave by u gravecomb;\012  sub uacute by u acutecomb;\012  sub ucircumflex by u circumflexcomb;\012  sub udieresis by u dieresiscomb;\012  sub yacute by y acutecomb;\012  sub ydieresis by y dieresiscomb;\012  sub amacron by a macroncomb;\012  sub abreve by a brevecomb;\012  sub aogonek by a ogonekcomb;\012  sub cacute by c acutecomb;\012  sub cdotaccent by c dotaccentcomb;\012  sub ccaron by c caroncomb;\012  sub emacron by e macroncomb;\012  sub edotaccent by e dotaccentcomb;\012  sub ecaron by e caroncomb;\012  sub gbreve by g brevecomb;\012  sub gdotaccent by g dotaccentcomb;\012  sub imacron by idotless macroncomb;\012  sub iogonek by i ogonekcomb;\012  sub nacute by n acutecomb;\012  sub ncaron by n caroncomb;\012  sub ohungarumlaut by o hungarumlautcomb;\012  sub racute by r acutecomb;\012  sub rcaron by r caroncomb;\012  sub sacute by s acutecomb;\012  sub scedilla by s cedillacomb;\012  sub scaron by s caroncomb;\012  sub umacron by u macroncomb;\012  sub uring by u ringcomb;\012  sub uhungarumlaut by u hungarumlautcomb;\012  sub uogonek by u ogonekcomb;\012  sub wcircumflex by w circumflexcomb;\012  sub ycircumflex by y circumflexcomb;\012  sub zacute by z acutecomb;\012  sub zdotaccent by z dotaccentcomb;\012  sub zcaron by z caroncomb;\012  sub scommaaccent by s commaaccentcomb;\012  sub tcommaaccent by t commaaccentcomb;\012  sub wgrave by w gravecomb;\012  sub wacute by w acutecomb;\012  sub wdieresis by w dieresiscomb;\012  sub ygrave by y gravecomb;\012  sub Imacron-cy by Iicyrillic macroncomb;\012  sub Umacron-cy by Ucyrillic macroncomb;\012  sub imacron-cy by iicyrillic macroncomb;\012  sub umacron-cy by ucyrillic macroncomb;\012  lookup DotlessBeforeTopMark {\012    lookupflag UseMarkFilteringSet @DOTLESS_TOP_MARKS;\012    sub i' @DOTLESS_TOP_MARKS by idotless;\012    sub j' @DOTLESS_TOP_MARKS by jdotless;\012  } DotlessBeforeTopMark;";
+code = "sub [L d l t] caroncomb' by caroncomb.alt;\012  sub Agrave by A gravecomb;\012  sub Aacute by A acutecomb;\012  sub Acircumflex by A circumflexcomb;\012  sub Atilde by A tildecomb;\012  sub Adieresis by A dieresiscomb;\012  sub Aring by A ringcomb;\012  sub Ccedilla by C cedillacomb;\012  sub Egrave by E gravecomb;\012  sub Eacute by E acutecomb;\012  sub Ecircumflex by E circumflexcomb;\012  sub Edieresis by E dieresiscomb;\012  sub Igrave by I gravecomb;\012  sub Iacute by I acutecomb;\012  sub Icircumflex by I circumflexcomb;\012  sub Idieresis by I dieresiscomb;\012  sub Ntilde by N tildecomb;\012  sub Ograve by O gravecomb;\012  sub Oacute by O acutecomb;\012  sub Ocircumflex by O circumflexcomb;\012  sub Otilde by O tildecomb;\012  sub Odieresis by O dieresiscomb;\012  sub Ugrave by U gravecomb;\012  sub Uacute by U acutecomb;\012  sub Ucircumflex by U circumflexcomb;\012  sub Udieresis by U dieresiscomb;\012  sub Yacute by Y acutecomb;\012  sub Amacron by A macroncomb;\012  sub Abreve by A brevecomb;\012  sub Aogonek by A ogonekcomb;\012  sub Cacute by C acutecomb;\012  sub Cdotaccent by C dotaccentcomb;\012  sub Ccaron by C caroncomb;\012  sub Dcaron by D caroncomb;\012  sub Emacron by E macroncomb;\012  sub Edotaccent by E dotaccentcomb;\012  sub Eogonek by E ogonekcomb;\012  sub Ecaron by E caroncomb;\012  sub Gbreve by G brevecomb;\012  sub Gdotaccent by G dotaccentcomb;\012  sub Imacron by I macroncomb;\012  sub Iogonek by I ogonekcomb;\012  sub Idotaccent by I dotaccentcomb;\012  sub Nacute by N acutecomb;\012  sub Ncaron by N caroncomb;\012  sub Ohungarumlaut by O hungarumlautcomb;\012  sub Racute by R acutecomb;\012  sub Rcaron by R caroncomb;\012  sub Sacute by S acutecomb;\012  sub Scedilla by S cedillacomb;\012  sub Scaron by S caroncomb;\012  sub Tcaron by T caroncomb;\012  sub Umacron by U macroncomb;\012  sub Uring by U ringcomb;\012  sub Uhungarumlaut by U hungarumlautcomb;\012  sub Wcircumflex by W circumflexcomb;\012  sub Ycircumflex by Y circumflexcomb;\012  sub Ydieresis by Y dieresiscomb;\012  sub Zacute by Z acutecomb;\012  sub Zdotaccent by Z dotaccentcomb;\012  sub Zcaron by Z caroncomb;\012  sub Scommaaccent by S commaaccentcomb;\012  sub Tcommaaccent by T commaaccentcomb;\012  sub Wgrave by W gravecomb;\012  sub Wacute by W acutecomb;\012  sub Wdieresis by W dieresiscomb;\012  sub Ygrave by Y gravecomb;\012  sub agrave by a gravecomb;\012  sub aacute by a acutecomb;\012  sub acircumflex by a circumflexcomb;\012  sub atilde by a tildecomb;\012  sub adieresis by a dieresiscomb;\012  sub aring by a ringcomb;\012  sub ccedilla by c cedillacomb;\012  sub egrave by e gravecomb;\012  sub eacute by e acutecomb;\012  sub ecircumflex by e circumflexcomb;\012  sub edieresis by e dieresiscomb;\012  sub igrave by idotless gravecomb;\012  sub iacute by idotless acutecomb;\012  sub icircumflex by idotless circumflexcomb;\012  sub idieresis by idotless dieresiscomb;\012  sub ntilde by n tildecomb;\012  sub ograve by o gravecomb;\012  sub oacute by o acutecomb;\012  sub ocircumflex by o circumflexcomb;\012  sub otilde by o tildecomb;\012  sub odieresis by o dieresiscomb;\012  sub ugrave by u gravecomb;\012  sub uacute by u acutecomb;\012  sub ucircumflex by u circumflexcomb;\012  sub udieresis by u dieresiscomb;\012  sub yacute by y acutecomb;\012  sub ydieresis by y dieresiscomb;\012  sub amacron by a macroncomb;\012  sub abreve by a brevecomb;\012  sub aogonek by a ogonekcomb;\012  sub cacute by c acutecomb;\012  sub cdotaccent by c dotaccentcomb;\012  sub ccaron by c caroncomb;\012  sub emacron by e macroncomb;\012  sub edotaccent by e dotaccentcomb;\012  sub ecaron by e caroncomb;\012  sub gbreve by g brevecomb;\012  sub gdotaccent by g dotaccentcomb;\012  sub imacron by idotless macroncomb;\012  sub iogonek by i ogonekcomb;\012  sub nacute by n acutecomb;\012  sub ncaron by n caroncomb;\012  sub ohungarumlaut by o hungarumlautcomb;\012  sub racute by r acutecomb;\012  sub rcaron by r caroncomb;\012  sub sacute by s acutecomb;\012  sub scedilla by s cedillacomb;\012  sub scaron by s caroncomb;\012  sub umacron by u macroncomb;\012  sub uring by u ringcomb;\012  sub uhungarumlaut by u hungarumlautcomb;\012  sub uogonek by u ogonekcomb;\012  sub wcircumflex by w circumflexcomb;\012  sub ycircumflex by y circumflexcomb;\012  sub zacute by z acutecomb;\012  sub zdotaccent by z dotaccentcomb;\012  sub zcaron by z caroncomb;\012  sub scommaaccent by s commaaccentcomb;\012  sub tcommaaccent by t commaaccentcomb;\012  sub wgrave by w gravecomb;\012  sub wacute by w acutecomb;\012  sub wdieresis by w dieresiscomb;\012  sub ygrave by y gravecomb;\012  sub Imacroncyrillic by Iicyrillic macroncomb;\012  sub Umacroncyrillic by Ucyrillic macroncomb;\012  sub imacroncyrillic by iicyrillic macroncomb;\012  sub umacroncyrillic by ucyrillic macroncomb;\012  lookup DotlessBeforeTopMark {\012    lookupflag UseMarkFilteringSet @DOTLESS_TOP_MARKS;\012    sub i' @DOTLESS_TOP_MARKS by idotless;\012    sub j' @DOTLESS_TOP_MARKS by jdotless;\012  } DotlessBeforeTopMark;";
 name = ccmp;
 },
 {
-code = "pos base A <anchor 360 800> mark @MC_top;\012  pos base A <anchor 360 0> mark @MC_bottom;\012  pos base B <anchor 360 800> mark @MC_top;\012  pos base B <anchor 360 0> mark @MC_bottom;\012  pos base C <anchor 360 800> mark @MC_top;\012  pos base C <anchor 360 0> mark @MC_bottom;\012  pos base D <anchor 360 800> mark @MC_top;\012  pos base D <anchor 360 0> mark @MC_bottom;\012  pos base E <anchor 360 800> mark @MC_top;\012  pos base E <anchor 360 0> mark @MC_bottom;\012  pos base F <anchor 360 800> mark @MC_top;\012  pos base F <anchor 360 0> mark @MC_bottom;\012  pos base G <anchor 360 800> mark @MC_top;\012  pos base G <anchor 360 0> mark @MC_bottom;\012  pos base H <anchor 360 800> mark @MC_top;\012  pos base H <anchor 360 0> mark @MC_bottom;\012  pos base I <anchor 360 800> mark @MC_top;\012  pos base I <anchor 360 0> mark @MC_bottom;\012  pos base J <anchor 360 800> mark @MC_top;\012  pos base J <anchor 360 0> mark @MC_bottom;\012  pos base K <anchor 360 800> mark @MC_top;\012  pos base K <anchor 360 0> mark @MC_bottom;\012  pos base L <anchor 360 800> mark @MC_top;\012  pos base L <anchor 360 0> mark @MC_bottom;\012  pos base M <anchor 360 800> mark @MC_top;\012  pos base M <anchor 360 0> mark @MC_bottom;\012  pos base N <anchor 360 800> mark @MC_top;\012  pos base N <anchor 360 0> mark @MC_bottom;\012  pos base O <anchor 360 800> mark @MC_top;\012  pos base O <anchor 360 0> mark @MC_bottom;\012  pos base P <anchor 360 800> mark @MC_top;\012  pos base P <anchor 360 0> mark @MC_bottom;\012  pos base Q <anchor 360 800> mark @MC_top;\012  pos base Q <anchor 360 0> mark @MC_bottom;\012  pos base R <anchor 360 800> mark @MC_top;\012  pos base R <anchor 360 0> mark @MC_bottom;\012  pos base S <anchor 360 800> mark @MC_top;\012  pos base S <anchor 360 0> mark @MC_bottom;\012  pos base T <anchor 360 800> mark @MC_top;\012  pos base T <anchor 360 0> mark @MC_bottom;\012  pos base U <anchor 360 800> mark @MC_top;\012  pos base U <anchor 360 0> mark @MC_bottom;\012  pos base V <anchor 360 800> mark @MC_top;\012  pos base V <anchor 360 0> mark @MC_bottom;\012  pos base W <anchor 360 800> mark @MC_top;\012  pos base W <anchor 360 0> mark @MC_bottom;\012  pos base X <anchor 360 800> mark @MC_top;\012  pos base X <anchor 360 0> mark @MC_bottom;\012  pos base Y <anchor 360 800> mark @MC_top;\012  pos base Y <anchor 360 0> mark @MC_bottom;\012  pos base Z <anchor 360 800> mark @MC_top;\012  pos base Z <anchor 360 0> mark @MC_bottom;\012  pos base a <anchor 360 600> mark @MC_top;\012  pos base a <anchor 360 0> mark @MC_bottom;\012  pos base b <anchor 360 600> mark @MC_top;\012  pos base b <anchor 360 0> mark @MC_bottom;\012  pos base c <anchor 360 600> mark @MC_top;\012  pos base c <anchor 360 0> mark @MC_bottom;\012  pos base d <anchor 360 600> mark @MC_top;\012  pos base d <anchor 360 0> mark @MC_bottom;\012  pos base e <anchor 360 600> mark @MC_top;\012  pos base e <anchor 360 0> mark @MC_bottom;\012  pos base f <anchor 360 600> mark @MC_top;\012  pos base f <anchor 360 0> mark @MC_bottom;\012  pos base g <anchor 360 600> mark @MC_top;\012  pos base g <anchor 360 0> mark @MC_bottom;\012  pos base h <anchor 360 600> mark @MC_top;\012  pos base h <anchor 360 0> mark @MC_bottom;\012  pos base i <anchor 360 600> mark @MC_top;\012  pos base i <anchor 360 0> mark @MC_bottom;\012  pos base j <anchor 360 600> mark @MC_top;\012  pos base j <anchor 360 0> mark @MC_bottom;\012  pos base k <anchor 360 600> mark @MC_top;\012  pos base k <anchor 360 0> mark @MC_bottom;\012  pos base l <anchor 360 600> mark @MC_top;\012  pos base l <anchor 360 0> mark @MC_bottom;\012  pos base m <anchor 360 600> mark @MC_top;\012  pos base m <anchor 360 0> mark @MC_bottom;\012  pos base n <anchor 360 600> mark @MC_top;\012  pos base n <anchor 360 0> mark @MC_bottom;\012  pos base o <anchor 360 600> mark @MC_top;\012  pos base o <anchor 360 0> mark @MC_bottom;\012  pos base p <anchor 360 600> mark @MC_top;\012  pos base p <anchor 360 0> mark @MC_bottom;\012  pos base q <anchor 360 600> mark @MC_top;\012  pos base q <anchor 360 0> mark @MC_bottom;\012  pos base r <anchor 360 600> mark @MC_top;\012  pos base r <anchor 360 0> mark @MC_bottom;\012  pos base s <anchor 360 600> mark @MC_top;\012  pos base s <anchor 360 0> mark @MC_bottom;\012  pos base t <anchor 360 600> mark @MC_top;\012  pos base t <anchor 360 0> mark @MC_bottom;\012  pos base u <anchor 360 600> mark @MC_top;\012  pos base u <anchor 360 0> mark @MC_bottom;\012  pos base v <anchor 360 600> mark @MC_top;\012  pos base v <anchor 360 0> mark @MC_bottom;\012  pos base w <anchor 360 600> mark @MC_top;\012  pos base w <anchor 360 0> mark @MC_bottom;\012  pos base x <anchor 360 600> mark @MC_top;\012  pos base x <anchor 360 0> mark @MC_bottom;\012  pos base y <anchor 360 600> mark @MC_top;\012  pos base y <anchor 360 0> mark @MC_bottom;\012  pos base z <anchor 360 600> mark @MC_top;\012  pos base z <anchor 360 0> mark @MC_bottom;\012  pos base Agrave <anchor 360 800> mark @MC_top;\012  pos base Agrave <anchor 360 0> mark @MC_bottom;\012  pos base Aacute <anchor 360 800> mark @MC_top;\012  pos base Aacute <anchor 360 0> mark @MC_bottom;\012  pos base Acircumflex <anchor 360 800> mark @MC_top;\012  pos base Acircumflex <anchor 360 0> mark @MC_bottom;\012  pos base Atilde <anchor 360 800> mark @MC_top;\012  pos base Atilde <anchor 360 0> mark @MC_bottom;\012  pos base Adieresis <anchor 360 800> mark @MC_top;\012  pos base Adieresis <anchor 360 0> mark @MC_bottom;\012  pos base Aring <anchor 360 800> mark @MC_top;\012  pos base Aring <anchor 360 0> mark @MC_bottom;\012  pos base AE <anchor 360 800> mark @MC_top;\012  pos base AE <anchor 360 0> mark @MC_bottom;\012  pos base Ccedilla <anchor 360 800> mark @MC_top;\012  pos base Ccedilla <anchor 360 0> mark @MC_bottom;\012  pos base Egrave <anchor 360 800> mark @MC_top;\012  pos base Egrave <anchor 360 0> mark @MC_bottom;\012  pos base Eacute <anchor 360 800> mark @MC_top;\012  pos base Eacute <anchor 360 0> mark @MC_bottom;\012  pos base Ecircumflex <anchor 360 800> mark @MC_top;\012  pos base Ecircumflex <anchor 360 0> mark @MC_bottom;\012  pos base Edieresis <anchor 360 800> mark @MC_top;\012  pos base Edieresis <anchor 360 0> mark @MC_bottom;\012  pos base Igrave <anchor 360 800> mark @MC_top;\012  pos base Igrave <anchor 360 0> mark @MC_bottom;\012  pos base Iacute <anchor 360 800> mark @MC_top;\012  pos base Iacute <anchor 360 0> mark @MC_bottom;\012  pos base Icircumflex <anchor 360 800> mark @MC_top;\012  pos base Icircumflex <anchor 360 0> mark @MC_bottom;\012  pos base Idieresis <anchor 360 800> mark @MC_top;\012  pos base Idieresis <anchor 360 0> mark @MC_bottom;\012  pos base Eth <anchor 360 800> mark @MC_top;\012  pos base Eth <anchor 360 0> mark @MC_bottom;\012  pos base Ntilde <anchor 360 800> mark @MC_top;\012  pos base Ntilde <anchor 360 0> mark @MC_bottom;\012  pos base Ograve <anchor 360 800> mark @MC_top;\012  pos base Ograve <anchor 360 0> mark @MC_bottom;\012  pos base Oacute <anchor 360 800> mark @MC_top;\012  pos base Oacute <anchor 360 0> mark @MC_bottom;\012  pos base Ocircumflex <anchor 360 800> mark @MC_top;\012  pos base Ocircumflex <anchor 360 0> mark @MC_bottom;\012  pos base Otilde <anchor 360 800> mark @MC_top;\012  pos base Otilde <anchor 360 0> mark @MC_bottom;\012  pos base Odieresis <anchor 360 800> mark @MC_top;\012  pos base Odieresis <anchor 360 0> mark @MC_bottom;\012  pos base Oslash <anchor 360 800> mark @MC_top;\012  pos base Oslash <anchor 360 0> mark @MC_bottom;\012  pos base Ugrave <anchor 360 800> mark @MC_top;\012  pos base Ugrave <anchor 360 0> mark @MC_bottom;\012  pos base Uacute <anchor 360 800> mark @MC_top;\012  pos base Uacute <anchor 360 0> mark @MC_bottom;\012  pos base Ucircumflex <anchor 360 800> mark @MC_top;\012  pos base Ucircumflex <anchor 360 0> mark @MC_bottom;\012  pos base Udieresis <anchor 360 800> mark @MC_top;\012  pos base Udieresis <anchor 360 0> mark @MC_bottom;\012  pos base Yacute <anchor 360 800> mark @MC_top;\012  pos base Yacute <anchor 360 0> mark @MC_bottom;\012  pos base Thorn <anchor 360 800> mark @MC_top;\012  pos base Thorn <anchor 360 0> mark @MC_bottom;\012  pos base Amacron <anchor 360 800> mark @MC_top;\012  pos base Amacron <anchor 360 0> mark @MC_bottom;\012  pos base Abreve <anchor 360 800> mark @MC_top;\012  pos base Abreve <anchor 360 0> mark @MC_bottom;\012  pos base Aogonek <anchor 360 800> mark @MC_top;\012  pos base Aogonek <anchor 360 0> mark @MC_bottom;\012  pos base Cacute <anchor 360 800> mark @MC_top;\012  pos base Cacute <anchor 360 0> mark @MC_bottom;\012  pos base Cdotaccent <anchor 360 800> mark @MC_top;\012  pos base Cdotaccent <anchor 360 0> mark @MC_bottom;\012  pos base Ccaron <anchor 360 800> mark @MC_top;\012  pos base Ccaron <anchor 360 0> mark @MC_bottom;\012  pos base Dcaron <anchor 360 800> mark @MC_top;\012  pos base Dcaron <anchor 360 0> mark @MC_bottom;\012  pos base Dcroat <anchor 360 800> mark @MC_top;\012  pos base Dcroat <anchor 360 0> mark @MC_bottom;\012  pos base Emacron <anchor 360 800> mark @MC_top;\012  pos base Emacron <anchor 360 0> mark @MC_bottom;\012  pos base Edotaccent <anchor 360 800> mark @MC_top;\012  pos base Edotaccent <anchor 360 0> mark @MC_bottom;\012  pos base Eogonek <anchor 360 800> mark @MC_top;\012  pos base Eogonek <anchor 360 0> mark @MC_bottom;\012  pos base Ecaron <anchor 360 800> mark @MC_top;\012  pos base Ecaron <anchor 360 0> mark @MC_bottom;\012  pos base Gbreve <anchor 360 800> mark @MC_top;\012  pos base Gbreve <anchor 360 0> mark @MC_bottom;\012  pos base Gdotaccent <anchor 360 800> mark @MC_top;\012  pos base Gdotaccent <anchor 360 0> mark @MC_bottom;\012  pos base Gcommaaccent <anchor 360 800> mark @MC_top;\012  pos base Gcommaaccent <anchor 360 0> mark @MC_bottom;\012  pos base Hbar <anchor 360 800> mark @MC_top;\012  pos base Hbar <anchor 360 0> mark @MC_bottom;\012  pos base Imacron <anchor 360 800> mark @MC_top;\012  pos base Imacron <anchor 360 0> mark @MC_bottom;\012  pos base Iogonek <anchor 360 800> mark @MC_top;\012  pos base Iogonek <anchor 360 0> mark @MC_bottom;\012  pos base Idotaccent <anchor 360 800> mark @MC_top;\012  pos base Idotaccent <anchor 360 0> mark @MC_bottom;\012  pos base Kcommaaccent <anchor 360 800> mark @MC_top;\012  pos base Kcommaaccent <anchor 360 0> mark @MC_bottom;\012  pos base Lacute <anchor 360 800> mark @MC_top;\012  pos base Lacute <anchor 360 0> mark @MC_bottom;\012  pos base Lcommaaccent <anchor 360 800> mark @MC_top;\012  pos base Lcommaaccent <anchor 360 0> mark @MC_bottom;\012  pos base Lcaron <anchor 360 800> mark @MC_top;\012  pos base Lcaron <anchor 360 0> mark @MC_bottom;\012  pos base Lslash <anchor 360 800> mark @MC_top;\012  pos base Lslash <anchor 360 0> mark @MC_bottom;\012  pos base Nacute <anchor 360 800> mark @MC_top;\012  pos base Nacute <anchor 360 0> mark @MC_bottom;\012  pos base Ncommaaccent <anchor 360 800> mark @MC_top;\012  pos base Ncommaaccent <anchor 360 0> mark @MC_bottom;\012  pos base Ncaron <anchor 360 800> mark @MC_top;\012  pos base Ncaron <anchor 360 0> mark @MC_bottom;\012  pos base Ohungarumlaut <anchor 360 800> mark @MC_top;\012  pos base Ohungarumlaut <anchor 360 0> mark @MC_bottom;\012  pos base OE <anchor 360 800> mark @MC_top;\012  pos base OE <anchor 360 0> mark @MC_bottom;\012  pos base Racute <anchor 360 800> mark @MC_top;\012  pos base Racute <anchor 360 0> mark @MC_bottom;\012  pos base Rcaron <anchor 360 800> mark @MC_top;\012  pos base Rcaron <anchor 360 0> mark @MC_bottom;\012  pos base Sacute <anchor 360 800> mark @MC_top;\012  pos base Sacute <anchor 360 0> mark @MC_bottom;\012  pos base Scedilla <anchor 360 800> mark @MC_top;\012  pos base Scedilla <anchor 360 0> mark @MC_bottom;\012  pos base Scaron <anchor 360 800> mark @MC_top;\012  pos base Scaron <anchor 360 0> mark @MC_bottom;\012  pos base Tcaron <anchor 360 800> mark @MC_top;\012  pos base Tcaron <anchor 360 0> mark @MC_bottom;\012  pos base Umacron <anchor 360 800> mark @MC_top;\012  pos base Umacron <anchor 360 0> mark @MC_bottom;\012  pos base Uring <anchor 360 800> mark @MC_top;\012  pos base Uring <anchor 360 0> mark @MC_bottom;\012  pos base Uhungarumlaut <anchor 360 800> mark @MC_top;\012  pos base Uhungarumlaut <anchor 360 0> mark @MC_bottom;\012  pos base Uogonek <anchor 360 800> mark @MC_top;\012  pos base Uogonek <anchor 360 0> mark @MC_bottom;\012  pos base Wcircumflex <anchor 360 800> mark @MC_top;\012  pos base Wcircumflex <anchor 360 0> mark @MC_bottom;\012  pos base Ycircumflex <anchor 360 800> mark @MC_top;\012  pos base Ycircumflex <anchor 360 0> mark @MC_bottom;\012  pos base Ydieresis <anchor 360 800> mark @MC_top;\012  pos base Ydieresis <anchor 360 0> mark @MC_bottom;\012  pos base Zacute <anchor 360 800> mark @MC_top;\012  pos base Zacute <anchor 360 0> mark @MC_bottom;\012  pos base Zdotaccent <anchor 360 800> mark @MC_top;\012  pos base Zdotaccent <anchor 360 0> mark @MC_bottom;\012  pos base Zcaron <anchor 360 800> mark @MC_top;\012  pos base Zcaron <anchor 360 0> mark @MC_bottom;\012  pos base Scommaaccent <anchor 360 800> mark @MC_top;\012  pos base Scommaaccent <anchor 360 0> mark @MC_bottom;\012  pos base Tcommaaccent <anchor 360 800> mark @MC_top;\012  pos base Tcommaaccent <anchor 360 0> mark @MC_bottom;\012  pos base Wgrave <anchor 360 800> mark @MC_top;\012  pos base Wgrave <anchor 360 0> mark @MC_bottom;\012  pos base Wacute <anchor 360 800> mark @MC_top;\012  pos base Wacute <anchor 360 0> mark @MC_bottom;\012  pos base Wdieresis <anchor 360 800> mark @MC_top;\012  pos base Wdieresis <anchor 360 0> mark @MC_bottom;\012  pos base Germandbls <anchor 360 800> mark @MC_top;\012  pos base Germandbls <anchor 360 0> mark @MC_bottom;\012  pos base Ygrave <anchor 360 800> mark @MC_top;\012  pos base Ygrave <anchor 360 0> mark @MC_bottom;\012  pos base germandbls <anchor 360 600> mark @MC_top;\012  pos base germandbls <anchor 360 0> mark @MC_bottom;\012  pos base agrave <anchor 360 600> mark @MC_top;\012  pos base agrave <anchor 360 0> mark @MC_bottom;\012  pos base aacute <anchor 360 600> mark @MC_top;\012  pos base aacute <anchor 360 0> mark @MC_bottom;\012  pos base acircumflex <anchor 360 600> mark @MC_top;\012  pos base acircumflex <anchor 360 0> mark @MC_bottom;\012  pos base atilde <anchor 360 600> mark @MC_top;\012  pos base atilde <anchor 360 0> mark @MC_bottom;\012  pos base adieresis <anchor 360 600> mark @MC_top;\012  pos base adieresis <anchor 360 0> mark @MC_bottom;\012  pos base aring <anchor 360 600> mark @MC_top;\012  pos base aring <anchor 360 0> mark @MC_bottom;\012  pos base ae <anchor 360 600> mark @MC_top;\012  pos base ae <anchor 360 0> mark @MC_bottom;\012  pos base ccedilla <anchor 360 600> mark @MC_top;\012  pos base ccedilla <anchor 360 0> mark @MC_bottom;\012  pos base egrave <anchor 360 600> mark @MC_top;\012  pos base egrave <anchor 360 0> mark @MC_bottom;\012  pos base eacute <anchor 360 600> mark @MC_top;\012  pos base eacute <anchor 360 0> mark @MC_bottom;\012  pos base ecircumflex <anchor 360 600> mark @MC_top;\012  pos base ecircumflex <anchor 360 0> mark @MC_bottom;\012  pos base edieresis <anchor 360 600> mark @MC_top;\012  pos base edieresis <anchor 360 0> mark @MC_bottom;\012  pos base igrave <anchor 360 600> mark @MC_top;\012  pos base igrave <anchor 360 0> mark @MC_bottom;\012  pos base iacute <anchor 360 600> mark @MC_top;\012  pos base iacute <anchor 360 0> mark @MC_bottom;\012  pos base icircumflex <anchor 360 600> mark @MC_top;\012  pos base icircumflex <anchor 360 0> mark @MC_bottom;\012  pos base idieresis <anchor 360 600> mark @MC_top;\012  pos base idieresis <anchor 360 0> mark @MC_bottom;\012  pos base eth <anchor 360 600> mark @MC_top;\012  pos base eth <anchor 360 0> mark @MC_bottom;\012  pos base ntilde <anchor 360 600> mark @MC_top;\012  pos base ntilde <anchor 360 0> mark @MC_bottom;\012  pos base ograve <anchor 360 600> mark @MC_top;\012  pos base ograve <anchor 360 0> mark @MC_bottom;\012  pos base oacute <anchor 360 600> mark @MC_top;\012  pos base oacute <anchor 360 0> mark @MC_bottom;\012  pos base ocircumflex <anchor 360 600> mark @MC_top;\012  pos base ocircumflex <anchor 360 0> mark @MC_bottom;\012  pos base otilde <anchor 360 600> mark @MC_top;\012  pos base otilde <anchor 360 0> mark @MC_bottom;\012  pos base odieresis <anchor 360 600> mark @MC_top;\012  pos base odieresis <anchor 360 0> mark @MC_bottom;\012  pos base oslash <anchor 360 600> mark @MC_top;\012  pos base oslash <anchor 360 0> mark @MC_bottom;\012  pos base ugrave <anchor 360 600> mark @MC_top;\012  pos base ugrave <anchor 360 0> mark @MC_bottom;\012  pos base uacute <anchor 360 600> mark @MC_top;\012  pos base uacute <anchor 360 0> mark @MC_bottom;\012  pos base ucircumflex <anchor 360 600> mark @MC_top;\012  pos base ucircumflex <anchor 360 0> mark @MC_bottom;\012  pos base udieresis <anchor 360 600> mark @MC_top;\012  pos base udieresis <anchor 360 0> mark @MC_bottom;\012  pos base yacute <anchor 360 600> mark @MC_top;\012  pos base yacute <anchor 360 0> mark @MC_bottom;\012  pos base thorn <anchor 360 600> mark @MC_top;\012  pos base thorn <anchor 360 0> mark @MC_bottom;\012  pos base ydieresis <anchor 360 600> mark @MC_top;\012  pos base ydieresis <anchor 360 0> mark @MC_bottom;\012  pos base amacron <anchor 360 600> mark @MC_top;\012  pos base amacron <anchor 360 0> mark @MC_bottom;\012  pos base abreve <anchor 360 600> mark @MC_top;\012  pos base abreve <anchor 360 0> mark @MC_bottom;\012  pos base aogonek <anchor 360 600> mark @MC_top;\012  pos base aogonek <anchor 360 0> mark @MC_bottom;\012  pos base cacute <anchor 360 600> mark @MC_top;\012  pos base cacute <anchor 360 0> mark @MC_bottom;\012  pos base cdotaccent <anchor 360 600> mark @MC_top;\012  pos base cdotaccent <anchor 360 0> mark @MC_bottom;\012  pos base ccaron <anchor 360 600> mark @MC_top;\012  pos base ccaron <anchor 360 0> mark @MC_bottom;\012  pos base dcaron <anchor 360 600> mark @MC_top;\012  pos base dcaron <anchor 360 0> mark @MC_bottom;\012  pos base dcroat <anchor 360 600> mark @MC_top;\012  pos base dcroat <anchor 360 0> mark @MC_bottom;\012  pos base emacron <anchor 360 600> mark @MC_top;\012  pos base emacron <anchor 360 0> mark @MC_bottom;\012  pos base edotaccent <anchor 360 600> mark @MC_top;\012  pos base edotaccent <anchor 360 0> mark @MC_bottom;\012  pos base eogonek <anchor 360 600> mark @MC_top;\012  pos base eogonek <anchor 360 0> mark @MC_bottom;\012  pos base ecaron <anchor 360 600> mark @MC_top;\012  pos base ecaron <anchor 360 0> mark @MC_bottom;\012  pos base gbreve <anchor 360 600> mark @MC_top;\012  pos base gbreve <anchor 360 0> mark @MC_bottom;\012  pos base gdotaccent <anchor 360 600> mark @MC_top;\012  pos base gdotaccent <anchor 360 0> mark @MC_bottom;\012  pos base gcommaaccent <anchor 360 600> mark @MC_top;\012  pos base gcommaaccent <anchor 360 0> mark @MC_bottom;\012  pos base hbar <anchor 360 600> mark @MC_top;\012  pos base hbar <anchor 360 0> mark @MC_bottom;\012  pos base imacron <anchor 360 600> mark @MC_top;\012  pos base imacron <anchor 360 0> mark @MC_bottom;\012  pos base iogonek <anchor 360 600> mark @MC_top;\012  pos base iogonek <anchor 360 0> mark @MC_bottom;\012  pos base idotless <anchor 360 600> mark @MC_top;\012  pos base idotless <anchor 360 0> mark @MC_bottom;\012  pos base kcommaaccent <anchor 360 600> mark @MC_top;\012  pos base kcommaaccent <anchor 360 0> mark @MC_bottom;\012  pos base lacute <anchor 360 800> mark @MC_top;\012  pos base lacute <anchor 360 0> mark @MC_bottom;\012  pos base lcommaaccent <anchor 360 600> mark @MC_top;\012  pos base lcommaaccent <anchor 360 0> mark @MC_bottom;\012  pos base lcaron <anchor 360 600> mark @MC_top;\012  pos base lcaron <anchor 360 0> mark @MC_bottom;\012  pos base lslash <anchor 360 600> mark @MC_top;\012  pos base lslash <anchor 360 0> mark @MC_bottom;\012  pos base nacute <anchor 360 600> mark @MC_top;\012  pos base nacute <anchor 360 0> mark @MC_bottom;\012  pos base ncommaaccent <anchor 360 600> mark @MC_top;\012  pos base ncommaaccent <anchor 360 0> mark @MC_bottom;\012  pos base ncaron <anchor 360 600> mark @MC_top;\012  pos base ncaron <anchor 360 0> mark @MC_bottom;\012  pos base ohungarumlaut <anchor 360 600> mark @MC_top;\012  pos base ohungarumlaut <anchor 360 0> mark @MC_bottom;\012  pos base oe <anchor 360 600> mark @MC_top;\012  pos base oe <anchor 360 0> mark @MC_bottom;\012  pos base racute <anchor 360 600> mark @MC_top;\012  pos base racute <anchor 360 0> mark @MC_bottom;\012  pos base rcaron <anchor 360 600> mark @MC_top;\012  pos base rcaron <anchor 360 0> mark @MC_bottom;\012  pos base sacute <anchor 360 600> mark @MC_top;\012  pos base sacute <anchor 360 0> mark @MC_bottom;\012  pos base scedilla <anchor 360 600> mark @MC_top;\012  pos base scedilla <anchor 360 0> mark @MC_bottom;\012  pos base scaron <anchor 360 600> mark @MC_top;\012  pos base scaron <anchor 360 0> mark @MC_bottom;\012  pos base tcaron <anchor 360 600> mark @MC_top;\012  pos base tcaron <anchor 360 0> mark @MC_bottom;\012  pos base umacron <anchor 360 600> mark @MC_top;\012  pos base umacron <anchor 360 0> mark @MC_bottom;\012  pos base uring <anchor 360 600> mark @MC_top;\012  pos base uring <anchor 360 0> mark @MC_bottom;\012  pos base uhungarumlaut <anchor 360 600> mark @MC_top;\012  pos base uhungarumlaut <anchor 360 0> mark @MC_bottom;\012  pos base uogonek <anchor 360 600> mark @MC_top;\012  pos base uogonek <anchor 360 0> mark @MC_bottom;\012  pos base wcircumflex <anchor 360 600> mark @MC_top;\012  pos base wcircumflex <anchor 360 0> mark @MC_bottom;\012  pos base ycircumflex <anchor 360 600> mark @MC_top;\012  pos base ycircumflex <anchor 360 0> mark @MC_bottom;\012  pos base zacute <anchor 360 600> mark @MC_top;\012  pos base zacute <anchor 360 0> mark @MC_bottom;\012  pos base zdotaccent <anchor 360 600> mark @MC_top;\012  pos base zdotaccent <anchor 360 0> mark @MC_bottom;\012  pos base zcaron <anchor 360 600> mark @MC_top;\012  pos base zcaron <anchor 360 0> mark @MC_bottom;\012  pos base scommaaccent <anchor 360 600> mark @MC_top;\012  pos base scommaaccent <anchor 360 0> mark @MC_bottom;\012  pos base tcommaaccent <anchor 360 600> mark @MC_top;\012  pos base tcommaaccent <anchor 360 0> mark @MC_bottom;\012  pos base jdotless <anchor 360 600> mark @MC_top;\012  pos base jdotless <anchor 360 0> mark @MC_bottom;\012  pos base wgrave <anchor 360 600> mark @MC_top;\012  pos base wgrave <anchor 360 0> mark @MC_bottom;\012  pos base wacute <anchor 360 600> mark @MC_top;\012  pos base wacute <anchor 360 0> mark @MC_bottom;\012  pos base wdieresis <anchor 360 600> mark @MC_top;\012  pos base wdieresis <anchor 360 0> mark @MC_bottom;\012  pos base ygrave <anchor 360 600> mark @MC_top;\012  pos base ygrave <anchor 360 0> mark @MC_bottom;\012  pos base Acyrillic <anchor 360 800> mark @MC_top;\012  pos base Acyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Becyrillic <anchor 360 800> mark @MC_top;\012  pos base Becyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Vecyrillic <anchor 360 800> mark @MC_top;\012  pos base Vecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Gecyrillic <anchor 360 800> mark @MC_top;\012  pos base Gecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Gheupturncyrillic <anchor 360 800> mark @MC_top;\012  pos base Gheupturncyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Decyrillic <anchor 360 800> mark @MC_top;\012  pos base Decyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Iecyrillic <anchor 360 800> mark @MC_top;\012  pos base Iecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Iocyrillic <anchor 360 800> mark @MC_top;\012  pos base Iocyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Zhecyrillic <anchor 360 800> mark @MC_top;\012  pos base Zhecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Zecyrillic <anchor 360 800> mark @MC_top;\012  pos base Zecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Iicyrillic <anchor 360 800> mark @MC_top;\012  pos base Iicyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Iishortcyrillic <anchor 360 800> mark @MC_top;\012  pos base Iishortcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Kacyrillic <anchor 360 800> mark @MC_top;\012  pos base Kacyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Elcyrillic <anchor 360 800> mark @MC_top;\012  pos base Elcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Emcyrillic <anchor 360 800> mark @MC_top;\012  pos base Emcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Encyrillic <anchor 360 800> mark @MC_top;\012  pos base Encyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Ocyrillic <anchor 360 800> mark @MC_top;\012  pos base Ocyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Pecyrillic <anchor 360 800> mark @MC_top;\012  pos base Pecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Ercyrillic <anchor 360 800> mark @MC_top;\012  pos base Ercyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Escyrillic <anchor 360 800> mark @MC_top;\012  pos base Escyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Tecyrillic <anchor 360 800> mark @MC_top;\012  pos base Tecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Ucyrillic <anchor 360 800> mark @MC_top;\012  pos base Ucyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Ushortcyrillic <anchor 360 800> mark @MC_top;\012  pos base Ushortcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Efcyrillic <anchor 360 800> mark @MC_top;\012  pos base Efcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Khacyrillic <anchor 360 800> mark @MC_top;\012  pos base Khacyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Checyrillic <anchor 360 800> mark @MC_top;\012  pos base Checyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Tsecyrillic <anchor 360 800> mark @MC_top;\012  pos base Tsecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Shacyrillic <anchor 360 800> mark @MC_top;\012  pos base Shacyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Shchacyrillic <anchor 360 800> mark @MC_top;\012  pos base Shchacyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Softsigncyrillic <anchor 360 800> mark @MC_top;\012  pos base Softsigncyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Yericyrillic <anchor 360 800> mark @MC_top;\012  pos base Yericyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Hardsigncyrillic <anchor 360 800> mark @MC_top;\012  pos base Hardsigncyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Ecyrillic <anchor 360 800> mark @MC_top;\012  pos base Ecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Ereversedcyrillic <anchor 360 800> mark @MC_top;\012  pos base Ereversedcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Icyrillic <anchor 360 800> mark @MC_top;\012  pos base Icyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Yicyrillic <anchor 360 800> mark @MC_top;\012  pos base Yicyrillic <anchor 360 0> mark @MC_bottom;\012  pos base IUcyrillic <anchor 360 800> mark @MC_top;\012  pos base IUcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base IAcyrillic <anchor 360 800> mark @MC_top;\012  pos base IAcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base acyrillic <anchor 360 600> mark @MC_top;\012  pos base acyrillic <anchor 360 0> mark @MC_bottom;\012  pos base becyrillic <anchor 360 600> mark @MC_top;\012  pos base becyrillic <anchor 360 0> mark @MC_bottom;\012  pos base vecyrillic <anchor 360 600> mark @MC_top;\012  pos base vecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base gecyrillic <anchor 360 600> mark @MC_top;\012  pos base gecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base gheupturncyrillic <anchor 360 600> mark @MC_top;\012  pos base gheupturncyrillic <anchor 360 0> mark @MC_bottom;\012  pos base decyrillic <anchor 360 600> mark @MC_top;\012  pos base decyrillic <anchor 360 0> mark @MC_bottom;\012  pos base iecyrillic <anchor 360 600> mark @MC_top;\012  pos base iecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base iocyrillic <anchor 360 600> mark @MC_top;\012  pos base iocyrillic <anchor 360 0> mark @MC_bottom;\012  pos base zhecyrillic <anchor 360 600> mark @MC_top;\012  pos base zhecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base zecyrillic <anchor 360 600> mark @MC_top;\012  pos base zecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base iicyrillic <anchor 360 600> mark @MC_top;\012  pos base iicyrillic <anchor 360 0> mark @MC_bottom;\012  pos base iishortcyrillic <anchor 360 600> mark @MC_top;\012  pos base iishortcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base kacyrillic <anchor 360 600> mark @MC_top;\012  pos base kacyrillic <anchor 360 0> mark @MC_bottom;\012  pos base elcyrillic <anchor 360 600> mark @MC_top;\012  pos base elcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base emcyrillic <anchor 360 600> mark @MC_top;\012  pos base emcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base encyrillic <anchor 360 600> mark @MC_top;\012  pos base encyrillic <anchor 360 0> mark @MC_bottom;\012  pos base ocyrillic <anchor 360 600> mark @MC_top;\012  pos base ocyrillic <anchor 360 0> mark @MC_bottom;\012  pos base pecyrillic <anchor 360 600> mark @MC_top;\012  pos base pecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base ercyrillic <anchor 360 600> mark @MC_top;\012  pos base ercyrillic <anchor 360 0> mark @MC_bottom;\012  pos base escyrillic <anchor 360 600> mark @MC_top;\012  pos base escyrillic <anchor 360 0> mark @MC_bottom;\012  pos base tecyrillic <anchor 360 600> mark @MC_top;\012  pos base tecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base ucyrillic <anchor 360 600> mark @MC_top;\012  pos base ucyrillic <anchor 360 0> mark @MC_bottom;\012  pos base ushortcyrillic <anchor 360 600> mark @MC_top;\012  pos base ushortcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base efcyrillic <anchor 360 600> mark @MC_top;\012  pos base efcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base khacyrillic <anchor 360 600> mark @MC_top;\012  pos base khacyrillic <anchor 360 0> mark @MC_bottom;\012  pos base checyrillic <anchor 360 600> mark @MC_top;\012  pos base checyrillic <anchor 360 0> mark @MC_bottom;\012  pos base tsecyrillic <anchor 360 600> mark @MC_top;\012  pos base tsecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base shacyrillic <anchor 360 600> mark @MC_top;\012  pos base shacyrillic <anchor 360 0> mark @MC_bottom;\012  pos base shchacyrillic <anchor 360 600> mark @MC_top;\012  pos base shchacyrillic <anchor 360 0> mark @MC_bottom;\012  pos base softsigncyrillic <anchor 360 600> mark @MC_top;\012  pos base softsigncyrillic <anchor 360 0> mark @MC_bottom;\012  pos base yericyrillic <anchor 360 600> mark @MC_top;\012  pos base yericyrillic <anchor 360 0> mark @MC_bottom;\012  pos base hardsigncyrillic <anchor 360 600> mark @MC_top;\012  pos base hardsigncyrillic <anchor 360 0> mark @MC_bottom;\012  pos base ecyrillic <anchor 360 600> mark @MC_top;\012  pos base ecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base ereversedcyrillic <anchor 360 600> mark @MC_top;\012  pos base ereversedcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base icyrillic <anchor 360 600> mark @MC_top;\012  pos base icyrillic <anchor 360 0> mark @MC_bottom;\012  pos base yicyrillic <anchor 360 600> mark @MC_top;\012  pos base yicyrillic <anchor 360 0> mark @MC_bottom;\012  pos base iucyrillic <anchor 360 600> mark @MC_top;\012  pos base iucyrillic <anchor 360 0> mark @MC_bottom;\012  pos base iacyrillic <anchor 360 600> mark @MC_top;\012  pos base iacyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Dje-cy <anchor 360 800> mark @MC_top;\012  pos base Dje-cy <anchor 360 0> mark @MC_bottom;\012  pos base Je-cy <anchor 360 800> mark @MC_top;\012  pos base Je-cy <anchor 360 0> mark @MC_bottom;\012  pos base Lje-cy <anchor 360 800> mark @MC_top;\012  pos base Lje-cy <anchor 360 0> mark @MC_bottom;\012  pos base Nje-cy <anchor 360 800> mark @MC_top;\012  pos base Nje-cy <anchor 360 0> mark @MC_bottom;\012  pos base Tshe-cy <anchor 360 800> mark @MC_top;\012  pos base Tshe-cy <anchor 360 0> mark @MC_bottom;\012  pos base Dzhe-cy <anchor 360 800> mark @MC_top;\012  pos base Dzhe-cy <anchor 360 0> mark @MC_bottom;\012  pos base Gestroke-cy <anchor 360 800> mark @MC_top;\012  pos base Gestroke-cy <anchor 360 0> mark @MC_bottom;\012  pos base Zhedescender-cy <anchor 360 800> mark @MC_top;\012  pos base Zhedescender-cy <anchor 360 0> mark @MC_bottom;\012  pos base Kadescender-cy <anchor 360 800> mark @MC_top;\012  pos base Kadescender-cy <anchor 360 0> mark @MC_bottom;\012  pos base Endescender-cy <anchor 360 800> mark @MC_top;\012  pos base Endescender-cy <anchor 360 0> mark @MC_bottom;\012  pos base Ustraight-cy <anchor 360 800> mark @MC_top;\012  pos base Ustraight-cy <anchor 360 0> mark @MC_bottom;\012  pos base Ustraightstroke-cy <anchor 360 800> mark @MC_top;\012  pos base Ustraightstroke-cy <anchor 360 0> mark @MC_bottom;\012  pos base Hadescender-cy <anchor 360 800> mark @MC_top;\012  pos base Hadescender-cy <anchor 360 0> mark @MC_bottom;\012  pos base Chedescender-cy <anchor 360 800> mark @MC_top;\012  pos base Chedescender-cy <anchor 360 0> mark @MC_bottom;\012  pos base Shha-cy <anchor 360 800> mark @MC_top;\012  pos base Shha-cy <anchor 360 0> mark @MC_bottom;\012  pos base Schwa-cy <anchor 360 800> mark @MC_top;\012  pos base Schwa-cy <anchor 360 0> mark @MC_bottom;\012  pos base Imacron-cy <anchor 360 800> mark @MC_top;\012  pos base Imacron-cy <anchor 360 0> mark @MC_bottom;\012  pos base Obarred-cy <anchor 360 800> mark @MC_top;\012  pos base Obarred-cy <anchor 360 0> mark @MC_bottom;\012  pos base Umacron-cy <anchor 360 800> mark @MC_top;\012  pos base Umacron-cy <anchor 360 0> mark @MC_bottom;\012  pos base dje-cy <anchor 360 600> mark @MC_top;\012  pos base dje-cy <anchor 360 0> mark @MC_bottom;\012  pos base je-cy <anchor 360 600> mark @MC_top;\012  pos base je-cy <anchor 360 0> mark @MC_bottom;\012  pos base lje-cy <anchor 360 600> mark @MC_top;\012  pos base lje-cy <anchor 360 0> mark @MC_bottom;\012  pos base nje-cy <anchor 360 600> mark @MC_top;\012  pos base nje-cy <anchor 360 0> mark @MC_bottom;\012  pos base tshe-cy <anchor 360 600> mark @MC_top;\012  pos base tshe-cy <anchor 360 0> mark @MC_bottom;\012  pos base dzhe-cy <anchor 360 600> mark @MC_top;\012  pos base dzhe-cy <anchor 360 0> mark @MC_bottom;\012  pos base gestroke-cy <anchor 360 600> mark @MC_top;\012  pos base gestroke-cy <anchor 360 0> mark @MC_bottom;\012  pos base zhedescender-cy <anchor 360 600> mark @MC_top;\012  pos base zhedescender-cy <anchor 360 0> mark @MC_bottom;\012  pos base kadescender-cy <anchor 360 600> mark @MC_top;\012  pos base kadescender-cy <anchor 360 0> mark @MC_bottom;\012  pos base endescender-cy <anchor 360 600> mark @MC_top;\012  pos base endescender-cy <anchor 360 0> mark @MC_bottom;\012  pos base ustraight-cy <anchor 360 600> mark @MC_top;\012  pos base ustraight-cy <anchor 360 0> mark @MC_bottom;\012  pos base ustraightstroke-cy <anchor 360 600> mark @MC_top;\012  pos base ustraightstroke-cy <anchor 360 0> mark @MC_bottom;\012  pos base hadescender-cy <anchor 360 600> mark @MC_top;\012  pos base hadescender-cy <anchor 360 0> mark @MC_bottom;\012  pos base chedescender-cy <anchor 360 600> mark @MC_top;\012  pos base chedescender-cy <anchor 360 0> mark @MC_bottom;\012  pos base shha-cy <anchor 360 600> mark @MC_top;\012  pos base shha-cy <anchor 360 0> mark @MC_bottom;\012  pos base schwa-cy <anchor 360 600> mark @MC_top;\012  pos base schwa-cy <anchor 360 0> mark @MC_bottom;\012  pos base imacron-cy <anchor 360 600> mark @MC_top;\012  pos base imacron-cy <anchor 360 0> mark @MC_bottom;\012  pos base obarred-cy <anchor 360 600> mark @MC_top;\012  pos base obarred-cy <anchor 360 0> mark @MC_bottom;\012  pos base umacron-cy <anchor 360 600> mark @MC_top;\012  pos base umacron-cy <anchor 360 0> mark @MC_bottom;";
+code = "pos base A <anchor 360 800> mark @MC_top;\012  pos base A <anchor 360 0> mark @MC_bottom;\012  pos base B <anchor 360 800> mark @MC_top;\012  pos base B <anchor 360 0> mark @MC_bottom;\012  pos base C <anchor 360 800> mark @MC_top;\012  pos base C <anchor 360 0> mark @MC_bottom;\012  pos base D <anchor 360 800> mark @MC_top;\012  pos base D <anchor 360 0> mark @MC_bottom;\012  pos base E <anchor 360 800> mark @MC_top;\012  pos base E <anchor 360 0> mark @MC_bottom;\012  pos base F <anchor 360 800> mark @MC_top;\012  pos base F <anchor 360 0> mark @MC_bottom;\012  pos base G <anchor 360 800> mark @MC_top;\012  pos base G <anchor 360 0> mark @MC_bottom;\012  pos base H <anchor 360 800> mark @MC_top;\012  pos base H <anchor 360 0> mark @MC_bottom;\012  pos base I <anchor 360 800> mark @MC_top;\012  pos base I <anchor 360 0> mark @MC_bottom;\012  pos base J <anchor 360 800> mark @MC_top;\012  pos base J <anchor 360 0> mark @MC_bottom;\012  pos base K <anchor 360 800> mark @MC_top;\012  pos base K <anchor 360 0> mark @MC_bottom;\012  pos base L <anchor 360 800> mark @MC_top;\012  pos base L <anchor 360 0> mark @MC_bottom;\012  pos base M <anchor 360 800> mark @MC_top;\012  pos base M <anchor 360 0> mark @MC_bottom;\012  pos base N <anchor 360 800> mark @MC_top;\012  pos base N <anchor 360 0> mark @MC_bottom;\012  pos base O <anchor 360 800> mark @MC_top;\012  pos base O <anchor 360 0> mark @MC_bottom;\012  pos base P <anchor 360 800> mark @MC_top;\012  pos base P <anchor 360 0> mark @MC_bottom;\012  pos base Q <anchor 360 800> mark @MC_top;\012  pos base Q <anchor 360 0> mark @MC_bottom;\012  pos base R <anchor 360 800> mark @MC_top;\012  pos base R <anchor 360 0> mark @MC_bottom;\012  pos base S <anchor 360 800> mark @MC_top;\012  pos base S <anchor 360 0> mark @MC_bottom;\012  pos base T <anchor 360 800> mark @MC_top;\012  pos base T <anchor 360 0> mark @MC_bottom;\012  pos base U <anchor 360 800> mark @MC_top;\012  pos base U <anchor 360 0> mark @MC_bottom;\012  pos base V <anchor 360 800> mark @MC_top;\012  pos base V <anchor 360 0> mark @MC_bottom;\012  pos base W <anchor 360 800> mark @MC_top;\012  pos base W <anchor 360 0> mark @MC_bottom;\012  pos base X <anchor 360 800> mark @MC_top;\012  pos base X <anchor 360 0> mark @MC_bottom;\012  pos base Y <anchor 360 800> mark @MC_top;\012  pos base Y <anchor 360 0> mark @MC_bottom;\012  pos base Z <anchor 360 800> mark @MC_top;\012  pos base Z <anchor 360 0> mark @MC_bottom;\012  pos base a <anchor 360 600> mark @MC_top;\012  pos base a <anchor 360 0> mark @MC_bottom;\012  pos base b <anchor 360 600> mark @MC_top;\012  pos base b <anchor 360 0> mark @MC_bottom;\012  pos base c <anchor 360 600> mark @MC_top;\012  pos base c <anchor 360 0> mark @MC_bottom;\012  pos base d <anchor 360 600> mark @MC_top;\012  pos base d <anchor 360 0> mark @MC_bottom;\012  pos base e <anchor 360 600> mark @MC_top;\012  pos base e <anchor 360 0> mark @MC_bottom;\012  pos base f <anchor 360 600> mark @MC_top;\012  pos base f <anchor 360 0> mark @MC_bottom;\012  pos base g <anchor 360 600> mark @MC_top;\012  pos base g <anchor 360 0> mark @MC_bottom;\012  pos base h <anchor 360 600> mark @MC_top;\012  pos base h <anchor 360 0> mark @MC_bottom;\012  pos base i <anchor 360 600> mark @MC_top;\012  pos base i <anchor 360 0> mark @MC_bottom;\012  pos base j <anchor 360 600> mark @MC_top;\012  pos base j <anchor 360 0> mark @MC_bottom;\012  pos base k <anchor 360 600> mark @MC_top;\012  pos base k <anchor 360 0> mark @MC_bottom;\012  pos base l <anchor 360 600> mark @MC_top;\012  pos base l <anchor 360 0> mark @MC_bottom;\012  pos base m <anchor 360 600> mark @MC_top;\012  pos base m <anchor 360 0> mark @MC_bottom;\012  pos base n <anchor 360 600> mark @MC_top;\012  pos base n <anchor 360 0> mark @MC_bottom;\012  pos base o <anchor 360 600> mark @MC_top;\012  pos base o <anchor 360 0> mark @MC_bottom;\012  pos base p <anchor 360 600> mark @MC_top;\012  pos base p <anchor 360 0> mark @MC_bottom;\012  pos base q <anchor 360 600> mark @MC_top;\012  pos base q <anchor 360 0> mark @MC_bottom;\012  pos base r <anchor 360 600> mark @MC_top;\012  pos base r <anchor 360 0> mark @MC_bottom;\012  pos base s <anchor 360 600> mark @MC_top;\012  pos base s <anchor 360 0> mark @MC_bottom;\012  pos base t <anchor 360 600> mark @MC_top;\012  pos base t <anchor 360 0> mark @MC_bottom;\012  pos base u <anchor 360 600> mark @MC_top;\012  pos base u <anchor 360 0> mark @MC_bottom;\012  pos base v <anchor 360 600> mark @MC_top;\012  pos base v <anchor 360 0> mark @MC_bottom;\012  pos base w <anchor 360 600> mark @MC_top;\012  pos base w <anchor 360 0> mark @MC_bottom;\012  pos base x <anchor 360 600> mark @MC_top;\012  pos base x <anchor 360 0> mark @MC_bottom;\012  pos base y <anchor 360 600> mark @MC_top;\012  pos base y <anchor 360 0> mark @MC_bottom;\012  pos base z <anchor 360 600> mark @MC_top;\012  pos base z <anchor 360 0> mark @MC_bottom;\012  pos base Agrave <anchor 360 800> mark @MC_top;\012  pos base Agrave <anchor 360 0> mark @MC_bottom;\012  pos base Aacute <anchor 360 800> mark @MC_top;\012  pos base Aacute <anchor 360 0> mark @MC_bottom;\012  pos base Acircumflex <anchor 360 800> mark @MC_top;\012  pos base Acircumflex <anchor 360 0> mark @MC_bottom;\012  pos base Atilde <anchor 360 800> mark @MC_top;\012  pos base Atilde <anchor 360 0> mark @MC_bottom;\012  pos base Adieresis <anchor 360 800> mark @MC_top;\012  pos base Adieresis <anchor 360 0> mark @MC_bottom;\012  pos base Aring <anchor 360 800> mark @MC_top;\012  pos base Aring <anchor 360 0> mark @MC_bottom;\012  pos base AE <anchor 360 800> mark @MC_top;\012  pos base AE <anchor 360 0> mark @MC_bottom;\012  pos base Ccedilla <anchor 360 800> mark @MC_top;\012  pos base Ccedilla <anchor 360 0> mark @MC_bottom;\012  pos base Egrave <anchor 360 800> mark @MC_top;\012  pos base Egrave <anchor 360 0> mark @MC_bottom;\012  pos base Eacute <anchor 360 800> mark @MC_top;\012  pos base Eacute <anchor 360 0> mark @MC_bottom;\012  pos base Ecircumflex <anchor 360 800> mark @MC_top;\012  pos base Ecircumflex <anchor 360 0> mark @MC_bottom;\012  pos base Edieresis <anchor 360 800> mark @MC_top;\012  pos base Edieresis <anchor 360 0> mark @MC_bottom;\012  pos base Igrave <anchor 360 800> mark @MC_top;\012  pos base Igrave <anchor 360 0> mark @MC_bottom;\012  pos base Iacute <anchor 360 800> mark @MC_top;\012  pos base Iacute <anchor 360 0> mark @MC_bottom;\012  pos base Icircumflex <anchor 360 800> mark @MC_top;\012  pos base Icircumflex <anchor 360 0> mark @MC_bottom;\012  pos base Idieresis <anchor 360 800> mark @MC_top;\012  pos base Idieresis <anchor 360 0> mark @MC_bottom;\012  pos base Eth <anchor 360 800> mark @MC_top;\012  pos base Eth <anchor 360 0> mark @MC_bottom;\012  pos base Ntilde <anchor 360 800> mark @MC_top;\012  pos base Ntilde <anchor 360 0> mark @MC_bottom;\012  pos base Ograve <anchor 360 800> mark @MC_top;\012  pos base Ograve <anchor 360 0> mark @MC_bottom;\012  pos base Oacute <anchor 360 800> mark @MC_top;\012  pos base Oacute <anchor 360 0> mark @MC_bottom;\012  pos base Ocircumflex <anchor 360 800> mark @MC_top;\012  pos base Ocircumflex <anchor 360 0> mark @MC_bottom;\012  pos base Otilde <anchor 360 800> mark @MC_top;\012  pos base Otilde <anchor 360 0> mark @MC_bottom;\012  pos base Odieresis <anchor 360 800> mark @MC_top;\012  pos base Odieresis <anchor 360 0> mark @MC_bottom;\012  pos base Oslash <anchor 360 800> mark @MC_top;\012  pos base Oslash <anchor 360 0> mark @MC_bottom;\012  pos base Ugrave <anchor 360 800> mark @MC_top;\012  pos base Ugrave <anchor 360 0> mark @MC_bottom;\012  pos base Uacute <anchor 360 800> mark @MC_top;\012  pos base Uacute <anchor 360 0> mark @MC_bottom;\012  pos base Ucircumflex <anchor 360 800> mark @MC_top;\012  pos base Ucircumflex <anchor 360 0> mark @MC_bottom;\012  pos base Udieresis <anchor 360 800> mark @MC_top;\012  pos base Udieresis <anchor 360 0> mark @MC_bottom;\012  pos base Yacute <anchor 360 800> mark @MC_top;\012  pos base Yacute <anchor 360 0> mark @MC_bottom;\012  pos base Thorn <anchor 360 800> mark @MC_top;\012  pos base Thorn <anchor 360 0> mark @MC_bottom;\012  pos base Amacron <anchor 360 800> mark @MC_top;\012  pos base Amacron <anchor 360 0> mark @MC_bottom;\012  pos base Abreve <anchor 360 800> mark @MC_top;\012  pos base Abreve <anchor 360 0> mark @MC_bottom;\012  pos base Aogonek <anchor 360 800> mark @MC_top;\012  pos base Aogonek <anchor 360 0> mark @MC_bottom;\012  pos base Cacute <anchor 360 800> mark @MC_top;\012  pos base Cacute <anchor 360 0> mark @MC_bottom;\012  pos base Cdotaccent <anchor 360 800> mark @MC_top;\012  pos base Cdotaccent <anchor 360 0> mark @MC_bottom;\012  pos base Ccaron <anchor 360 800> mark @MC_top;\012  pos base Ccaron <anchor 360 0> mark @MC_bottom;\012  pos base Dcaron <anchor 360 800> mark @MC_top;\012  pos base Dcaron <anchor 360 0> mark @MC_bottom;\012  pos base Dcroat <anchor 360 800> mark @MC_top;\012  pos base Dcroat <anchor 360 0> mark @MC_bottom;\012  pos base Emacron <anchor 360 800> mark @MC_top;\012  pos base Emacron <anchor 360 0> mark @MC_bottom;\012  pos base Edotaccent <anchor 360 800> mark @MC_top;\012  pos base Edotaccent <anchor 360 0> mark @MC_bottom;\012  pos base Eogonek <anchor 360 800> mark @MC_top;\012  pos base Eogonek <anchor 360 0> mark @MC_bottom;\012  pos base Ecaron <anchor 360 800> mark @MC_top;\012  pos base Ecaron <anchor 360 0> mark @MC_bottom;\012  pos base Gbreve <anchor 360 800> mark @MC_top;\012  pos base Gbreve <anchor 360 0> mark @MC_bottom;\012  pos base Gdotaccent <anchor 360 800> mark @MC_top;\012  pos base Gdotaccent <anchor 360 0> mark @MC_bottom;\012  pos base Gcommaaccent <anchor 360 800> mark @MC_top;\012  pos base Gcommaaccent <anchor 360 0> mark @MC_bottom;\012  pos base Hbar <anchor 360 800> mark @MC_top;\012  pos base Hbar <anchor 360 0> mark @MC_bottom;\012  pos base Imacron <anchor 360 800> mark @MC_top;\012  pos base Imacron <anchor 360 0> mark @MC_bottom;\012  pos base Iogonek <anchor 360 800> mark @MC_top;\012  pos base Iogonek <anchor 360 0> mark @MC_bottom;\012  pos base Idotaccent <anchor 360 800> mark @MC_top;\012  pos base Idotaccent <anchor 360 0> mark @MC_bottom;\012  pos base Kcommaaccent <anchor 360 800> mark @MC_top;\012  pos base Kcommaaccent <anchor 360 0> mark @MC_bottom;\012  pos base Lacute <anchor 360 800> mark @MC_top;\012  pos base Lacute <anchor 360 0> mark @MC_bottom;\012  pos base Lcommaaccent <anchor 360 800> mark @MC_top;\012  pos base Lcommaaccent <anchor 360 0> mark @MC_bottom;\012  pos base Lcaron <anchor 360 800> mark @MC_top;\012  pos base Lcaron <anchor 360 0> mark @MC_bottom;\012  pos base Lslash <anchor 360 800> mark @MC_top;\012  pos base Lslash <anchor 360 0> mark @MC_bottom;\012  pos base Nacute <anchor 360 800> mark @MC_top;\012  pos base Nacute <anchor 360 0> mark @MC_bottom;\012  pos base Ncommaaccent <anchor 360 800> mark @MC_top;\012  pos base Ncommaaccent <anchor 360 0> mark @MC_bottom;\012  pos base Ncaron <anchor 360 800> mark @MC_top;\012  pos base Ncaron <anchor 360 0> mark @MC_bottom;\012  pos base Ohungarumlaut <anchor 360 800> mark @MC_top;\012  pos base Ohungarumlaut <anchor 360 0> mark @MC_bottom;\012  pos base OE <anchor 360 800> mark @MC_top;\012  pos base OE <anchor 360 0> mark @MC_bottom;\012  pos base Racute <anchor 360 800> mark @MC_top;\012  pos base Racute <anchor 360 0> mark @MC_bottom;\012  pos base Rcaron <anchor 360 800> mark @MC_top;\012  pos base Rcaron <anchor 360 0> mark @MC_bottom;\012  pos base Sacute <anchor 360 800> mark @MC_top;\012  pos base Sacute <anchor 360 0> mark @MC_bottom;\012  pos base Scedilla <anchor 360 800> mark @MC_top;\012  pos base Scedilla <anchor 360 0> mark @MC_bottom;\012  pos base Scaron <anchor 360 800> mark @MC_top;\012  pos base Scaron <anchor 360 0> mark @MC_bottom;\012  pos base Tcaron <anchor 360 800> mark @MC_top;\012  pos base Tcaron <anchor 360 0> mark @MC_bottom;\012  pos base Umacron <anchor 360 800> mark @MC_top;\012  pos base Umacron <anchor 360 0> mark @MC_bottom;\012  pos base Uring <anchor 360 800> mark @MC_top;\012  pos base Uring <anchor 360 0> mark @MC_bottom;\012  pos base Uhungarumlaut <anchor 360 800> mark @MC_top;\012  pos base Uhungarumlaut <anchor 360 0> mark @MC_bottom;\012  pos base Uogonek <anchor 360 800> mark @MC_top;\012  pos base Uogonek <anchor 360 0> mark @MC_bottom;\012  pos base Wcircumflex <anchor 360 800> mark @MC_top;\012  pos base Wcircumflex <anchor 360 0> mark @MC_bottom;\012  pos base Ycircumflex <anchor 360 800> mark @MC_top;\012  pos base Ycircumflex <anchor 360 0> mark @MC_bottom;\012  pos base Ydieresis <anchor 360 800> mark @MC_top;\012  pos base Ydieresis <anchor 360 0> mark @MC_bottom;\012  pos base Zacute <anchor 360 800> mark @MC_top;\012  pos base Zacute <anchor 360 0> mark @MC_bottom;\012  pos base Zdotaccent <anchor 360 800> mark @MC_top;\012  pos base Zdotaccent <anchor 360 0> mark @MC_bottom;\012  pos base Zcaron <anchor 360 800> mark @MC_top;\012  pos base Zcaron <anchor 360 0> mark @MC_bottom;\012  pos base Scommaaccent <anchor 360 800> mark @MC_top;\012  pos base Scommaaccent <anchor 360 0> mark @MC_bottom;\012  pos base Tcommaaccent <anchor 360 800> mark @MC_top;\012  pos base Tcommaaccent <anchor 360 0> mark @MC_bottom;\012  pos base Wgrave <anchor 360 800> mark @MC_top;\012  pos base Wgrave <anchor 360 0> mark @MC_bottom;\012  pos base Wacute <anchor 360 800> mark @MC_top;\012  pos base Wacute <anchor 360 0> mark @MC_bottom;\012  pos base Wdieresis <anchor 360 800> mark @MC_top;\012  pos base Wdieresis <anchor 360 0> mark @MC_bottom;\012  pos base Germandbls <anchor 360 800> mark @MC_top;\012  pos base Germandbls <anchor 360 0> mark @MC_bottom;\012  pos base Ygrave <anchor 360 800> mark @MC_top;\012  pos base Ygrave <anchor 360 0> mark @MC_bottom;\012  pos base germandbls <anchor 360 600> mark @MC_top;\012  pos base germandbls <anchor 360 0> mark @MC_bottom;\012  pos base agrave <anchor 360 600> mark @MC_top;\012  pos base agrave <anchor 360 0> mark @MC_bottom;\012  pos base aacute <anchor 360 600> mark @MC_top;\012  pos base aacute <anchor 360 0> mark @MC_bottom;\012  pos base acircumflex <anchor 360 600> mark @MC_top;\012  pos base acircumflex <anchor 360 0> mark @MC_bottom;\012  pos base atilde <anchor 360 600> mark @MC_top;\012  pos base atilde <anchor 360 0> mark @MC_bottom;\012  pos base adieresis <anchor 360 600> mark @MC_top;\012  pos base adieresis <anchor 360 0> mark @MC_bottom;\012  pos base aring <anchor 360 600> mark @MC_top;\012  pos base aring <anchor 360 0> mark @MC_bottom;\012  pos base ae <anchor 360 600> mark @MC_top;\012  pos base ae <anchor 360 0> mark @MC_bottom;\012  pos base ccedilla <anchor 360 600> mark @MC_top;\012  pos base ccedilla <anchor 360 0> mark @MC_bottom;\012  pos base egrave <anchor 360 600> mark @MC_top;\012  pos base egrave <anchor 360 0> mark @MC_bottom;\012  pos base eacute <anchor 360 600> mark @MC_top;\012  pos base eacute <anchor 360 0> mark @MC_bottom;\012  pos base ecircumflex <anchor 360 600> mark @MC_top;\012  pos base ecircumflex <anchor 360 0> mark @MC_bottom;\012  pos base edieresis <anchor 360 600> mark @MC_top;\012  pos base edieresis <anchor 360 0> mark @MC_bottom;\012  pos base igrave <anchor 360 600> mark @MC_top;\012  pos base igrave <anchor 360 0> mark @MC_bottom;\012  pos base iacute <anchor 360 600> mark @MC_top;\012  pos base iacute <anchor 360 0> mark @MC_bottom;\012  pos base icircumflex <anchor 360 600> mark @MC_top;\012  pos base icircumflex <anchor 360 0> mark @MC_bottom;\012  pos base idieresis <anchor 360 600> mark @MC_top;\012  pos base idieresis <anchor 360 0> mark @MC_bottom;\012  pos base eth <anchor 360 600> mark @MC_top;\012  pos base eth <anchor 360 0> mark @MC_bottom;\012  pos base ntilde <anchor 360 600> mark @MC_top;\012  pos base ntilde <anchor 360 0> mark @MC_bottom;\012  pos base ograve <anchor 360 600> mark @MC_top;\012  pos base ograve <anchor 360 0> mark @MC_bottom;\012  pos base oacute <anchor 360 600> mark @MC_top;\012  pos base oacute <anchor 360 0> mark @MC_bottom;\012  pos base ocircumflex <anchor 360 600> mark @MC_top;\012  pos base ocircumflex <anchor 360 0> mark @MC_bottom;\012  pos base otilde <anchor 360 600> mark @MC_top;\012  pos base otilde <anchor 360 0> mark @MC_bottom;\012  pos base odieresis <anchor 360 600> mark @MC_top;\012  pos base odieresis <anchor 360 0> mark @MC_bottom;\012  pos base oslash <anchor 360 600> mark @MC_top;\012  pos base oslash <anchor 360 0> mark @MC_bottom;\012  pos base ugrave <anchor 360 600> mark @MC_top;\012  pos base ugrave <anchor 360 0> mark @MC_bottom;\012  pos base uacute <anchor 360 600> mark @MC_top;\012  pos base uacute <anchor 360 0> mark @MC_bottom;\012  pos base ucircumflex <anchor 360 600> mark @MC_top;\012  pos base ucircumflex <anchor 360 0> mark @MC_bottom;\012  pos base udieresis <anchor 360 600> mark @MC_top;\012  pos base udieresis <anchor 360 0> mark @MC_bottom;\012  pos base yacute <anchor 360 600> mark @MC_top;\012  pos base yacute <anchor 360 0> mark @MC_bottom;\012  pos base thorn <anchor 360 600> mark @MC_top;\012  pos base thorn <anchor 360 0> mark @MC_bottom;\012  pos base ydieresis <anchor 360 600> mark @MC_top;\012  pos base ydieresis <anchor 360 0> mark @MC_bottom;\012  pos base amacron <anchor 360 600> mark @MC_top;\012  pos base amacron <anchor 360 0> mark @MC_bottom;\012  pos base abreve <anchor 360 600> mark @MC_top;\012  pos base abreve <anchor 360 0> mark @MC_bottom;\012  pos base aogonek <anchor 360 600> mark @MC_top;\012  pos base aogonek <anchor 360 0> mark @MC_bottom;\012  pos base cacute <anchor 360 600> mark @MC_top;\012  pos base cacute <anchor 360 0> mark @MC_bottom;\012  pos base cdotaccent <anchor 360 600> mark @MC_top;\012  pos base cdotaccent <anchor 360 0> mark @MC_bottom;\012  pos base ccaron <anchor 360 600> mark @MC_top;\012  pos base ccaron <anchor 360 0> mark @MC_bottom;\012  pos base dcaron <anchor 360 600> mark @MC_top;\012  pos base dcaron <anchor 360 0> mark @MC_bottom;\012  pos base dcroat <anchor 360 600> mark @MC_top;\012  pos base dcroat <anchor 360 0> mark @MC_bottom;\012  pos base emacron <anchor 360 600> mark @MC_top;\012  pos base emacron <anchor 360 0> mark @MC_bottom;\012  pos base edotaccent <anchor 360 600> mark @MC_top;\012  pos base edotaccent <anchor 360 0> mark @MC_bottom;\012  pos base eogonek <anchor 360 600> mark @MC_top;\012  pos base eogonek <anchor 360 0> mark @MC_bottom;\012  pos base ecaron <anchor 360 600> mark @MC_top;\012  pos base ecaron <anchor 360 0> mark @MC_bottom;\012  pos base gbreve <anchor 360 600> mark @MC_top;\012  pos base gbreve <anchor 360 0> mark @MC_bottom;\012  pos base gdotaccent <anchor 360 600> mark @MC_top;\012  pos base gdotaccent <anchor 360 0> mark @MC_bottom;\012  pos base gcommaaccent <anchor 360 600> mark @MC_top;\012  pos base gcommaaccent <anchor 360 0> mark @MC_bottom;\012  pos base hbar <anchor 360 600> mark @MC_top;\012  pos base hbar <anchor 360 0> mark @MC_bottom;\012  pos base imacron <anchor 360 600> mark @MC_top;\012  pos base imacron <anchor 360 0> mark @MC_bottom;\012  pos base iogonek <anchor 360 600> mark @MC_top;\012  pos base iogonek <anchor 360 0> mark @MC_bottom;\012  pos base idotless <anchor 360 600> mark @MC_top;\012  pos base idotless <anchor 360 0> mark @MC_bottom;\012  pos base kcommaaccent <anchor 360 600> mark @MC_top;\012  pos base kcommaaccent <anchor 360 0> mark @MC_bottom;\012  pos base lacute <anchor 360 800> mark @MC_top;\012  pos base lacute <anchor 360 0> mark @MC_bottom;\012  pos base lcommaaccent <anchor 360 600> mark @MC_top;\012  pos base lcommaaccent <anchor 360 0> mark @MC_bottom;\012  pos base lcaron <anchor 360 600> mark @MC_top;\012  pos base lcaron <anchor 360 0> mark @MC_bottom;\012  pos base lslash <anchor 360 600> mark @MC_top;\012  pos base lslash <anchor 360 0> mark @MC_bottom;\012  pos base nacute <anchor 360 600> mark @MC_top;\012  pos base nacute <anchor 360 0> mark @MC_bottom;\012  pos base ncommaaccent <anchor 360 600> mark @MC_top;\012  pos base ncommaaccent <anchor 360 0> mark @MC_bottom;\012  pos base ncaron <anchor 360 600> mark @MC_top;\012  pos base ncaron <anchor 360 0> mark @MC_bottom;\012  pos base ohungarumlaut <anchor 360 600> mark @MC_top;\012  pos base ohungarumlaut <anchor 360 0> mark @MC_bottom;\012  pos base oe <anchor 360 600> mark @MC_top;\012  pos base oe <anchor 360 0> mark @MC_bottom;\012  pos base racute <anchor 360 600> mark @MC_top;\012  pos base racute <anchor 360 0> mark @MC_bottom;\012  pos base rcaron <anchor 360 600> mark @MC_top;\012  pos base rcaron <anchor 360 0> mark @MC_bottom;\012  pos base sacute <anchor 360 600> mark @MC_top;\012  pos base sacute <anchor 360 0> mark @MC_bottom;\012  pos base scedilla <anchor 360 600> mark @MC_top;\012  pos base scedilla <anchor 360 0> mark @MC_bottom;\012  pos base scaron <anchor 360 600> mark @MC_top;\012  pos base scaron <anchor 360 0> mark @MC_bottom;\012  pos base tcaron <anchor 360 600> mark @MC_top;\012  pos base tcaron <anchor 360 0> mark @MC_bottom;\012  pos base umacron <anchor 360 600> mark @MC_top;\012  pos base umacron <anchor 360 0> mark @MC_bottom;\012  pos base uring <anchor 360 600> mark @MC_top;\012  pos base uring <anchor 360 0> mark @MC_bottom;\012  pos base uhungarumlaut <anchor 360 600> mark @MC_top;\012  pos base uhungarumlaut <anchor 360 0> mark @MC_bottom;\012  pos base uogonek <anchor 360 600> mark @MC_top;\012  pos base uogonek <anchor 360 0> mark @MC_bottom;\012  pos base wcircumflex <anchor 360 600> mark @MC_top;\012  pos base wcircumflex <anchor 360 0> mark @MC_bottom;\012  pos base ycircumflex <anchor 360 600> mark @MC_top;\012  pos base ycircumflex <anchor 360 0> mark @MC_bottom;\012  pos base zacute <anchor 360 600> mark @MC_top;\012  pos base zacute <anchor 360 0> mark @MC_bottom;\012  pos base zdotaccent <anchor 360 600> mark @MC_top;\012  pos base zdotaccent <anchor 360 0> mark @MC_bottom;\012  pos base zcaron <anchor 360 600> mark @MC_top;\012  pos base zcaron <anchor 360 0> mark @MC_bottom;\012  pos base scommaaccent <anchor 360 600> mark @MC_top;\012  pos base scommaaccent <anchor 360 0> mark @MC_bottom;\012  pos base tcommaaccent <anchor 360 600> mark @MC_top;\012  pos base tcommaaccent <anchor 360 0> mark @MC_bottom;\012  pos base jdotless <anchor 360 600> mark @MC_top;\012  pos base jdotless <anchor 360 0> mark @MC_bottom;\012  pos base wgrave <anchor 360 600> mark @MC_top;\012  pos base wgrave <anchor 360 0> mark @MC_bottom;\012  pos base wacute <anchor 360 600> mark @MC_top;\012  pos base wacute <anchor 360 0> mark @MC_bottom;\012  pos base wdieresis <anchor 360 600> mark @MC_top;\012  pos base wdieresis <anchor 360 0> mark @MC_bottom;\012  pos base ygrave <anchor 360 600> mark @MC_top;\012  pos base ygrave <anchor 360 0> mark @MC_bottom;\012  pos base Acyrillic <anchor 360 800> mark @MC_top;\012  pos base Acyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Becyrillic <anchor 360 800> mark @MC_top;\012  pos base Becyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Vecyrillic <anchor 360 800> mark @MC_top;\012  pos base Vecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Gecyrillic <anchor 360 800> mark @MC_top;\012  pos base Gecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Gheupturncyrillic <anchor 360 800> mark @MC_top;\012  pos base Gheupturncyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Decyrillic <anchor 360 800> mark @MC_top;\012  pos base Decyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Iecyrillic <anchor 360 800> mark @MC_top;\012  pos base Iecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Iocyrillic <anchor 360 800> mark @MC_top;\012  pos base Iocyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Zhecyrillic <anchor 360 800> mark @MC_top;\012  pos base Zhecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Zecyrillic <anchor 360 800> mark @MC_top;\012  pos base Zecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Iicyrillic <anchor 360 800> mark @MC_top;\012  pos base Iicyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Iishortcyrillic <anchor 360 800> mark @MC_top;\012  pos base Iishortcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Kacyrillic <anchor 360 800> mark @MC_top;\012  pos base Kacyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Elcyrillic <anchor 360 800> mark @MC_top;\012  pos base Elcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Emcyrillic <anchor 360 800> mark @MC_top;\012  pos base Emcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Encyrillic <anchor 360 800> mark @MC_top;\012  pos base Encyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Ocyrillic <anchor 360 800> mark @MC_top;\012  pos base Ocyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Pecyrillic <anchor 360 800> mark @MC_top;\012  pos base Pecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Ercyrillic <anchor 360 800> mark @MC_top;\012  pos base Ercyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Escyrillic <anchor 360 800> mark @MC_top;\012  pos base Escyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Tecyrillic <anchor 360 800> mark @MC_top;\012  pos base Tecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Ucyrillic <anchor 360 800> mark @MC_top;\012  pos base Ucyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Ushortcyrillic <anchor 360 800> mark @MC_top;\012  pos base Ushortcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Efcyrillic <anchor 360 800> mark @MC_top;\012  pos base Efcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Khacyrillic <anchor 360 800> mark @MC_top;\012  pos base Khacyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Checyrillic <anchor 360 800> mark @MC_top;\012  pos base Checyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Tsecyrillic <anchor 360 800> mark @MC_top;\012  pos base Tsecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Shacyrillic <anchor 360 800> mark @MC_top;\012  pos base Shacyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Shchacyrillic <anchor 360 800> mark @MC_top;\012  pos base Shchacyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Softsigncyrillic <anchor 360 800> mark @MC_top;\012  pos base Softsigncyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Yericyrillic <anchor 360 800> mark @MC_top;\012  pos base Yericyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Hardsigncyrillic <anchor 360 800> mark @MC_top;\012  pos base Hardsigncyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Ecyrillic <anchor 360 800> mark @MC_top;\012  pos base Ecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Ereversedcyrillic <anchor 360 800> mark @MC_top;\012  pos base Ereversedcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Icyrillic <anchor 360 800> mark @MC_top;\012  pos base Icyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Yicyrillic <anchor 360 800> mark @MC_top;\012  pos base Yicyrillic <anchor 360 0> mark @MC_bottom;\012  pos base IUcyrillic <anchor 360 800> mark @MC_top;\012  pos base IUcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base IAcyrillic <anchor 360 800> mark @MC_top;\012  pos base IAcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base acyrillic <anchor 360 600> mark @MC_top;\012  pos base acyrillic <anchor 360 0> mark @MC_bottom;\012  pos base becyrillic <anchor 360 600> mark @MC_top;\012  pos base becyrillic <anchor 360 0> mark @MC_bottom;\012  pos base vecyrillic <anchor 360 600> mark @MC_top;\012  pos base vecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base gecyrillic <anchor 360 600> mark @MC_top;\012  pos base gecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base gheupturncyrillic <anchor 360 600> mark @MC_top;\012  pos base gheupturncyrillic <anchor 360 0> mark @MC_bottom;\012  pos base decyrillic <anchor 360 600> mark @MC_top;\012  pos base decyrillic <anchor 360 0> mark @MC_bottom;\012  pos base iecyrillic <anchor 360 600> mark @MC_top;\012  pos base iecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base iocyrillic <anchor 360 600> mark @MC_top;\012  pos base iocyrillic <anchor 360 0> mark @MC_bottom;\012  pos base zhecyrillic <anchor 360 600> mark @MC_top;\012  pos base zhecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base zecyrillic <anchor 360 600> mark @MC_top;\012  pos base zecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base iicyrillic <anchor 360 600> mark @MC_top;\012  pos base iicyrillic <anchor 360 0> mark @MC_bottom;\012  pos base iishortcyrillic <anchor 360 600> mark @MC_top;\012  pos base iishortcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base kacyrillic <anchor 360 600> mark @MC_top;\012  pos base kacyrillic <anchor 360 0> mark @MC_bottom;\012  pos base elcyrillic <anchor 360 600> mark @MC_top;\012  pos base elcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base emcyrillic <anchor 360 600> mark @MC_top;\012  pos base emcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base encyrillic <anchor 360 600> mark @MC_top;\012  pos base encyrillic <anchor 360 0> mark @MC_bottom;\012  pos base ocyrillic <anchor 360 600> mark @MC_top;\012  pos base ocyrillic <anchor 360 0> mark @MC_bottom;\012  pos base pecyrillic <anchor 360 600> mark @MC_top;\012  pos base pecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base ercyrillic <anchor 360 600> mark @MC_top;\012  pos base ercyrillic <anchor 360 0> mark @MC_bottom;\012  pos base escyrillic <anchor 360 600> mark @MC_top;\012  pos base escyrillic <anchor 360 0> mark @MC_bottom;\012  pos base tecyrillic <anchor 360 600> mark @MC_top;\012  pos base tecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base ucyrillic <anchor 360 600> mark @MC_top;\012  pos base ucyrillic <anchor 360 0> mark @MC_bottom;\012  pos base ushortcyrillic <anchor 360 600> mark @MC_top;\012  pos base ushortcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base efcyrillic <anchor 360 600> mark @MC_top;\012  pos base efcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base khacyrillic <anchor 360 600> mark @MC_top;\012  pos base khacyrillic <anchor 360 0> mark @MC_bottom;\012  pos base checyrillic <anchor 360 600> mark @MC_top;\012  pos base checyrillic <anchor 360 0> mark @MC_bottom;\012  pos base tsecyrillic <anchor 360 600> mark @MC_top;\012  pos base tsecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base shacyrillic <anchor 360 600> mark @MC_top;\012  pos base shacyrillic <anchor 360 0> mark @MC_bottom;\012  pos base shchacyrillic <anchor 360 600> mark @MC_top;\012  pos base shchacyrillic <anchor 360 0> mark @MC_bottom;\012  pos base softsigncyrillic <anchor 360 600> mark @MC_top;\012  pos base softsigncyrillic <anchor 360 0> mark @MC_bottom;\012  pos base yericyrillic <anchor 360 600> mark @MC_top;\012  pos base yericyrillic <anchor 360 0> mark @MC_bottom;\012  pos base hardsigncyrillic <anchor 360 600> mark @MC_top;\012  pos base hardsigncyrillic <anchor 360 0> mark @MC_bottom;\012  pos base ecyrillic <anchor 360 600> mark @MC_top;\012  pos base ecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base ereversedcyrillic <anchor 360 600> mark @MC_top;\012  pos base ereversedcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base icyrillic <anchor 360 600> mark @MC_top;\012  pos base icyrillic <anchor 360 0> mark @MC_bottom;\012  pos base yicyrillic <anchor 360 600> mark @MC_top;\012  pos base yicyrillic <anchor 360 0> mark @MC_bottom;\012  pos base iucyrillic <anchor 360 600> mark @MC_top;\012  pos base iucyrillic <anchor 360 0> mark @MC_bottom;\012  pos base iacyrillic <anchor 360 600> mark @MC_top;\012  pos base iacyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Djecyrillic <anchor 360 800> mark @MC_top;\012  pos base Djecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Jecyrillic <anchor 360 800> mark @MC_top;\012  pos base Jecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Ljecyrillic <anchor 360 800> mark @MC_top;\012  pos base Ljecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Njecyrillic <anchor 360 800> mark @MC_top;\012  pos base Njecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Tshecyrillic <anchor 360 800> mark @MC_top;\012  pos base Tshecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Dzhecyrillic <anchor 360 800> mark @MC_top;\012  pos base Dzhecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Gestrokecyrillic <anchor 360 800> mark @MC_top;\012  pos base Gestrokecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Zhedescendercyrillic <anchor 360 800> mark @MC_top;\012  pos base Zhedescendercyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Kadescendercyrillic <anchor 360 800> mark @MC_top;\012  pos base Kadescendercyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Endescendercyrillic <anchor 360 800> mark @MC_top;\012  pos base Endescendercyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Ustraightcyrillic <anchor 360 800> mark @MC_top;\012  pos base Ustraightcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Ustraightstrokecyrillic <anchor 360 800> mark @MC_top;\012  pos base Ustraightstrokecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Hadescendercyrillic <anchor 360 800> mark @MC_top;\012  pos base Hadescendercyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Chedescendercyrillic <anchor 360 800> mark @MC_top;\012  pos base Chedescendercyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Shhacyrillic <anchor 360 800> mark @MC_top;\012  pos base Shhacyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Schwacyrillic <anchor 360 800> mark @MC_top;\012  pos base Schwacyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Imacroncyrillic <anchor 360 800> mark @MC_top;\012  pos base Imacroncyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Obarredcyrillic <anchor 360 800> mark @MC_top;\012  pos base Obarredcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base Umacroncyrillic <anchor 360 800> mark @MC_top;\012  pos base Umacroncyrillic <anchor 360 0> mark @MC_bottom;\012  pos base djecyrillic <anchor 360 600> mark @MC_top;\012  pos base djecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base jecyrillic <anchor 360 600> mark @MC_top;\012  pos base jecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base ljecyrillic <anchor 360 600> mark @MC_top;\012  pos base ljecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base njecyrillic <anchor 360 600> mark @MC_top;\012  pos base njecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base tshecyrillic <anchor 360 600> mark @MC_top;\012  pos base tshecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base dzhecyrillic <anchor 360 600> mark @MC_top;\012  pos base dzhecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base gestrokecyrillic <anchor 360 600> mark @MC_top;\012  pos base gestrokecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base zhedescendercyrillic <anchor 360 600> mark @MC_top;\012  pos base zhedescendercyrillic <anchor 360 0> mark @MC_bottom;\012  pos base kadescendercyrillic <anchor 360 600> mark @MC_top;\012  pos base kadescendercyrillic <anchor 360 0> mark @MC_bottom;\012  pos base endescendercyrillic <anchor 360 600> mark @MC_top;\012  pos base endescendercyrillic <anchor 360 0> mark @MC_bottom;\012  pos base ustraightcyrillic <anchor 360 600> mark @MC_top;\012  pos base ustraightcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base ustraightstrokecyrillic <anchor 360 600> mark @MC_top;\012  pos base ustraightstrokecyrillic <anchor 360 0> mark @MC_bottom;\012  pos base hadescendercyrillic <anchor 360 600> mark @MC_top;\012  pos base hadescendercyrillic <anchor 360 0> mark @MC_bottom;\012  pos base chedescendercyrillic <anchor 360 600> mark @MC_top;\012  pos base chedescendercyrillic <anchor 360 0> mark @MC_bottom;\012  pos base shhacyrillic <anchor 360 600> mark @MC_top;\012  pos base shhacyrillic <anchor 360 0> mark @MC_bottom;\012  pos base schwacyrillic <anchor 360 600> mark @MC_top;\012  pos base schwacyrillic <anchor 360 0> mark @MC_bottom;\012  pos base imacroncyrillic <anchor 360 600> mark @MC_top;\012  pos base imacroncyrillic <anchor 360 0> mark @MC_bottom;\012  pos base obarredcyrillic <anchor 360 600> mark @MC_top;\012  pos base obarredcyrillic <anchor 360 0> mark @MC_bottom;\012  pos base umacroncyrillic <anchor 360 600> mark @MC_top;\012  pos base umacroncyrillic <anchor 360 0> mark @MC_bottom;";
 name = mark;
 }
 );
@@ -577,11 +577,11 @@ value = 1;
 },
 {
 name = versionString;
-value = "Version 0.900";
+value = "Version 0.901";
 },
 {
 name = uniqueID;
-value = "0.900;NONE;KibernetykMono-Thin";
+value = "0.901;NONE;KibernetykMono-Thin";
 },
 {
 name = license;
@@ -650,11 +650,11 @@ value = 1;
 },
 {
 name = versionString;
-value = "Version 0.900";
+value = "Version 0.901";
 },
 {
 name = uniqueID;
-value = "0.900;NONE;KibernetykMono-ExtraLight";
+value = "0.901;NONE;KibernetykMono-ExtraLight";
 },
 {
 name = license;
@@ -724,11 +724,11 @@ value = 1;
 },
 {
 name = versionString;
-value = "Version 0.900";
+value = "Version 0.901";
 },
 {
 name = uniqueID;
-value = "0.900;NONE;KibernetykMono-Light";
+value = "0.901;NONE;KibernetykMono-Light";
 },
 {
 name = license;
@@ -794,11 +794,11 @@ value = 1;
 },
 {
 name = versionString;
-value = "Version 0.900";
+value = "Version 0.901";
 },
 {
 name = uniqueID;
-value = "0.900;NONE;KibernetykMono-Regular";
+value = "0.901;NONE;KibernetykMono-Regular";
 },
 {
 name = license;
@@ -868,11 +868,11 @@ value = 1;
 },
 {
 name = versionString;
-value = "Version 0.900";
+value = "Version 0.901";
 },
 {
 name = uniqueID;
-value = "0.900;NONE;KibernetykMono-Medium";
+value = "0.901;NONE;KibernetykMono-Medium";
 },
 {
 name = license;
@@ -942,11 +942,11 @@ value = 1;
 },
 {
 name = versionString;
-value = "Version 0.900";
+value = "Version 0.901";
 },
 {
 name = uniqueID;
-value = "0.900;NONE;KibernetykMono-SemiBold";
+value = "0.901;NONE;KibernetykMono-SemiBold";
 },
 {
 name = license;
@@ -1016,11 +1016,11 @@ value = 1;
 },
 {
 name = versionString;
-value = "Version 0.900";
+value = "Version 0.901";
 },
 {
 name = uniqueID;
-value = "0.900;NONE;KibernetykMono-Bold";
+value = "0.901;NONE;KibernetykMono-Bold";
 },
 {
 name = license;
@@ -16404,7 +16404,7 @@ note = "";
 unicode = 007A;
 },
 {
-glyphname = "0";
+glyphname = zero;
 layers = (
 {
 layerId = "C4069C76-296A-53F6-9022-8A66B2C9B970";
@@ -16701,7 +16701,7 @@ note = "";
 unicode = 0030;
 },
 {
-glyphname = "1";
+glyphname = one;
 layers = (
 {
 layerId = "C4069C76-296A-53F6-9022-8A66B2C9B970";
@@ -16876,7 +16876,7 @@ note = "";
 unicode = 0031;
 },
 {
-glyphname = "2";
+glyphname = two;
 layers = (
 {
 layerId = "C4069C76-296A-53F6-9022-8A66B2C9B970";
@@ -17114,7 +17114,7 @@ note = "";
 unicode = 0032;
 },
 {
-glyphname = "3";
+glyphname = three;
 layers = (
 {
 layerId = "C4069C76-296A-53F6-9022-8A66B2C9B970";
@@ -17352,7 +17352,7 @@ note = "";
 unicode = 0033;
 },
 {
-glyphname = "4";
+glyphname = four;
 layers = (
 {
 layerId = "C4069C76-296A-53F6-9022-8A66B2C9B970";
@@ -17562,7 +17562,7 @@ note = "";
 unicode = 0034;
 },
 {
-glyphname = "5";
+glyphname = five;
 layers = (
 {
 layerId = "C4069C76-296A-53F6-9022-8A66B2C9B970";
@@ -17800,7 +17800,7 @@ note = "";
 unicode = 0035;
 },
 {
-glyphname = "6";
+glyphname = six;
 layers = (
 {
 layerId = "C4069C76-296A-53F6-9022-8A66B2C9B970";
@@ -18087,7 +18087,7 @@ note = "";
 unicode = 0036;
 },
 {
-glyphname = "7";
+glyphname = seven;
 layers = (
 {
 layerId = "C4069C76-296A-53F6-9022-8A66B2C9B970";
@@ -18248,7 +18248,7 @@ note = "";
 unicode = 0037;
 },
 {
-glyphname = "8";
+glyphname = eight;
 layers = (
 {
 layerId = "C4069C76-296A-53F6-9022-8A66B2C9B970";
@@ -18619,7 +18619,7 @@ note = "";
 unicode = 0038;
 },
 {
-glyphname = "9";
+glyphname = nine;
 layers = (
 {
 layerId = "C4069C76-296A-53F6-9022-8A66B2C9B970";
@@ -89531,7 +89531,7 @@ note = "";
 unicode = 044F;
 },
 {
-glyphname = "Dje-cy";
+glyphname = Djecyrillic;
 layers = (
 {
 anchors = (
@@ -89843,7 +89843,7 @@ note = "";
 unicode = 0402;
 },
 {
-glyphname = "Je-cy";
+glyphname = Jecyrillic;
 layers = (
 {
 anchors = (
@@ -90102,7 +90102,7 @@ note = "";
 unicode = 0408;
 },
 {
-glyphname = "Lje-cy";
+glyphname = Ljecyrillic;
 layers = (
 {
 anchors = (
@@ -90445,7 +90445,7 @@ note = "";
 unicode = 0409;
 },
 {
-glyphname = "Nje-cy";
+glyphname = Njecyrillic;
 layers = (
 {
 anchors = (
@@ -90795,7 +90795,7 @@ note = "";
 unicode = 040A;
 },
 {
-glyphname = "Tshe-cy";
+glyphname = Tshecyrillic;
 layers = (
 {
 anchors = (
@@ -91079,7 +91079,7 @@ note = "";
 unicode = 040B;
 },
 {
-glyphname = "Dzhe-cy";
+glyphname = Dzhecyrillic;
 layers = (
 {
 anchors = (
@@ -91324,7 +91324,7 @@ note = "";
 unicode = 040F;
 },
 {
-glyphname = "Gestroke-cy";
+glyphname = Gestrokecyrillic;
 layers = (
 {
 anchors = (
@@ -91583,7 +91583,7 @@ note = "";
 unicode = 0492;
 },
 {
-glyphname = "Zhedescender-cy";
+glyphname = Zhedescendercyrillic;
 layers = (
 {
 anchors = (
@@ -91943,7 +91943,7 @@ note = "";
 unicode = 0496;
 },
 {
-glyphname = "Kadescender-cy";
+glyphname = Kadescendercyrillic;
 layers = (
 {
 anchors = (
@@ -92251,7 +92251,7 @@ note = "";
 unicode = 049A;
 },
 {
-glyphname = "Endescender-cy";
+glyphname = Endescendercyrillic;
 layers = (
 {
 anchors = (
@@ -92524,7 +92524,7 @@ note = "";
 unicode = 04A2;
 },
 {
-glyphname = "Ustraight-cy";
+glyphname = Ustraightcyrillic;
 layers = (
 {
 anchors = (
@@ -92762,7 +92762,7 @@ note = "";
 unicode = 04AE;
 },
 {
-glyphname = "Ustraightstroke-cy";
+glyphname = Ustraightstrokecyrillic;
 layers = (
 {
 anchors = (
@@ -93044,7 +93044,7 @@ note = "";
 unicode = 04B0;
 },
 {
-glyphname = "Hadescender-cy";
+glyphname = Hadescendercyrillic;
 layers = (
 {
 anchors = (
@@ -93373,7 +93373,7 @@ note = "";
 unicode = 04B2;
 },
 {
-glyphname = "Chedescender-cy";
+glyphname = Chedescendercyrillic;
 layers = (
 {
 anchors = (
@@ -93660,7 +93660,7 @@ note = "";
 unicode = 04B6;
 },
 {
-glyphname = "Shha-cy";
+glyphname = Shhacyrillic;
 layers = (
 {
 anchors = (
@@ -93915,7 +93915,7 @@ note = "";
 unicode = 04BA;
 },
 {
-glyphname = "Schwa-cy";
+glyphname = Schwacyrillic;
 layers = (
 {
 anchors = (
@@ -94258,7 +94258,7 @@ note = "";
 unicode = 04D8;
 },
 {
-glyphname = "Imacron-cy";
+glyphname = Imacroncyrillic;
 layers = (
 {
 anchors = (
@@ -94370,7 +94370,7 @@ note = "";
 unicode = 04E2;
 },
 {
-glyphname = "Obarred-cy";
+glyphname = Obarredcyrillic;
 layers = (
 {
 anchors = (
@@ -94741,7 +94741,7 @@ note = "";
 unicode = 04E8;
 },
 {
-glyphname = "Umacron-cy";
+glyphname = Umacroncyrillic;
 layers = (
 {
 anchors = (
@@ -94853,7 +94853,7 @@ note = "";
 unicode = 04EE;
 },
 {
-glyphname = "dje-cy";
+glyphname = djecyrillic;
 layers = (
 {
 anchors = (
@@ -95193,7 +95193,7 @@ note = "";
 unicode = 0452;
 },
 {
-glyphname = "je-cy";
+glyphname = jecyrillic;
 layers = (
 {
 anchors = (
@@ -95487,7 +95487,7 @@ note = "";
 unicode = 0458;
 },
 {
-glyphname = "lje-cy";
+glyphname = ljecyrillic;
 layers = (
 {
 anchors = (
@@ -95830,7 +95830,7 @@ note = "";
 unicode = 0459;
 },
 {
-glyphname = "nje-cy";
+glyphname = njecyrillic;
 layers = (
 {
 anchors = (
@@ -96180,7 +96180,7 @@ note = "";
 unicode = 045A;
 },
 {
-glyphname = "tshe-cy";
+glyphname = tshecyrillic;
 layers = (
 {
 anchors = (
@@ -96492,7 +96492,7 @@ note = "";
 unicode = 045B;
 },
 {
-glyphname = "dzhe-cy";
+glyphname = dzhecyrillic;
 layers = (
 {
 anchors = (
@@ -96737,7 +96737,7 @@ note = "";
 unicode = 045F;
 },
 {
-glyphname = "gestroke-cy";
+glyphname = gestrokecyrillic;
 layers = (
 {
 anchors = (
@@ -96996,7 +96996,7 @@ note = "";
 unicode = 0493;
 },
 {
-glyphname = "zhedescender-cy";
+glyphname = zhedescendercyrillic;
 layers = (
 {
 anchors = (
@@ -97360,7 +97360,7 @@ note = "";
 unicode = 0497;
 },
 {
-glyphname = "kadescender-cy";
+glyphname = kadescendercyrillic;
 layers = (
 {
 anchors = (
@@ -97667,7 +97667,7 @@ note = "";
 unicode = 049B;
 },
 {
-glyphname = "endescender-cy";
+glyphname = endescendercyrillic;
 layers = (
 {
 anchors = (
@@ -97940,7 +97940,7 @@ note = "";
 unicode = 04A3;
 },
 {
-glyphname = "ustraight-cy";
+glyphname = ustraightcyrillic;
 layers = (
 {
 anchors = (
@@ -98178,7 +98178,7 @@ note = "";
 unicode = 04AF;
 },
 {
-glyphname = "ustraightstroke-cy";
+glyphname = ustraightstrokecyrillic;
 layers = (
 {
 anchors = (
@@ -98462,7 +98462,7 @@ note = "";
 unicode = 04B1;
 },
 {
-glyphname = "hadescender-cy";
+glyphname = hadescendercyrillic;
 layers = (
 {
 anchors = (
@@ -98791,7 +98791,7 @@ note = "";
 unicode = 04B3;
 },
 {
-glyphname = "chedescender-cy";
+glyphname = chedescendercyrillic;
 layers = (
 {
 anchors = (
@@ -99078,7 +99078,7 @@ note = "";
 unicode = 04B7;
 },
 {
-glyphname = "shha-cy";
+glyphname = shhacyrillic;
 layers = (
 {
 anchors = (
@@ -99337,7 +99337,7 @@ note = "";
 unicode = 04BB;
 },
 {
-glyphname = "schwa-cy";
+glyphname = schwacyrillic;
 layers = (
 {
 anchors = (
@@ -99680,7 +99680,7 @@ note = "";
 unicode = 04D9;
 },
 {
-glyphname = "imacron-cy";
+glyphname = imacroncyrillic;
 layers = (
 {
 anchors = (
@@ -99792,7 +99792,7 @@ note = "";
 unicode = 04E3;
 },
 {
-glyphname = "obarred-cy";
+glyphname = obarredcyrillic;
 layers = (
 {
 anchors = (
@@ -100163,7 +100163,7 @@ note = "";
 unicode = 04E9;
 },
 {
-glyphname = "umacron-cy";
+glyphname = umacroncyrillic;
 layers = (
 {
 anchors = (
@@ -100462,5 +100462,5 @@ tildecomb = mark;
 };
 };
 versionMajor = 0;
-versionMinor = 900;
+versionMinor = 901;
 }

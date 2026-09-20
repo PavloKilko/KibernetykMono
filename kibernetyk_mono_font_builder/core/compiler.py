@@ -187,6 +187,21 @@ def _layout_feature_text(
             dotless_bases[dotted_codepoint] = dotless
 
     ccmp_rules: list[str] = []
+    caron_alternate_glyphs = {
+        "L",
+        "d",
+        "l",
+        "t",
+        "caroncomb",
+        "caroncomb.alt",
+    }
+    if caron_alternate_glyphs <= glyphs_by_name.keys():
+        # Czech and Slovak use an apostrophe-like caron beside tall letters.
+        # The alternate is already drawn at its final zero-width position, so
+        # substitute it before mark positioning instead of attaching it above.
+        ccmp_rules.append(
+            "  sub [L d l t] caroncomb' by caroncomb.alt;"
+        )
     for glyph in glyphs:
         if glyph.codepoint is None or glyph.objects:
             continue

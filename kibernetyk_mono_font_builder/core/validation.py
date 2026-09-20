@@ -4,10 +4,14 @@ from __future__ import annotations
 
 from collections.abc import Sequence
 import math
+import re
 import unicodedata
 
 from .config import ADVANCE_WIDTH
 from .model import GlyphDefinition
+
+
+VALID_GLYPH_NAME = re.compile(r"(?:\.notdef|[A-Za-z][A-Za-z0-9_.]{0,62})\Z")
 
 
 def validate_glyphs(glyphs: Sequence[GlyphDefinition]) -> None:
@@ -15,6 +19,12 @@ def validate_glyphs(glyphs: Sequence[GlyphDefinition]) -> None:
     codepoints: set[int] = set()
 
     for glyph in glyphs:
+        if VALID_GLYPH_NAME.fullmatch(glyph.name) is None:
+            raise ValueError(
+                f"Invalid PostScript glyph name: {glyph.name!r}. "
+                "Use 1-63 ASCII letters, digits, periods, or underscores; "
+                "start with a letter (except for '.notdef')."
+            )
         if glyph.name in names:
             raise ValueError(f"Duplicate glyph name: {glyph.name}")
         names.add(glyph.name)

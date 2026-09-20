@@ -12,7 +12,7 @@ def build_0(width: float) -> GlyphDefinition:
     diagonal_offset = (math.sqrt(2) - 1) * radius
     slash_y_offset = radius / 2
 
-    glyph = init_glyph("0", "0")
+    glyph = init_glyph("zero", "0")
     glyph.add(
         polyline(
             width,
@@ -42,7 +42,7 @@ def build_0(width: float) -> GlyphDefinition:
 def build_1(width: float) -> GlyphDefinition:
     radius = width / 2
 
-    glyph = init_glyph("1", "1")
+    glyph = init_glyph("one", "1")
     # glyph.add(
     #     polyline(
     #         width,
@@ -84,7 +84,7 @@ def build_2(width: float) -> GlyphDefinition:
     radius = width / 2
     diagonal_offset = (math.sqrt(2) - 1) * radius
 
-    glyph = init_glyph("2", "2")
+    glyph = init_glyph("two", "2")
     glyph.add(
         polyline(
             width,
@@ -108,7 +108,7 @@ def build_3(width: float) -> GlyphDefinition:
     radius = width / 2
     diagonal_offset = (math.sqrt(2) - 1) * radius
 
-    glyph = init_glyph("3", "3")
+    glyph = init_glyph("three", "3")
     glyph.add(
         polyline(
             width,
@@ -134,7 +134,7 @@ def build_4(width: float) -> GlyphDefinition:
     diagonal_y_offset = (9 / math.sqrt(145)) * radius
     corner_y_offset = (9 / 8) * radius
 
-    glyph = init_glyph("4", "4")
+    glyph = init_glyph("four", "4")
     # glyph.add(
     #     polyline(
     #         width,
@@ -171,7 +171,7 @@ def build_5(width: float) -> GlyphDefinition:
     radius = width / 2
     diagonal_offset = (math.sqrt(2) - 1) * radius
 
-    glyph = init_glyph("5", "5")
+    glyph = init_glyph("five", "5")
     glyph.add(
         polyline(
             width,
@@ -195,7 +195,7 @@ def build_6(width: float) -> GlyphDefinition:
     radius = width / 2
     diagonal_offset = (math.sqrt(2) - 1) * radius
 
-    glyph = init_glyph("6", "6")
+    glyph = init_glyph("six", "6")
     glyph.add(
         polyline(
             width,
@@ -220,7 +220,7 @@ def build_7(width: float) -> GlyphDefinition:
     radius = width / 2
     diagonal_y_offset = (5 / 6) * radius
 
-    glyph = init_glyph("7", "7")
+    glyph = init_glyph("seven", "7")
     glyph.add(
         polyline(
             width,
@@ -240,7 +240,7 @@ def build_8(width: float) -> GlyphDefinition:
     # diagonal_offset = (math.sqrt(2) - 1) * radius
     # middle_offset = radius - diagonal_offset
 
-    # glyph = init_glyph("8", "8")
+    # glyph = init_glyph("eight", "8")
     # glyph.add(
     #     polyline(
     #         width,
@@ -275,7 +275,7 @@ def build_8(width: float) -> GlyphDefinition:
     diagonal_offset = (math.sqrt(2) - 1) * radius
     middle_offset = radius - diagonal_offset
 
-    glyph = init_glyph("8", "8")
+    glyph = init_glyph("eight", "8")
 
     glyph.add(
         polyline(
@@ -319,7 +319,7 @@ def build_9(width: float) -> GlyphDefinition:
     radius = width / 2
     diagonal_offset = (math.sqrt(2) - 1) * radius
 
-    glyph = init_glyph("9", "9")
+    glyph = init_glyph("nine", "9")
     glyph.add(
         polyline(
             width,

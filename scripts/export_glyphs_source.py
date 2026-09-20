@@ -23,6 +23,7 @@ from ufoLib2.objects.anchor import Anchor
 
 from kibernetyk_mono_font_builder.core.compiler import _layout_feature_text
 from kibernetyk_mono_font_builder.core.config import (
+    VERSION,
     WEIGHT_CLASSES,
     WEIGHT_STYLE_NAMES,
     WEIGHT_WIDTHS,
@@ -139,8 +140,9 @@ def _export_ufo(
 
 def _add_instances(source_path: Path) -> None:
     source = glyphsLib.load(source_path)
-    source.versionMajor = 0
-    source.versionMinor = 900
+    version_major, version_minor = VERSION.split(".", maxsplit=1)
+    source.versionMajor = int(version_major)
+    source.versionMinor = int(version_minor)
     source.instances = []
 
     master_ids: dict[str, str] = {}

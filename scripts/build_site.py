@@ -24,7 +24,12 @@ sys.path.insert(0, str(PROJECT))
 from fontTools.ttLib import TTFont
 from kibernetyk_mono_font_builder import build_ttf, render_glyphs
 from kibernetyk_mono_font_builder.core.config import (
-    FONT_METADATA, VERSION, WEIGHT_CLASSES, WEIGHT_STYLE_NAMES, WEIGHT_WIDTHS,
+    FONT_METADATA,
+    RELEASE_VERSION,
+    VERSION,
+    WEIGHT_CLASSES,
+    WEIGHT_STYLE_NAMES,
+    WEIGHT_WIDTHS,
 )
 
 
@@ -53,7 +58,11 @@ def main() -> None:
         type=Path,
         help="Directory containing prebuilt KibernetykMono-*.ttf files",
     )
-    parser.add_argument("--release", default="v0.9.0", help="Human-readable release label")
+    parser.add_argument(
+        "--release",
+        default=f"v{RELEASE_VERSION}",
+        help="Human-readable release label",
+    )
     parser.add_argument("--output", type=Path, default=PROJECT / "docs")
     options = parser.parse_args()
 
@@ -179,4 +188,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
