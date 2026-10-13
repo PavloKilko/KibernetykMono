@@ -379,8 +379,8 @@ def build_m(width: float) -> GlyphDefinition:
                 (200, 600 - radius),
                 (300, 500 - radius),
                 (400, 600 - radius),
-                (500 - diagonal_offset, 600 - radius),
-                (600 - radius, 500 - diagonal_offset),
+                (475 - diagonal_offset, 600 - radius),
+                (600 - radius, 475 - diagonal_offset),
                 (600 - radius, radius),
             ],
         )
