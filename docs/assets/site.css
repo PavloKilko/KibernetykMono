@@ -206,10 +206,6 @@ select {
 .no-results { grid-column: 1 / -1; padding: 40px 20px; font-size: 15px; }
 .glyph-canvas {
   background-color: var(--yellow);
-  background-image:
-    linear-gradient(#0000000c 1px, transparent 1px),
-    linear-gradient(90deg, #0000000c 1px, transparent 1px);
-  background-size: 40px 40px;
   border: 1px solid;
 }
 #glyph-preview {
@@ -523,4 +519,3 @@ select {
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
-

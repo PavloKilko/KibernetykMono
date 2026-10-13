@@ -77,7 +77,25 @@
         <aside class="glyph-detail" aria-label="Selected character">
           <div class="glyph-canvas">
             <svg id="glyph-preview" viewBox="0 0 420 480" role="img" aria-label="CYRILLIC CAPITAL LETTER ZHE">
-              <text id="selected-glyph" class="font-sample" x="150" y="300" font-size="100">Ж</text>
+              <!-- At 280px per 1000 font units, design (0, 0) maps to (126, 352),
+                   including the 60-unit side margin inside the 720-unit advance. -->
+              <defs>
+                <pattern id="glyph-grid-minor" x="126" y="352" width="14" height="14" patternUnits="userSpaceOnUse">
+                  <path d="M 14 0 H 0 V 14" fill="none" stroke="currentColor" stroke-opacity="0.05" vector-effect="non-scaling-stroke" />
+                </pattern>
+                <pattern id="glyph-grid-major" x="126" y="352" width="28" height="28" patternUnits="userSpaceOnUse">
+                  <path d="M 28 0 H 0 V 28" fill="none" stroke="currentColor" stroke-opacity="0.1" vector-effect="non-scaling-stroke" />
+                </pattern>
+              </defs>
+              <g aria-hidden="true" pointer-events="none">
+                <rect width="420" height="480" fill="url(#glyph-grid-minor)" />
+                <rect width="420" height="480" fill="url(#glyph-grid-major)" />
+                <!-- Local x = 0/600; cap height y = 800; lowercase height y = 600. -->
+                <path d="M 126 0 V 480 M 294 0 V 480 M 0 128 H 420 M 0 184 H 420" fill="none" stroke="currentColor" stroke-opacity="0.16" vector-effect="non-scaling-stroke" />
+                <path d="M 0 352 H 420" fill="none" stroke="currentColor" stroke-opacity="0.25" vector-effect="non-scaling-stroke" />
+              </g>
+              <!-- One shared scale and baseline; reserve space for accents and descenders. -->
+              <text id="selected-glyph" class="font-sample" x="210" y="352" font-size="280" text-anchor="middle">Ж</text>
             </svg>
           </div>
           <div class="glyph-info">

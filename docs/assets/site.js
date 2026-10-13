@@ -231,19 +231,6 @@
     return glyph.category === "marks" ? "a" + glyph.character : glyph.character;
   }
 
-  function fitGlyph() {
-    const text = $("#selected-glyph");
-    text.removeAttribute("transform");
-    text.setAttribute("x", "0");
-    text.setAttribute("y", "0");
-    const box = text.getBBox();
-    if (!box.width || !box.height) return;
-    const scale = Math.min(300 / box.width, 340 / box.height, 2.8);
-    const x = 210 - (box.x + box.width / 2) * scale;
-    const y = 240 - (box.y + box.height / 2) * scale;
-    text.setAttribute("transform", "translate(" + x + " " + y + ") scale(" + scale + ")");
-  }
-
   function selectGlyph(glyph) {
     selected = glyph;
     $("#selected-glyph").textContent = displayedCharacter(glyph);
@@ -253,7 +240,6 @@
       "aria-pressed",
       String(Number(button.dataset.codepoint) === glyph.codepoint)
     ));
-    requestAnimationFrame(fitGlyph);
   }
 
   function renderGlyphs() {
@@ -309,7 +295,6 @@
       if (!faces.length) throw new Error("No font loaded");
       $("#font-error").hidden = true;
       root.dataset.fontReady = "true";
-      requestAnimationFrame(fitGlyph);
     } catch {
       if (request !== fontRequest) return;
       $("#font-error").textContent = "The font could not load. Refresh the page or rebuild the website assets.";
@@ -364,4 +349,3 @@
   renderGlyphs();
   applyFont();
 })();
-
