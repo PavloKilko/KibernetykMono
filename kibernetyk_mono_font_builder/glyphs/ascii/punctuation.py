@@ -259,12 +259,12 @@ def build_parenleft(width: float) -> GlyphDefinition:
         polyline(
             width,
             [
-                (550 - radius, -150 + radius),
+                (600 - radius, -150 + radius),
                 (400 - diagonal_offset, -150 + radius),
-                (250, inner_y_offset),
-                (250, 800 - inner_y_offset),
+                (200, 50 + inner_y_offset),
+                (200, 750 - inner_y_offset),
                 (400 - diagonal_offset, 950 - radius),
-                (550 - radius, 950 - radius),
+                (600 - radius, 950 - radius),
             ],
         )
     )
@@ -280,12 +280,12 @@ def build_parenright(width: float) -> GlyphDefinition:
         polyline(
             width,
             [
-                (50 + radius, -150 + radius),
+                (0 + radius, -150 + radius),
                 (200 + diagonal_offset, -150 + radius),
-                (350, inner_y_offset),
-                (350, 800 - inner_y_offset),
+                (400, 50 + inner_y_offset),
+                (400, 750 - inner_y_offset),
                 (200 + diagonal_offset, 950 - radius),
-                (50 + radius, 950 - radius),
+                (0 + radius, 950 - radius),
             ],
         )
     )
@@ -688,10 +688,10 @@ def build_bracketleft(width: float) -> GlyphDefinition:
         polyline(
             width,
             [
-                (550 - radius, -150 + radius),
+                (600 - radius, -150 + radius),
                 (250 + radius, -150 + radius),
                 (250 + radius, 950 - radius),
-                (550 - radius, 950 - radius),
+                (600 - radius, 950 - radius),
             ],
         )
     )
@@ -727,10 +727,10 @@ def build_bracketright(width: float) -> GlyphDefinition:
         polyline(
             width,
             [
-                (50 + radius, -150 + radius),
+                (0 + radius, -150 + radius),
                 (350 - radius, -150 + radius),
                 (350 - radius, 950 - radius),
-                (50 + radius, 950 - radius),
+                (0 + radius, 950 - radius),
             ],
         )
     )
