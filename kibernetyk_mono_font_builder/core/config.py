@@ -2,10 +2,10 @@
 
 FAMILY_NAME = "Kibernetyk Mono"
 ROUNDED_FAMILY_NAME = f"{FAMILY_NAME} Rounded"
-RELEASE_VERSION = "0.9.1"
+RELEASE_VERSION = "1.0.0"
 # OpenType name ID 5 and head.fontRevision use MAJOR.MINOR notation.
 # Version 0.901 corresponds to the project release tag v0.9.1.
-VERSION = "0.901"
+VERSION = "1.000"
 
 # Editable OpenType name-table metadata. Fill in the blank values before a
 # public release; blank entries are omitted from generated fonts.
