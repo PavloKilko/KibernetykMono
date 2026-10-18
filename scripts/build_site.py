@@ -2,7 +2,7 @@
 
 Run from the repository root: python scripts/build_site.py
 Use --regular-only for a quicker local preview.
-Use --font-source fonts/ttf to package existing canonical TTFs without rebuilding.
+Site fonts are always compiled from glyph sources, independently of fonts/ttf.
 """
 
 from __future__ import annotations
@@ -14,7 +14,6 @@ from pathlib import Path
 import re
 import shutil
 import sys
-from tempfile import TemporaryDirectory
 import unicodedata
 from zipfile import ZIP_DEFLATED, ZipFile
 
@@ -24,6 +23,7 @@ sys.path.insert(0, str(PROJECT))
 from fontTools.ttLib import TTFont
 from kibernetyk_mono_font_builder import build_ttf, render_glyphs
 from kibernetyk_mono_font_builder.core.config import (
+    FAMILY_NAME,
     FONT_METADATA,
     RELEASE_VERSION,
     VERSION,
@@ -54,24 +54,12 @@ def main() -> None:
     # Retained for existing deployment commands; all weights are now the default.
     selection.add_argument("--all-weights", action="store_true", help=argparse.SUPPRESS)
     parser.add_argument(
-        "--font-source",
-        type=Path,
-        help="Directory containing prebuilt KibernetykMono-*.ttf files",
-    )
-    parser.add_argument(
         "--release",
         default=f"v{RELEASE_VERSION}",
         help="Human-readable release label",
     )
     parser.add_argument("--output", type=Path, default=PROJECT / "docs")
     options = parser.parse_args()
-
-    font_source = options.font_source
-    if font_source is not None:
-        font_source = font_source if font_source.is_absolute() else PROJECT / font_source
-        font_source = font_source.resolve()
-        if not font_source.is_dir():
-            parser.error(f"font source directory does not exist: {font_source}")
 
     assets = options.output / "assets"
     fonts_dir = assets / "fonts"
@@ -86,58 +74,48 @@ def main() -> None:
     glyph_count = 0
     stylistic_sets = set()
 
-    with TemporaryDirectory(prefix="kibernetyk-site-") as temporary:
-        for weight in weights:
-            filename = f"KibernetykMono-{WEIGHT_STYLE_NAMES[weight]}.ttf"
-            if font_source is None:
-                glyphs = render_glyphs(WEIGHT_WIDTHS[weight], rounded=False)
-                compiled = build_ttf(
-                    glyphs, Path(temporary) / filename, weight, rounded=False
-                )
-            else:
-                compiled = font_source / filename
-                if not compiled.is_file():
-                    parser.error(f"missing font: {compiled}")
-
-            digest = hashlib.sha256(compiled.read_bytes()).hexdigest()[:12]
-            destination = fonts_dir / filename
-            if compiled.resolve() != destination.resolve():
-                shutil.copyfile(compiled, destination)
-            font_files.append(destination)
-            css.append(
-                "@font-face {\n"
-                '  font-family: "Kibernetyk Web";\n'
-                f'  src: url("./fonts/{filename}?v={digest}") format("truetype");\n'
-                f"  font-weight: {WEIGHT_CLASSES[weight]};\n"
-                "  font-style: normal;\n"
-                "  font-display: swap;\n"
-                "}\n"
-            )
-            metadata.append({
-                "family": "Kibernetyk Web",
-                "weight": WEIGHT_CLASSES[weight],
-                "style": WEIGHT_STYLE_NAMES[weight],
-            })
-            if weight == "regular":
-                with TTFont(compiled) as font:
-                    glyph_count = len(font.getGlyphOrder())
-                    if "GSUB" in font and font["GSUB"].table.FeatureList:
-                        stylistic_sets = {
-                            feature.FeatureTag
-                            for feature in font["GSUB"].table.FeatureList.FeatureRecord
-                            if re.fullmatch(r"ss(?:0[1-9]|1[0-9]|20)", feature.FeatureTag)
-                        }
-                    for codepoint, glyph_name in sorted(font.getBestCmap().items()):
-                        character = chr(codepoint)
-                        characters.append({
-                            "codepoint": codepoint,
-                            "character": character,
-                            "unicode": f"U+{codepoint:04X}",
-                            "name": unicodedata.name(character, glyph_name),
-                            "glyphName": glyph_name,
-                            "category": character_category(character),
-                        })
-            print(f"Font: {destination.relative_to(options.output)}")
+    for weight in weights:
+        filename = f"KibernetykMono-{WEIGHT_STYLE_NAMES[weight]}.ttf"
+        glyphs = render_glyphs(WEIGHT_WIDTHS[weight], rounded=False)
+        destination = build_ttf(
+            glyphs, fonts_dir / filename, weight, rounded=False
+        )
+        digest = hashlib.sha256(destination.read_bytes()).hexdigest()[:12]
+        font_files.append(destination)
+        css.append(
+            "@font-face {\n"
+            f'  font-family: "{FAMILY_NAME}";\n'
+            f'  src: url("./fonts/{filename}?v={digest}") format("truetype");\n'
+            f"  font-weight: {WEIGHT_CLASSES[weight]};\n"
+            "  font-style: normal;\n"
+            "  font-display: swap;\n"
+            "}\n"
+        )
+        metadata.append({
+            "family": FAMILY_NAME,
+            "weight": WEIGHT_CLASSES[weight],
+            "style": WEIGHT_STYLE_NAMES[weight],
+        })
+        if weight == "regular":
+            with TTFont(destination) as font:
+                glyph_count = len(font.getGlyphOrder())
+                if "GSUB" in font and font["GSUB"].table.FeatureList:
+                    stylistic_sets = {
+                        feature.FeatureTag
+                        for feature in font["GSUB"].table.FeatureList.FeatureRecord
+                        if re.fullmatch(r"ss(?:0[1-9]|1[0-9]|20)", feature.FeatureTag)
+                    }
+                for codepoint, glyph_name in sorted(font.getBestCmap().items()):
+                    character = chr(codepoint)
+                    characters.append({
+                        "codepoint": codepoint,
+                        "character": character,
+                        "unicode": f"U+{codepoint:04X}",
+                        "name": unicodedata.name(character, glyph_name),
+                        "glyphName": glyph_name,
+                        "category": character_category(character),
+                    })
+        print(f"Font: {destination.relative_to(options.output)}")
 
     for filename in ("OFL.txt", "AUTHORS.txt"):
         shutil.copyfile(PROJECT / filename, downloads / filename)

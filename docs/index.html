@@ -50,7 +50,7 @@
       <h2 id="glyph-title" class="sr-only">Glyphs</h2>
       <dl class="font-facts">
         <div><dt>Weights</dt><dd id="weight-count">7</dd></div>
-        <div><dt>Glyphs</dt><dd id="glyph-total">440</dd></div>
+        <div><dt>Glyphs</dt><dd id="glyph-total">600</dd></div>
         <div><dt>Scripts</dt><dd id="script-count" title="Latin and Cyrillic">2</dd></div>
       </dl>
       <div class="glyph-toolbar">
@@ -134,6 +134,77 @@
       </div>
     </section>
 
+    <section class="section graphics-section" id="terminal" aria-labelledby="terminal-title">
+      <h2 id="terminal-title" class="section-title">Block element support</h2>
+      <p class="sr-only" id="terminal-description">Sample output for four GPUs, with memory and utilization bars, a process table, and load history. Drawn entirely with the font's box-drawing and block characters. Scroll horizontally to view the full specimen on smaller screens.</p>
+      <pre class="graphics-specimen terminal-specimen font-sample" tabindex="0" role="region" aria-labelledby="terminal-title" aria-describedby="terminal-description">┌──────────────────────────────────────────────────────────────────────────────┐
+│ <span class="terminal-accent">NVIDIA-SMI</span>                                               SAMPLE OUTPUT       │
+│ Driver 550.54.15    CUDA 12.4    Refresh 1.0s                                │
+├──────────────────────────┬────────────────────────┬──────────────────────────┤
+│ GPU / DEVICE             │ MEMORY USAGE           │ UTILIZATION / STATE      │
+╞══════════════════════════╪════════════════════════╪══════════════════════════╡
+│ 0  Tesla V100-SXM2       │ 369 / 16384 MiB        │ 98%  P0  DEFAULT         │
+│ 63C   234W / 300W        │ ▌░░░░░░░░░░░░░░░░░░░   │ ███████████████████▋     │
+│ PCIe 18:00.0             │ ECC 0                  │ COMPUTE / RUNNING        │
+├──────────────────────────┼────────────────────────┼──────────────────────────┤
+│ 1  Tesla V100-SXM2       │ 15653 / 16384 MiB      │ 100%  P0  DEFAULT        │
+│ 51C   300W / 300W        │ ███████████████████▏   │ ████████████████████     │
+│ PCIe 3B:00.0             │ ECC 0                  │ COMPUTE / RUNNING        │
+├──────────────────────────┼────────────────────────┼──────────────────────────┤
+│ 2  Tesla V100-SXM2       │ 369 / 16384 MiB        │ 95%  P0  DEFAULT         │
+│ 50C   221W / 300W        │ ▌░░░░░░░░░░░░░░░░░░░   │ ███████████████████░     │
+│ PCIe 86:00.0             │ ECC 0                  │ COMPUTE / RUNNING        │
+├──────────────────────────┼────────────────────────┼──────────────────────────┤
+│ 3  Tesla V100-SXM2       │ 369 / 16384 MiB        │ 96%  P0  DEFAULT         │
+│ 63C   233W / 300W        │ ▌░░░░░░░░░░░░░░░░░░░   │ ███████████████████▎     │
+│ PCIe AF:00.0             │ ECC 0                  │ COMPUTE / RUNNING        │
+├──────────────────────────┴────────────────────────┴──────────────────────────┤
+│ PROCESSES                                                                    │
+├─────┬──────────┬───────┬────────────────────────────────────┬────────────────┤
+│ GPU │ PID      │ TYPE  │ PROCESS                            │ GPU MEMORY     │
+╞═════╪══════════╪═══════╪════════════════════════════════════╪════════════════╡
+│ 0   │ 4151582  │ C     │ python3 inference.py               │ 366 MiB        │
+│ 1   │ 1778927  │ C     │ python train_model.py              │ 15650 MiB      │
+│ 2   │ 4154572  │ C     │ python3 inference.py               │ 366 MiB        │
+│ 3   │ 4155061  │ C     │ python3 inference.py               │ 366 MiB        │
+├─────┴──────────┴───────┴────────────────────────────────────┴────────────────┤
+│ LOAD HISTORY  ▁▂▃▅▇█▇▆▅▃▂▁▂▄▆█▇▅▄▃▅▆▇█▇▆▅▃▁▂▃▅▇█▆▄▂▁▃▆█▇▅▄                   │
+│ VRAM 16760 / 65536 MiB    POWER 988 / 1200 W    AVG LOAD 97%                 │
+└──────────────────────────────────────────────────────────────────────────────┘</pre>
+    </section>
+
+    <section class="section graphics-section" id="diagram" aria-labelledby="diagram-title">
+      <h2 id="diagram-title" class="section-title">Box-drawing support</h2>
+      <p class="sr-only" id="diagram-description">A text-based processing diagram: input connects to a processor and output. A queue, metrics, and storage connect below them through a shared observability bus. Box-drawing characters form the connectors and shaded blocks form the shadows. Scroll horizontally to view the full specimen on smaller screens.</p>
+      <pre class="graphics-specimen diagram-specimen font-sample" tabindex="0" role="region" aria-labelledby="diagram-title" aria-describedby="diagram-description">  <strong class="document-accent">GLUSHKOV SYSTEMS</strong>                                              <strong class="document-accent">SCHEMATIC 01</strong>
+  DATA PROCESSING / NODE MAP
+
+
+  ┌──────────────────┐        ┌──────────────────┐        ┌──────────────────┐
+  │      INPUT       │░       │    PROCESSOR     │░       │      OUTPUT      │░
+  │ packets / stdin  ├────────┤ parse + validate ├────────┤  files / stdout  │░
+  │                  │░       │                  │░       │                  │░
+  └─────────┬────────┘░       └─────────┬────────┘░       └─────────┬────────┘░
+    ░░░░░░░░│░░░░░░░░░░         ░░░░░░░░│░░░░░░░░░░         ░░░░░░░░│░░░░░░░░░░
+            │                           │                           │
+            │                           │                           │
+            │                           │                           │
+            │                           │                           │
+            │                           │                           │
+            │                           │                           │
+  ┌─────────┴────────┐        ┌─────────┴────────┐        ┌─────────┴────────┐
+  │      QUEUE       │░       │     METRICS      │░       │     STORAGE      │░
+  │ buffer / replay  │░       │ events / second  │░       │ append-only log  │░
+  │                  │░       │                  │░       │                  │░
+  └─────────┬────────┘░       └─────────┬────────┘░       └─────────┬────────┘░
+    ░░░░░░░░│░░░░░░░░░░         ░░░░░░░░│░░░░░░░░░░         ░░░░░░░░│░░░░░░░░░░
+            │                           │                           │
+            │                           │                           │
+            └───────────────────────────┴───────────────────────────┘
+
+                                OBSERVABILITY BUS</pre>
+    </section>
+
     <section class="section document-section" aria-label="Promin technical document type specimen">
       <article class="technical-sheet font-sample">
         <header class="document-header">
@@ -195,7 +266,7 @@ READY
           </div>
         <div class="download-action">
           <a class="download-button" id="download-family" href="./assets/downloads/KibernetykMono.zip" download>Download Kibernetyk Mono <span aria-hidden="true">↙</span></a>
-          <p id="download-description">7 weights · TTF · v0.9.1</p>
+          <p id="download-description">7 weights · TTF · v1.0.0</p>
         </div>
       </div>
     </section>

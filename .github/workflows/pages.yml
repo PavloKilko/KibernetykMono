@@ -40,7 +40,6 @@ jobs:
             --exclude='assets/downloads/' \
             docs/ _site/
           python scripts/build_site.py \
-            --font-source fonts/ttf \
             --output _site
 
       - name: Verify website artifact
@@ -76,4 +75,3 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v5
-

@@ -1,8 +1,8 @@
 # Font source
 
-`KibernetykMono.glyphs` contains all seven weights as masters and exportable
-instances. It includes 440 glyphs, anchors, and the OpenType layout features
-used by the Python builder.
+`KibernetykMono.glyphs` is an interoperability export generated from the raw TTFs for Google Fonts review. It contains seven weight masters and exportable instances. This export may be removed in the future.
+
+Kibernetyk Mono is built procedurally in Python using `fontTools` and `fontmake`. For normal font builds, use `python scripts/build_fonts.py`.
 
 Regenerate it from the canonical TTF files:
 

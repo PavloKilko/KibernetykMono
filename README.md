@@ -9,7 +9,7 @@ transmissions. It is drawn from points and lines for clean code, dense data,
 and the infrastructure that holds them together. The family includes seven
 weights with Latin and Cyrillic support.
 
-![Kibernetyk Mono glyphs and seven font weights](./documentation/readme-preview.png)
+![Kibernetyk Mono glyphs and seven font weights](./assets/readme-preview.svg)
 
 ## Build
 
@@ -31,6 +31,14 @@ Create and activate the Conda environment:
 conda env create -f environment.yml
 conda activate font-builder
 ```
+
+To build all seven raw TTFs and a versioned release ZIP run:
+
+```sh
+python scripts/build_fonts.py
+```
+
+The TTFs are written to `fonts/ttf`, and the ZIP to `dist` directories.
 
 For an individual procedural development build, run:
 
