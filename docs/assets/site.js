@@ -345,7 +345,7 @@
   $("#copy-glyph").addEventListener("click", (event) => {
     if (selected) copyText(selected.character, event.currentTarget);
   });
-  selectGlyph(data.characters.find((glyph) => glyph.character === "Ж") || data.characters[0]);
+  selectGlyph(data.characters.find((glyph) => glyph.character === "A") || data.characters[0]);
   renderGlyphs();
   applyFont();
 })();
