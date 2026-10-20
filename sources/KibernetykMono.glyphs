@@ -30,11 +30,11 @@ value = 1;
 },
 {
 name = versionString;
-value = "Version 1.000";
+value = "Version 1.001";
 },
 {
 name = uniqueID;
-value = "1.000;NONE;KibernetykMono-Thin";
+value = "1.001;NONE;KibernetykMono-Thin";
 },
 {
 name = license;
@@ -737,11 +737,11 @@ value = 1;
 },
 {
 name = versionString;
-value = "Version 1.000";
+value = "Version 1.001";
 },
 {
 name = uniqueID;
-value = "1.000;NONE;KibernetykMono-Thin";
+value = "1.001;NONE;KibernetykMono-Thin";
 },
 {
 name = license;
@@ -810,11 +810,11 @@ value = 1;
 },
 {
 name = versionString;
-value = "Version 1.000";
+value = "Version 1.001";
 },
 {
 name = uniqueID;
-value = "1.000;NONE;KibernetykMono-ExtraLight";
+value = "1.001;NONE;KibernetykMono-ExtraLight";
 },
 {
 name = license;
@@ -884,11 +884,11 @@ value = 1;
 },
 {
 name = versionString;
-value = "Version 1.000";
+value = "Version 1.001";
 },
 {
 name = uniqueID;
-value = "1.000;NONE;KibernetykMono-Light";
+value = "1.001;NONE;KibernetykMono-Light";
 },
 {
 name = license;
@@ -954,11 +954,11 @@ value = 1;
 },
 {
 name = versionString;
-value = "Version 1.000";
+value = "Version 1.001";
 },
 {
 name = uniqueID;
-value = "1.000;NONE;KibernetykMono-Regular";
+value = "1.001;NONE;KibernetykMono-Regular";
 },
 {
 name = license;
@@ -1028,11 +1028,11 @@ value = 1;
 },
 {
 name = versionString;
-value = "Version 1.000";
+value = "Version 1.001";
 },
 {
 name = uniqueID;
-value = "1.000;NONE;KibernetykMono-Medium";
+value = "1.001;NONE;KibernetykMono-Medium";
 },
 {
 name = license;
@@ -1102,11 +1102,11 @@ value = 1;
 },
 {
 name = versionString;
-value = "Version 1.000";
+value = "Version 1.001";
 },
 {
 name = uniqueID;
-value = "1.000;NONE;KibernetykMono-SemiBold";
+value = "1.001;NONE;KibernetykMono-SemiBold";
 },
 {
 name = license;
@@ -1176,11 +1176,11 @@ value = 1;
 },
 {
 name = versionString;
-value = "Version 1.000";
+value = "Version 1.001";
 },
 {
 name = uniqueID;
-value = "1.000;NONE;KibernetykMono-Bold";
+value = "1.001;NONE;KibernetykMono-Bold";
 },
 {
 name = license;
@@ -22063,10 +22063,9 @@ closed = 1;
 nodes = (
 "408 96 LINE",
 "408 -86 LINE",
-"360 -134 LINE",
-"360 -150 LINE",
-"310 -150 LINE",
-"310 -116 LINE",
+"344 -150 LINE",
+"312 -150 LINE",
+"312 -114 LINE",
 "360 -66 LINE",
 "360 0 LINE",
 "312 0 LINE",
@@ -22777,10 +22776,9 @@ closed = 1;
 nodes = (
 "408 96 LINE",
 "408 -86 LINE",
-"360 -134 LINE",
-"360 -150 LINE",
-"310 -150 LINE",
-"310 -116 LINE",
+"344 -150 LINE",
+"312 -150 LINE",
+"312 -114 LINE",
 "360 -66 LINE",
 "360 0 LINE",
 "312 0 LINE",
@@ -29972,10 +29970,9 @@ closed = 1;
 nodes = (
 "36 -128 LINE",
 "36 -264 LINE",
-"0 -301 LINE",
-"0 -312 LINE",
-"-37 -312 LINE",
-"-37 -287 LINE",
+"-12 -312 LINE",
+"-36 -312 LINE",
+"-36 -286 LINE",
 "0 -250 LINE",
 "0 -200 LINE",
 "-36 -200 LINE",
@@ -32302,10 +32299,9 @@ closed = 1;
 nodes = (
 "408 848 LINE",
 "408 666 LINE",
-"360 618 LINE",
-"360 602 LINE",
-"310 602 LINE",
-"310 636 LINE",
+"344 602 LINE",
+"312 602 LINE",
+"312 638 LINE",
 "360 686 LINE",
 "360 752 LINE",
 "312 752 LINE",
@@ -32700,10 +32696,9 @@ paths = (
 closed = 1;
 nodes = (
 "312 734 LINE",
-"360 782 LINE",
-"360 798 LINE",
-"410 798 LINE",
-"410 764 LINE",
+"376 798 LINE",
+"408 798 LINE",
+"408 762 LINE",
 "360 714 LINE",
 "360 648 LINE",
 "408 648 LINE",
@@ -32869,10 +32864,9 @@ closed = 1;
 nodes = (
 "408 848 LINE",
 "408 666 LINE",
-"360 618 LINE",
-"360 602 LINE",
-"310 602 LINE",
-"310 636 LINE",
+"344 602 LINE",
+"312 602 LINE",
+"312 638 LINE",
 "360 686 LINE",
 "360 752 LINE",
 "312 752 LINE",
@@ -33030,10 +33024,9 @@ closed = 1;
 nodes = (
 "408 96 LINE",
 "408 -86 LINE",
-"360 -134 LINE",
-"360 -150 LINE",
-"310 -150 LINE",
-"310 -116 LINE",
+"344 -150 LINE",
+"312 -150 LINE",
+"312 -114 LINE",
 "360 -66 LINE",
 "360 0 LINE",
 "312 0 LINE",
@@ -33190,10 +33183,9 @@ paths = (
 closed = 1;
 nodes = (
 "162 734 LINE",
-"210 782 LINE",
-"210 798 LINE",
-"260 798 LINE",
-"260 764 LINE",
+"226 798 LINE",
+"258 798 LINE",
+"258 762 LINE",
 "210 714 LINE",
 "210 648 LINE",
 "258 648 LINE",
@@ -33206,10 +33198,9 @@ nodes = (
 closed = 1;
 nodes = (
 "462 734 LINE",
-"510 782 LINE",
-"510 798 LINE",
-"560 798 LINE",
-"560 764 LINE",
+"526 798 LINE",
+"558 798 LINE",
+"558 762 LINE",
 "510 714 LINE",
 "510 648 LINE",
 "558 648 LINE",
@@ -33471,10 +33462,9 @@ closed = 1;
 nodes = (
 "258 848 LINE",
 "258 666 LINE",
-"210 618 LINE",
-"210 602 LINE",
-"160 602 LINE",
-"160 636 LINE",
+"194 602 LINE",
+"162 602 LINE",
+"162 638 LINE",
 "210 686 LINE",
 "210 752 LINE",
 "162 752 LINE",
@@ -33486,10 +33476,9 @@ closed = 1;
 nodes = (
 "558 848 LINE",
 "558 666 LINE",
-"510 618 LINE",
-"510 602 LINE",
-"460 602 LINE",
-"460 636 LINE",
+"494 602 LINE",
+"462 602 LINE",
+"462 638 LINE",
 "510 686 LINE",
 "510 752 LINE",
 "462 752 LINE",
@@ -33737,10 +33726,9 @@ closed = 1;
 nodes = (
 "258 96 LINE",
 "258 -86 LINE",
-"210 -134 LINE",
-"210 -150 LINE",
-"160 -150 LINE",
-"160 -116 LINE",
+"194 -150 LINE",
+"162 -150 LINE",
+"162 -114 LINE",
 "210 -66 LINE",
 "210 0 LINE",
 "162 0 LINE",
@@ -33752,10 +33740,9 @@ closed = 1;
 nodes = (
 "558 96 LINE",
 "558 -86 LINE",
-"510 -134 LINE",
-"510 -150 LINE",
-"460 -150 LINE",
-"460 -116 LINE",
+"494 -150 LINE",
+"462 -150 LINE",
+"462 -114 LINE",
 "510 -66 LINE",
 "510 0 LINE",
 "462 0 LINE",
@@ -81238,10 +81225,9 @@ closed = 1;
 nodes = (
 "396 -128 LINE",
 "396 -264 LINE",
-"360 -301 LINE",
-"360 -312 LINE",
-"323 -312 LINE",
-"323 -287 LINE",
+"348 -312 LINE",
+"324 -312 LINE",
+"324 -286 LINE",
 "360 -250 LINE",
 "360 -200 LINE",
 "324 -200 LINE",
@@ -82347,10 +82333,9 @@ closed = 1;
 nodes = (
 "396 -128 LINE",
 "396 -264 LINE",
-"360 -301 LINE",
-"360 -312 LINE",
-"323 -312 LINE",
-"323 -287 LINE",
+"348 -312 LINE",
+"324 -312 LINE",
+"324 -286 LINE",
 "360 -250 LINE",
 "360 -200 LINE",
 "324 -200 LINE",
@@ -83001,10 +82986,9 @@ closed = 1;
 nodes = (
 "396 -128 LINE",
 "396 -264 LINE",
-"360 -301 LINE",
-"360 -312 LINE",
-"323 -312 LINE",
-"323 -287 LINE",
+"348 -312 LINE",
+"324 -312 LINE",
+"324 -286 LINE",
 "360 -250 LINE",
 "360 -200 LINE",
 "324 -200 LINE",
@@ -83309,10 +83293,9 @@ closed = 1;
 nodes = (
 "396 900 LINE",
 "396 764 LINE",
-"360 727 LINE",
-"360 716 LINE",
-"323 716 LINE",
-"323 741 LINE",
+"348 716 LINE",
+"324 716 LINE",
+"324 742 LINE",
 "360 778 LINE",
 "360 828 LINE",
 "324 828 LINE",
@@ -84006,10 +83989,9 @@ closed = 1;
 nodes = (
 "396 -128 LINE",
 "396 -264 LINE",
-"360 -301 LINE",
-"360 -312 LINE",
-"323 -312 LINE",
-"323 -287 LINE",
+"348 -312 LINE",
+"324 -312 LINE",
+"324 -286 LINE",
 "360 -250 LINE",
 "360 -200 LINE",
 "324 -200 LINE",
@@ -93665,10 +93647,9 @@ closed = 1;
 nodes = (
 "821 900 LINE",
 "821 764 LINE",
-"785 727 LINE",
-"785 716 LINE",
-"748 716 LINE",
-"748 741 LINE",
+"773 716 LINE",
+"749 716 LINE",
+"749 742 LINE",
 "785 778 LINE",
 "785 828 LINE",
 "749 828 LINE",
@@ -95458,10 +95439,9 @@ nodes = (
 closed = 1;
 nodes = (
 "324 900 LINE",
-"360 936 LINE",
-"360 949 LINE",
-"398 949 LINE",
-"398 923 LINE",
+"372 949 LINE",
+"396 949 LINE",
+"396 922 LINE",
 "360 886 LINE",
 "360 836 LINE",
 "396 836 LINE",
@@ -96693,10 +96673,9 @@ closed = 1;
 nodes = (
 "396 -128 LINE",
 "396 -264 LINE",
-"360 -301 LINE",
-"360 -312 LINE",
-"323 -312 LINE",
-"323 -287 LINE",
+"348 -312 LINE",
+"324 -312 LINE",
+"324 -286 LINE",
 "360 -250 LINE",
 "360 -200 LINE",
 "324 -200 LINE",
@@ -97379,10 +97358,9 @@ closed = 1;
 nodes = (
 "396 -128 LINE",
 "396 -264 LINE",
-"360 -301 LINE",
-"360 -312 LINE",
-"323 -312 LINE",
-"323 -287 LINE",
+"348 -312 LINE",
+"324 -312 LINE",
+"324 -286 LINE",
 "360 -250 LINE",
 "360 -200 LINE",
 "324 -200 LINE",
@@ -97715,10 +97693,9 @@ closed = 1;
 nodes = (
 "660 900 LINE",
 "660 764 LINE",
-"624 727 LINE",
-"624 716 LINE",
-"587 716 LINE",
-"587 741 LINE",
+"612 716 LINE",
+"588 716 LINE",
+"588 742 LINE",
 "624 778 LINE",
 "624 828 LINE",
 "588 828 LINE",
@@ -98468,10 +98445,9 @@ closed = 1;
 nodes = (
 "396 -128 LINE",
 "396 -264 LINE",
-"360 -301 LINE",
-"360 -312 LINE",
-"323 -312 LINE",
-"323 -287 LINE",
+"348 -312 LINE",
+"324 -312 LINE",
+"324 -286 LINE",
 "360 -250 LINE",
 "360 -200 LINE",
 "324 -200 LINE",
@@ -100108,10 +100084,9 @@ closed = 1;
 nodes = (
 "660 900 LINE",
 "660 764 LINE",
-"624 727 LINE",
-"624 716 LINE",
-"587 716 LINE",
-"587 741 LINE",
+"612 716 LINE",
+"588 716 LINE",
+"588 742 LINE",
 "624 778 LINE",
 "624 828 LINE",
 "588 828 LINE",
@@ -103153,10 +103128,9 @@ closed = 1;
 nodes = (
 "25 900 LINE",
 "25 764 LINE",
-"-11 727 LINE",
-"-11 716 LINE",
-"-48 716 LINE",
-"-48 741 LINE",
+"-23 716 LINE",
+"-47 716 LINE",
+"-47 742 LINE",
 "-11 778 LINE",
 "-11 828 LINE",
 "-47 828 LINE",
@@ -137454,5 +137428,5 @@ tildecomb = mark;
 };
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 1;
 }

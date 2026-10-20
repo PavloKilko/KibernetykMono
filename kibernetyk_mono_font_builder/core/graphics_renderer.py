@@ -880,6 +880,29 @@ def dedupe(points):
 # Returns one polygon.
 # ============================================================
 
+def endpoint_turn_is_buried(endpoint, corner, neighbor):
+    """A short backward turn inside the end square has no exposed join."""
+    incoming = Point(
+        corner.x - neighbor.x,
+        corner.y - neighbor.y,
+    )
+    outgoing = Point(
+        endpoint.x - corner.x,
+        endpoint.y - corner.y,
+    )
+    if incoming.x * outgoing.x + incoming.y * outgoing.y >= -EPS:
+        return False
+
+    if not point_inside_square(corner, endpoint):
+        return False
+
+    sides = calculate_vector_lines(neighbor, corner)
+    return (
+        point_inside_square(sides.top.b, endpoint)
+        and point_inside_square(sides.bottom.b, endpoint)
+    )
+
+
 def render_polyline(dots):
     if len(dots) < 2:
         raise ValueError(
@@ -906,15 +929,35 @@ def render_polyline(dots):
     # TOP / LEFT outline
     # ========================================================
 
+    start_segment = 0
+    end_segment = len(segments) - 1
+
+    if not same_point(dots[0], dots[-1]):
+        while start_segment < len(segments) - 1 and endpoint_turn_is_buried(
+            dots[0], dots[start_segment + 1], dots[start_segment + 2],
+        ):
+            start_segment += 1
+
+        while end_segment > 0 and endpoint_turn_is_buried(
+            dots[-1], dots[end_segment], dots[end_segment - 1],
+        ):
+            end_segment -= 1
+
+        # If the entire path folds inside its end squares, keep its original
+        # directions rather than selecting contradictory start and end lines.
+        if start_segment > end_segment:
+            start_segment = 0
+            end_segment = len(segments) - 1
+
     top_outline = []
 
     start_cap = calculate_start_cap(
-        segments[0],
+        segments[start_segment],
         dots[0],
     )
 
     end_cap = calculate_end_cap(
-        segments[-1],
+        segments[end_segment],
         dots[-1],
     )
 
@@ -927,8 +970,8 @@ def render_polyline(dots):
     # --------------------------------------------------------
 
     for i in range(
-        1,
-        len(dots) - 1,
+        start_segment + 1,
+        end_segment + 1,
     ):
         previous_line = (
             segments[i - 1].top
@@ -963,8 +1006,8 @@ def render_polyline(dots):
     )
 
     for i in range(
-        1,
-        len(dots) - 1,
+        start_segment + 1,
+        end_segment + 1,
     ):
         previous_line = (
             segments[i - 1].bottom
