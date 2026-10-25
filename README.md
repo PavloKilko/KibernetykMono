@@ -4,7 +4,7 @@
 
 Kibernetyk Mono is a geometric monospace typeface inspired by the pioneering
 spirit of the Ukrainian Cybernetics School. Its rigid, pared-back letterforms
-recall early mainframe interfaces and the ink-stamped texture of fax
+recall early programming mainframe interfaces and the ink-stamped texture of fax
 transmissions. It is drawn from points and lines for clean code, dense data,
 and the infrastructure that holds them together. The family includes seven
 weights with Latin and Cyrillic support.
