@@ -4,7 +4,7 @@
 
 Kibernetyk Mono is a geometric monospace typeface inspired by the pioneering
 spirit of the Ukrainian Cybernetics School. Its rigid, pared-back letterforms
-recall early programming mainframe interfaces and the ink-stamped texture of fax
+recall early mainframe programming interfaces and the ink-stamped texture of fax
 transmissions. It is drawn from points and lines for clean code, dense data,
 and the infrastructure that holds them together. The family includes seven
 weights with Latin and Cyrillic support.
@@ -21,7 +21,7 @@ Build all seven release TTFs from the editable Glyphs source:
 ./sources/build.sh
 ```
 
-The fonts are written to `fonts/ttf`.
+The fonts are written to `fonts/ttf/`.
 
 ### Option №2: use Python build script.
 
@@ -38,7 +38,7 @@ To build all seven raw TTFs and a versioned release ZIP run:
 python scripts/build_fonts.py
 ```
 
-The TTFs are written to `fonts/ttf`, and the ZIP to `dist` directories.
+The TTFs are written to `fonts/ttf/`, and the ZIP archive to `dist/`.
 
 For an individual procedural development build, run:
 
@@ -68,3 +68,11 @@ the project’s sole human author and copyright holder.
 ## License
 
 Kibernetyk Mono is licensed under the SIL Open Font License, Version 1.1. See [`OFL.txt`](./OFL.txt).
+
+### Distribution & Packaging
+
+You are free to package, distribute, or include this font in package repositories 
+(such as Linux package managers, Fontsource/NPM, Homebrew, etc.). 
+
+If you package Kibernetyk Mono, please link to this repository as the upstream source. 
+Let us know through an issue or pull request so we can link to your package here.
