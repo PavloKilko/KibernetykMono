@@ -5,6 +5,13 @@ on:
     branches:
       - main
       - master
+    paths:
+      - 'docs/**'
+      - 'kibernetyk_mono_font_builder/**'
+      - 'scripts/build_site.py'
+      - 'environment.yml'
+      - 'requirements.txt'
+      - '.github/workflows/pages.yml'
   workflow_dispatch:
 
 permissions:
