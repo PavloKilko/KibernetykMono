@@ -324,32 +324,71 @@ select {
   border-color: #1c1c1c;
 }
 .terminal-accent { color: var(--green); }
-.diagram-specimen {
-  border: 1px solid var(--ink);
-  background: #fffdf8;
+
+.punch-card {
+  --blue: #07577e;
+  --card-cut: clamp(22px, 3.2vw, 48px);
+  --card-depth: clamp(7px, 1vw, 14px);
+  --card-inset: clamp(20px, 3.8vw, 58px);
+  --card-binding: clamp(40px, 5vw, 76px);
+  --card-edge: #20160e;
+  margin-inline-end: var(--card-depth);
+  margin-block-end: var(--card-depth);
+  filter: drop-shadow(var(--card-depth) var(--card-depth) 0 var(--card-edge));
 }
+.punch-card-face {
+  position: relative;
+  padding-block-start: calc(var(--card-cut) + 14px);
+  background: var(--card-edge);
+  clip-path: polygon(var(--card-cut) 0, 100% 0, 100% 100%, 0 100%, 0 var(--card-cut));
+}
+.punch-card-face::before {
+  --inner-cut: calc(var(--card-cut) - 1.2px);
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 3px;
+  background: linear-gradient(135deg, #f4dda2, #e9c578);
+  clip-path: polygon(var(--inner-cut) 0, 100% 0, 100% 100%, 0 100%, 0 var(--inner-cut));
+  pointer-events: none;
+}
+.punch-card-face::after {
+  --hole-radius: clamp(8px, .85vw, 13px);
+  content: "";
+  position: absolute;
+  inset-block: var(--card-cut) 16px;
+  inset-inline-start: 0;
+  inline-size: var(--card-binding);
+  background-image:
+    radial-gradient(circle at calc(50% + 1px) 18px,
+      var(--paper) calc(var(--hole-radius) - 1.25px),
+      transparent calc(var(--hole-radius) - .75px)),
+    radial-gradient(circle at 50% 18px,
+      var(--ink) var(--hole-radius),
+      var(--card-edge) calc(var(--hole-radius) + .5px) calc(var(--hole-radius) + 3px),
+      transparent calc(var(--hole-radius) + 3.5px));
+  background-size: 100% clamp(58px, 6vw, 92px);
+  background-repeat: no-repeat space;
+  pointer-events: none;
+}
+.punch-card .diagram-specimen {
+  margin-inline-start: var(--card-binding);
+  padding: 8px var(--card-inset) clamp(24px, 3vw, 44px);
+  padding-inline-start: 0;
+  scrollbar-color: var(--card-edge) #edcf87;
+}
+.diagram-specimen:focus-visible { outline-offset: -4px; }
+.diagram-specimen::-webkit-scrollbar-track { background: #edcf87; }
+.diagram-specimen::-webkit-scrollbar-thumb { background: var(--card-edge); border-color: #edcf87; }
 
 .document-section { padding-bottom: 20px; }
 .technical-sheet {
-  position: relative;
-  background: #fffdf8;
-  border: 1px solid var(--ink);
-  padding: 42px 58px 38px 118px;
+  padding-inline: var(--card-inset);
+  padding-inline-start: var(--card-binding);
+  padding-block-end: clamp(26px, 3vw, 44px);
   overflow: hidden;
   font-size: clamp(14px, 1.4vw, 21px);
   line-height: 1.45;
-  background-image: radial-gradient(circle, transparent 0 8px, var(--ink) 8.5px 9.5px, transparent 10px);
-  background-position: 25px 16px;
-  background-size: 56px 92px;
-  background-repeat: repeat-y;
-}
-.technical-sheet::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 81px;
-  border-left: 2px dashed var(--ink);
 }
 .document-header {
   display: flex;
@@ -469,8 +508,6 @@ select {
   .glyph-grid { grid-template-columns: repeat(7, minmax(0, 1fr)); }
   .glyph-cell { min-height: 60px; }
   .code-languages { gap: 22px; }
-  .technical-sheet { padding-left: 100px; }
-  .technical-sheet::before { left: 68px; }
   .download-content { gap: 35px; }
   .download-button { gap: 24px; font-size: 16px; padding: 20px; }
 }
@@ -508,13 +545,7 @@ select {
   .code-lines, .code-editor { font-size: 15px; }
   .code-lines { margin-right: 1.5ch; }
   .code-editor { height: 300px; }
-  .technical-sheet {
-    padding: 26px 24px 26px 64px;
-    font-size: 13px;
-    background-position: 9px 11px;
-    background-size: 38px 68px;
-  }
-  .technical-sheet::before { left: 45px; }
+  .technical-sheet { font-size: 13px; }
   .document-header { gap: 18px; margin-bottom: 26px; }
   .document-title { width: 78%; margin-bottom: 28px; padding: 13px; }
   .document-body { gap: 20px; }
@@ -544,8 +575,7 @@ select {
   .glyph-detail { width: 100%; }
   .glyph-info { font-size: 14px; }
   .glyph-search input { width: 145px; }
-  .technical-sheet { padding-left: 52px; font-size: 11px; background-size: 32px 62px; }
-  .technical-sheet::before { left: 36px; }
+  .technical-sheet { font-size: 11px; }
   .document-header { font-size: 9px; }
   .document-title { width: 92%; }
   .document-rule { grid-template-columns: 64px 1fr; }

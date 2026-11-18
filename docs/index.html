@@ -176,7 +176,9 @@
     <section class="section graphics-section" id="diagram" aria-labelledby="diagram-title">
       <h2 id="diagram-title" class="section-title">Box-drawing support</h2>
       <p class="sr-only" id="diagram-description">A text-based processing diagram: input connects to a processor and output. A queue, metrics, and storage connect below them through a shared observability bus. Box-drawing characters form the connectors and shaded blocks form the shadows. Scroll horizontally to view the full specimen on smaller screens.</p>
-      <pre class="graphics-specimen diagram-specimen font-sample" tabindex="0" role="region" aria-labelledby="diagram-title" aria-describedby="diagram-description">  <strong class="document-accent">GLUSHKOV SYSTEMS</strong>                                              <strong class="document-accent">SCHEMATIC 01</strong>
+      <div class="punch-card">
+        <div class="punch-card-face">
+          <pre class="graphics-specimen diagram-specimen font-sample" tabindex="0" role="region" aria-labelledby="diagram-title" aria-describedby="diagram-description">  <strong class="document-accent">GLUSHKOV SYSTEMS</strong>                                              <strong class="document-accent">SCHEMATIC 01</strong>
   DATA PROCESSING / NODE MAP
 
 
@@ -203,28 +205,31 @@
             └───────────────────────────┴───────────────────────────┘
 
                                 OBSERVABILITY BUS</pre>
+        </div>
+      </div>
     </section>
 
     <section class="section document-section" aria-label="Promin technical document type specimen">
-      <article class="technical-sheet font-sample">
-        <header class="document-header">
-          <p><strong class="document-accent">GLUSHKOV SYSTEMS™</strong><br>SYSTEM PROGRAMMING DIVISION</p>
-          <p><strong class="document-accent">SECTION 07.2<br>REV 1963</strong></p>
-        </header>
-        <div class="document-title">
-          <pre class="document-separator" aria-hidden="true">============================================================</pre>
-          <strong>PROMIN REFERENCE MANUAL</strong>
-          <span>MACHINE PM-63</span>
-          <pre class="document-separator" aria-hidden="true">============================================================</pre>
-        </div>
-        <div class="document-body">
-          <h3 class="document-accent">EXECUTE PROGRAM</h3>
-          <pre class="document-separator" aria-hidden="true">----------------------------------------------------------------------------------------------------</pre>
-          <p class="document-rule"><strong>[RUN]</strong><span>/promin/program/07</span></p>
-          <pre class="document-separator" aria-hidden="true">====================================================================================================</pre>
-          <div class="document-response">
-            <p><strong class="document-accent">SYSTEM</strong><br>STATUS<br>DATA</p>
-            <pre>PROMIN
+      <div class="punch-card">
+        <article class="punch-card-face technical-sheet font-sample">
+          <header class="document-header">
+            <p><strong class="document-accent">GLUSHKOV SYSTEMS™</strong><br>SYSTEM PROGRAMMING DIVISION</p>
+            <p><strong class="document-accent">SECTION 07.2<br>REV 1963</strong></p>
+          </header>
+          <div class="document-title">
+            <pre class="document-separator" aria-hidden="true">============================================================</pre>
+            <strong>PROMIN REFERENCE MANUAL</strong>
+            <span>MACHINE PM-63</span>
+            <pre class="document-separator" aria-hidden="true">============================================================</pre>
+          </div>
+          <div class="document-body">
+            <h3 class="document-accent">EXECUTE PROGRAM</h3>
+            <pre class="document-separator" aria-hidden="true">----------------------------------------------------------------------------------------------------</pre>
+            <p class="document-rule"><strong>[RUN]</strong><span>/promin/program/07</span></p>
+            <pre class="document-separator" aria-hidden="true">====================================================================================================</pre>
+            <div class="document-response">
+              <p><strong class="document-accent">SYSTEM</strong><br>STATUS<br>DATA</p>
+              <pre>PROMIN
 READY
 {
     "register":  "A-07",
@@ -232,21 +237,22 @@ READY
     "input":     "01001101",
     "output":    "IDEAS BECOME SYSTEMS"
 }</pre>
+            </div>
+            <pre class="document-separator" aria-hidden="true">----------------------------------------------------------------------------------------------------</pre>
+            <p>Mount the program tape, set the instruction register to A-07, and transfer control to the operating sequence. A READY status confirms that the machine can accept the next instruction.</p>
+            <p>For arithmetic routines and storage maps, see section 07.3.</p>
+            <p>If the machine reports BUSY, reset the control register and repeat the last instruction.</p>
           </div>
-          <pre class="document-separator" aria-hidden="true">----------------------------------------------------------------------------------------------------</pre>
-          <p>Mount the program tape, set the instruction register to A-07, and transfer control to the operating sequence. A READY status confirms that the machine can accept the next instruction.</p>
-          <p>For arithmetic routines and storage maps, see section 07.3.</p>
-          <p>If the machine reports BUSY, reset the control register and repeat the last instruction.</p>
-        </div>
-        <footer class="document-footer">
-          <pre class="document-separator" aria-hidden="true">====================================================================================================</pre>
-          <div>
-            <span>KYIV</span>
-            <strong class="document-accent">GLUSHKOV SYSTEMS™</strong>
-            <span>PAGE 063</span>
-          </div>
-        </footer>
-      </article>
+          <footer class="document-footer">
+            <pre class="document-separator" aria-hidden="true">====================================================================================================</pre>
+            <div>
+              <span>KYIV</span>
+              <strong class="document-accent">GLUSHKOV SYSTEMS™</strong>
+              <span>PAGE 063</span>
+            </div>
+          </footer>
+        </article>
+      </div>
     </section>
 
     <section class="download-section" id="download" aria-labelledby="download-title">
