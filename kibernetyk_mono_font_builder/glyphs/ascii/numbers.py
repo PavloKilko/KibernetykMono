@@ -130,8 +130,7 @@ def build_3(width: float) -> GlyphDefinition:
 def build_4(width: float) -> GlyphDefinition:
     radius = width / 2
     # diagonal_offset = (math.sqrt(2) - 1) * radius
-    diagonal_x_offset = (8 / math.sqrt(145)) * radius
-    diagonal_y_offset = (9 / math.sqrt(145)) * radius
+    diagonal_x_offset = (8 / 9) * radius
     corner_y_offset = (9 / 8) * radius
 
     glyph = init_glyph("four", "4")
@@ -151,7 +150,7 @@ def build_4(width: float) -> GlyphDefinition:
         polyline(
             width,
             [
-                (400 - diagonal_x_offset, 800 - diagonal_y_offset),
+                (400 - diagonal_x_offset, 800 - radius),
                 (radius, 350 + corner_y_offset),
                 (radius, 200),
                 (600 - radius, 200),
