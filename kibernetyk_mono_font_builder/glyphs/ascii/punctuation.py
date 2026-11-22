@@ -13,7 +13,7 @@ def build_space(width: float) -> GlyphDefinition:
 
 def build_exclamation(width: float) -> GlyphDefinition:
     radius = width / 2
-    dot_width = width * 1.4
+    dot_width = width * 1.35
     dot_radius = dot_width / 2
 
     glyph = init_glyph("exclamation", "!")
@@ -395,7 +395,7 @@ def build_plus(width: float) -> GlyphDefinition:
     return glyph
 
 def build_comma(width: float) -> GlyphDefinition:
-    dot_width = width * 1.65
+    dot_width = width * 1.6
     dot_radius = dot_width / 2
 
     tail_width = dot_radius
@@ -441,7 +441,7 @@ def build_hyphen(width: float) -> GlyphDefinition:
     return glyph
 
 def build_period(width: float) -> GlyphDefinition:
-    dot_width = width * 1.65
+    dot_width = width * 1.6
     dot_radius = dot_width / 2
 
     glyph = init_glyph("period", ".")
@@ -478,7 +478,7 @@ def build_slash(width: float) -> GlyphDefinition:
     return glyph
 
 def build_colon(width: float) -> GlyphDefinition:
-    dot_width = width * 1.65
+    dot_width = width * 1.6
     dot_radius = dot_width / 2
 
     glyph = init_glyph("colon", ":")
@@ -497,7 +497,7 @@ def build_colon(width: float) -> GlyphDefinition:
     return glyph
 
 def build_semicolon(width: float) -> GlyphDefinition:
-    dot_width = width * 1.65
+    dot_width = width * 1.6
     dot_radius = dot_width / 2
 
     tail_width = dot_radius
@@ -598,7 +598,7 @@ def build_greater(width: float) -> GlyphDefinition:
 
 def build_question(width: float) -> GlyphDefinition:
     radius = width / 2
-    dot_width = width * 1.4
+    dot_width = width * 1.35
     dot_radius = dot_width / 2
     diagonal_offset = (math.sqrt(2) - 1) * radius
     slant_y_offset = (2 / 3) * radius
