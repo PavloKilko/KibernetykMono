@@ -8,7 +8,7 @@ from kibernetyk_mono_font_builder.core import GlyphBuilder, GlyphDefinition, dot
 
 def build_exclamdown(width: float) -> GlyphDefinition:
     radius = width / 2
-    dot_width = width * 1.5
+    dot_width = width * 1.4
 
     glyph = init_glyph("exclamdown", 0x00A1)
 
@@ -22,7 +22,7 @@ def build_exclamdown(width: float) -> GlyphDefinition:
     glyph.add(
         line(
             width,
-            (300, 400 - radius),
+            (300, 390 - radius),
             (300, -200 + radius),
         )
     )
@@ -258,7 +258,7 @@ def build_guillemetright(width: float) -> GlyphDefinition:
 
 def build_questiondown(width: float) -> GlyphDefinition:
     radius = width / 2
-    dot_width = width * 1.25
+    dot_width = width * 1.4
     dot_radius = dot_width / 2
     diagonal_offset = (math.sqrt(2) - 1) * radius
     slant_y_offset = (2 / 3) * radius
@@ -278,7 +278,7 @@ def build_questiondown(width: float) -> GlyphDefinition:
         polyline(
             width,
             [
-                (300, 550 - radius + y_offset),
+                (300, 540 - radius + y_offset),
                 (300, 450 + y_offset),
                 (radius, 250 + slant_y_offset + y_offset),
                 (radius, 150 + diagonal_offset + y_offset),

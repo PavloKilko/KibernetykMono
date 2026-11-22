@@ -13,19 +13,20 @@ def build_space(width: float) -> GlyphDefinition:
 
 def build_exclamation(width: float) -> GlyphDefinition:
     radius = width / 2
-    dot_radius = width * 0.75
+    dot_width = width * 1.4
+    dot_radius = dot_width / 2
 
     glyph = init_glyph("exclamation", "!")
     glyph.add(
         dot(
-            width * 1.25,
+            dot_width,
             (300, dot_radius),
         )
     )
     glyph.add(
         line(
             width,
-            (300, 250 + radius),
+            (300, 260 + radius),
             (300, 800 - radius),
         )
     )
@@ -394,7 +395,7 @@ def build_plus(width: float) -> GlyphDefinition:
     return glyph
 
 def build_comma(width: float) -> GlyphDefinition:
-    dot_width = width * 1.5
+    dot_width = width * 1.65
     dot_radius = dot_width / 2
 
     tail_width = dot_radius
@@ -440,7 +441,7 @@ def build_hyphen(width: float) -> GlyphDefinition:
     return glyph
 
 def build_period(width: float) -> GlyphDefinition:
-    dot_width = width * 1.5
+    dot_width = width * 1.65
     dot_radius = dot_width / 2
 
     glyph = init_glyph("period", ".")
@@ -477,7 +478,7 @@ def build_slash(width: float) -> GlyphDefinition:
     return glyph
 
 def build_colon(width: float) -> GlyphDefinition:
-    dot_width = width * 1.5
+    dot_width = width * 1.65
     dot_radius = dot_width / 2
 
     glyph = init_glyph("colon", ":")
@@ -496,7 +497,7 @@ def build_colon(width: float) -> GlyphDefinition:
     return glyph
 
 def build_semicolon(width: float) -> GlyphDefinition:
-    dot_width = width * 1.5
+    dot_width = width * 1.65
     dot_radius = dot_width / 2
 
     tail_width = dot_radius
@@ -597,7 +598,7 @@ def build_greater(width: float) -> GlyphDefinition:
 
 def build_question(width: float) -> GlyphDefinition:
     radius = width / 2
-    dot_width = width * 1.25
+    dot_width = width * 1.4
     dot_radius = dot_width / 2
     diagonal_offset = (math.sqrt(2) - 1) * radius
     slant_y_offset = (2 / 3) * radius
@@ -621,7 +622,7 @@ def build_question(width: float) -> GlyphDefinition:
                 (600 - radius, 650 - diagonal_offset),
                 (600 - radius, 550 - slant_y_offset),
                 (300, 350),
-                (300, 250 + radius),
+                (300, 260 + radius),
             ],
         )
     )
