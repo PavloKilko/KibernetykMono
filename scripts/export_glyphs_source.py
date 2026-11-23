@@ -1,4 +1,4 @@
-"""Export the seven shipped TTFs as one editable Glyphs source file."""
+"""Export three shipped TTFs as a Glyphs source with seven weight instances."""
 
 from __future__ import annotations
 
@@ -31,15 +31,18 @@ from kibernetyk_mono_font_builder.core.config import (
 from kibernetyk_mono_font_builder.glyphs import GLYPH_REGISTRY
 
 
+MASTER_WEIGHTS = ("thin", "regular", "bold")
+
+
 def _arguments(arguments: Sequence[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Export Kibernetyk Mono as a seven-master Glyphs source."
+        description="Export Kibernetyk Mono with Thin, Regular, and Bold masters."
     )
     parser.add_argument(
         "--font-dir",
         type=Path,
         default=ROOT / "fonts" / "ttf",
-        help="directory containing the seven canonical TTFs",
+        help="directory containing the Thin, Regular, and Bold canonical TTFs",
     )
     parser.add_argument(
         "--output",
@@ -164,17 +167,17 @@ def _add_instances(source_path: Path) -> None:
                 layer.associatedMasterId,
             )
 
-    for master in source.masters:
+    for weight, weight_class in WEIGHT_CLASSES.items():
+        style_name = WEIGHT_STYLE_NAMES[weight]
         instance = GSInstance()
-        instance.name = master.name
-        instance.axes = list(master.axes)
-        instance.weight = master.name
-        instance.weightValue = master.axes[0]
+        instance.name = style_name
+        instance.weight = style_name
+        instance.weightValue = weight_class
         instance.customParameters["preferredFamilyName"] = "Kibernetyk Mono"
-        instance.customParameters["preferredSubfamilyName"] = master.name
-        instance.customParameters["weightClass"] = int(master.axes[0])
+        instance.customParameters["preferredSubfamilyName"] = style_name
+        instance.customParameters["weightClass"] = weight_class
         instance.customParameters["widthClass"] = 5
-        if master.name == "Bold":
+        if weight == "bold":
             instance.isBold = True
             instance.linkStyle = "Regular"
         source.instances.append(instance)
@@ -189,7 +192,7 @@ def main(arguments: Sequence[str] | None = None) -> int:
     with tempfile.TemporaryDirectory(prefix="kibernetyk-sources-") as directory:
         temporary_directory = Path(directory)
         ufo_paths: list[Path] = []
-        for weight in WEIGHT_WIDTHS:
+        for weight in MASTER_WEIGHTS:
             style_name = WEIGHT_STYLE_NAMES[weight]
             ttf_path = options.font_dir / f"KibernetykMono-{style_name}.ttf"
             if not ttf_path.is_file():
