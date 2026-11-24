@@ -73,6 +73,7 @@ def build_aring(width: float) -> GlyphDefinition:
 
 
 def build_ae(width: float) -> GlyphDefinition:
+    width *= 0.9
     radius = width / 2
     diagonal_offset = (math.sqrt(2) - 1) * radius
 
@@ -92,7 +93,7 @@ def build_ae(width: float) -> GlyphDefinition:
 
     glyph.add(
         polyline(
-            width * 0.9,
+            width,
             [
                 # Upper-left outer slope — same size as center slope
                 (left_x, top_y - slope),
@@ -121,7 +122,7 @@ def build_ae(width: float) -> GlyphDefinition:
 
     glyph.add(
         polyline(
-            width * 0.9,
+            width,
             [
                 # Lower-right outer slope
                 (right_x, bottom_y + slope),
@@ -895,6 +896,7 @@ def build_ohungarumlaut(width: float) -> GlyphDefinition:
 
 
 def build_oe(width: float) -> GlyphDefinition:
+    width *= 0.9
     radius = width / 2
     diagonal_offset = (math.sqrt(2) - 1) * radius
 
@@ -915,7 +917,7 @@ def build_oe(width: float) -> GlyphDefinition:
     # o
     glyph.add(
         polyline(
-            width * 0.9,
+            width,
             [
                 (300, upper_center_y),
                 (300 - slope, top_y),
@@ -932,7 +934,7 @@ def build_oe(width: float) -> GlyphDefinition:
     # e
     glyph.add(
         polyline(
-            width * 0.9,
+            width,
             [
                 (right_x, bottom_y + slope),
                 (right_x - slope, bottom_y),

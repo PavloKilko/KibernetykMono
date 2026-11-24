@@ -74,25 +74,15 @@ def build_sterling(width: float) -> GlyphDefinition:
 def build_yen(width: float) -> GlyphDefinition:
     radius = width / 2
 
-    diagonal_length = math.sqrt(300**2 + 400**2)
-    diagonal_x_offset = (300 / diagonal_length) * radius
-    diagonal_y_offset = (400 / diagonal_length) * radius
-
     glyph = init_glyph("yen", 0x00A5)
 
     glyph.add(
         polyline(
             width,
             [
-                (
-                    diagonal_x_offset,
-                    800 - diagonal_y_offset,
-                ),
+                (radius, 800 - radius),
                 (300, 400),
-                (
-                    600 - diagonal_x_offset,
-                    800 - diagonal_y_offset,
-                ),
+                (600 - radius, 800 - radius),
             ],
         )
     )
@@ -432,20 +422,24 @@ def build_numero(width: float) -> GlyphDefinition:
 
 
 def build_trademark(width: float) -> GlyphDefinition:
+    width *= 0.7
     radius = width / 2
+    m_left = 350
+    m_right = 600 - radius
+    m_center = (m_left + m_right) / 2
 
     glyph = init_glyph("trademark", 0x2122)
 
     # M
     glyph.add(
         polyline(
-            width * 0.8,
+            width,
             [
-                (350, 450 + radius),
-                (350, 800 - radius),
-                (475, 650 - radius),
-                (600, 800 - radius),
-                (600, 450 + radius),
+                (m_left, 450 + radius),
+                (m_left, 800 - radius),
+                (m_center, 650 - radius),
+                (m_right, 800 - radius),
+                (m_right, 450 + radius),
             ],
         )
     )
@@ -453,7 +447,7 @@ def build_trademark(width: float) -> GlyphDefinition:
     # T
     glyph.add(
         line(
-            width * 0.8,
+            width,
             (radius, 800 - radius),
             (250 - radius, 800 - radius),
         )
@@ -461,7 +455,7 @@ def build_trademark(width: float) -> GlyphDefinition:
 
     glyph.add(
         line(
-            width * 0.8,
+            width,
             (125, 800 - radius),
             (125, 450 + radius),
         )

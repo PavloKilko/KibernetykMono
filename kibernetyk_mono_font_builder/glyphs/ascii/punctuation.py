@@ -149,10 +149,9 @@ def build_dollar(width: float) -> GlyphDefinition:
     return glyph
 
 def build_percent(width: float) -> GlyphDefinition:
+    width = width * 9 / 10
     radius = width / 2
     ring_scale = (300 - radius) / 300
-
-    width = width * 9 / 10
 
     glyph = init_glyph("percent", "%")
 
@@ -630,11 +629,10 @@ def build_question(width: float) -> GlyphDefinition:
     return glyph
 
 def build_at(width: float) -> GlyphDefinition:
+    width = width * 9 / 10
     radius = width / 2
     diagonal_offset = (math.sqrt(2) - 1) * radius
     inner_offset = radius - diagonal_offset
-
-    width = width * 9 / 10
 
     glyph = init_glyph("at", "@")
 

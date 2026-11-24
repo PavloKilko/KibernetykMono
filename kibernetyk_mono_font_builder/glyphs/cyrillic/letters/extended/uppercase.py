@@ -384,26 +384,15 @@ def build_Endescender_cy(width: float) -> GlyphDefinition:
 def build_Ustraight_cy(width: float) -> GlyphDefinition:
     radius = width / 2
 
-    # Diagonal ratio 300:400 = 3:4
-    diagonal_length = math.sqrt(300**2 + 400**2)
-    diagonal_x_offset = (300 / diagonal_length) * radius
-    diagonal_y_offset = (400 / diagonal_length) * radius
-
     glyph = init_glyph("Ustraightcyrillic", 0x04AE)
 
     glyph.add(
         polyline(
             width,
             [
-                (
-                    diagonal_x_offset,
-                    800 - diagonal_y_offset,
-                ),
+                (radius, 800 - radius),
                 (300, 400),
-                (
-                    600 - diagonal_x_offset,
-                    800 - diagonal_y_offset,
-                ),
+                (600 - radius, 800 - radius),
             ],
         )
     )
@@ -423,26 +412,15 @@ def build_Ustraightstroke_cy(width: float) -> GlyphDefinition:
     glyph = init_glyph("Ustraightstrokecyrillic", 0x04B0)
     radius = width / 2
 
-    # Diagonal ratio 300:400 = 3:4
-    diagonal_length = math.sqrt(300**2 + 400**2)
-    diagonal_x_offset = (300 / diagonal_length) * radius
-    diagonal_y_offset = (400 / diagonal_length) * radius
-
     # glyph = init_glyph("Ustraightcyrillic", 0x04AE)
 
     glyph.add(
         polyline(
             width,
             [
-                (
-                    diagonal_x_offset,
-                    800 - diagonal_y_offset,
-                ),
+                (radius, 800 - radius),
                 (300, 400),
-                (
-                    600 - diagonal_x_offset,
-                    800 - diagonal_y_offset,
-                ),
+                (600 - radius, 800 - radius),
             ],
         )
     )
@@ -537,13 +515,7 @@ def build_Chedescender_cy(width: float) -> GlyphDefinition:
 
 def build_Shha_cy(width: float) -> GlyphDefinition:
     radius = width / 2
-
-    # Diagonal: 100 × 150
-    slope_length = math.sqrt(100**2 + 150**2)
-
-    # Compensation at vertical and horizontal boundaries
-    vertical_offset = ((slope_length - 150) / 100) * radius
-    horizontal_offset = ((slope_length - 100) / 150) * radius
+    diagonal_offset = (math.sqrt(2) - 1) * radius
 
     glyph = init_glyph("Shhacyrillic", 0x04BA)
 
@@ -559,10 +531,10 @@ def build_Shha_cy(width: float) -> GlyphDefinition:
         polyline(
             width,
             [
-                (radius, 350 - vertical_offset),
-                (100 + horizontal_offset, 500 - radius),
-                (450 - horizontal_offset, 500 - radius),
-                (600 - radius, 350 - vertical_offset),
+                (radius, 350 - diagonal_offset),
+                (150 + diagonal_offset, 500 - radius),
+                (450 - diagonal_offset, 500 - radius),
+                (600 - radius, 350 - diagonal_offset),
                 (600 - radius, radius),
             ],
         )

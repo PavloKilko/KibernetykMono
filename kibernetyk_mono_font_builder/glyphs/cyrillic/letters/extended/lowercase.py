@@ -403,26 +403,15 @@ def build_endescender_cy(width: float) -> GlyphDefinition:
 def build_ustraight_cy(width: float) -> GlyphDefinition:
     radius = width / 2
 
-    # Diagonal ratio 300:600 = 1:2
-    diagonal_length = math.sqrt(300**2 + 600**2)
-    diagonal_x_offset = (300 / diagonal_length) * radius
-    diagonal_y_offset = (600 / diagonal_length) * radius
-
     glyph = init_glyph("ustraightcyrillic", 0x04AF)
 
     glyph.add(
         polyline(
             width,
             [
-                (
-                    diagonal_x_offset,
-                    600 - diagonal_y_offset,
-                ),
+                (radius, 600 - radius),
                 (300, 0),
-                (
-                    600 - diagonal_x_offset,
-                    600 - diagonal_y_offset,
-                ),
+                (600 - radius, 600 - radius),
             ],
         )
     )
@@ -442,26 +431,15 @@ def build_ustraightstroke_cy(width: float) -> GlyphDefinition:
     glyph = init_glyph("ustraightstrokecyrillic", 0x04B1)
     radius = width / 2
 
-    # Diagonal ratio 300:600 = 1:2
-    diagonal_length = math.sqrt(300**2 + 600**2)
-    diagonal_x_offset = (300 / diagonal_length) * radius
-    diagonal_y_offset = (600 / diagonal_length) * radius
-
     # glyph = init_glyph("ustraightcyrillic", 0x04AF)
 
     glyph.add(
         polyline(
             width,
             [
-                (
-                    diagonal_x_offset,
-                    600 - diagonal_y_offset,
-                ),
+                (radius, 600 - radius),
                 (300, 0),
-                (
-                    600 - diagonal_x_offset,
-                    600 - diagonal_y_offset,
-                ),
+                (600 - radius, 600 - radius),
             ],
         )
     )
